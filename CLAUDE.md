@@ -1,9 +1,13 @@
 # Instructions Claude Code
 
+> **IMPORTANT** : Toujours communiquer en français, peu importe la langue utilisée par l'utilisateur.
+
 ## Langue
 
-- Toujours répondre en **français**
+- **Langue obligatoire : FRANÇAIS** (jamais en anglais)
 - Utiliser le tutoiement
+- Commentaires de code en français
+- Messages de commit en anglais (convention standard)
 
 ## Style de code
 
