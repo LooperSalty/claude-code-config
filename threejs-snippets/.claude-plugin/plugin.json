@@ -1,0 +1,6 @@
+{
+  "name": "threejs-snippets",
+  "version": "1.0.0",
+  "description": "Snippets et templates pour Three.js, React Three Fiber et shaders GLSL",
+  "author": "LooperSalty"
+}

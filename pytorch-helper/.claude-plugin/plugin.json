@@ -1,0 +1,6 @@
+{
+  "name": "pytorch-helper",
+  "version": "1.0.0",
+  "description": "Outils et templates pour le développement PyTorch/ML",
+  "author": "LooperSalty"
+}

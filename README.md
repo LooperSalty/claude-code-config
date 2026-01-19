@@ -1,58 +1,84 @@
 # Configuration Claude Code
 
-Fichiers de configuration personnalisés pour [Claude Code](https://claude.ai/claude-code).
-
-## Fichiers
-
-| Fichier | Description | Emplacement |
-|---------|-------------|-------------|
-| `settings.json` | Paramètres et permissions | `~/.claude/settings.json` |
-| `CLAUDE.md` | Instructions et préférences | Racine du projet |
-
-## Installation
-
-### Configuration globale (tous les projets)
-
-```bash
-# Copier settings.json
-cp settings.json ~/.claude/settings.json
-```
-
-### Configuration par projet
-
-```bash
-# Copier CLAUDE.md à la racine de ton projet
-cp CLAUDE.md /chemin/vers/ton/projet/CLAUDE.md
-```
-
-## Personnalisation
-
-### settings.json
-
-Modifier les permissions selon tes besoins:
-
-```json
-{
-  "permissions": {
-    "allow": ["Bash(commande autorisée)"],
-    "deny": ["Bash(commande interdite)"]
-  }
-}
-```
-
-### CLAUDE.md
-
-Adapter les instructions selon:
-- Tes langages préférés
-- Tes frameworks
-- Tes conventions de code
-- Ta langue de communication
+Fichiers de configuration et plugins personnalisés pour [Claude Code](https://claude.ai/claude-code).
 
 ## Contenu
 
-Cette configuration est optimisée pour:
-- **ML/IA**: PyTorch, scikit-learn, Gymnasium
-- **Web 3D**: Three.js, React Three Fiber, Babylon.js
+| Élément | Description |
+|---------|-------------|
+| `settings.json` | Permissions (accès complet) |
+| `CLAUDE.md` | Instructions en français, conventions |
+| `pytorch-helper/` | Plugin ML/PyTorch |
+| `threejs-snippets/` | Plugin Three.js/R3F |
+| `jupyter-tools/` | Plugin Jupyter notebooks |
+
+## Installation
+
+### 1. Configuration globale
+
+```bash
+cp settings.json ~/.claude/settings.json
+```
+
+### 2. Plugins
+
+```bash
+cp -r pytorch-helper ~/.claude/plugins/
+cp -r threejs-snippets ~/.claude/plugins/
+cp -r jupyter-tools ~/.claude/plugins/
+```
+
+### 3. Instructions projet
+
+```bash
+cp CLAUDE.md /chemin/vers/ton/projet/
+```
+
+## Plugins personnalisés
+
+### pytorch-helper
+
+| Commande | Description |
+|----------|-------------|
+| `/pytorch-helper:init-project` | Créer structure projet ML |
+| `/pytorch-helper:debug-tensor` | Debug shapes et tensors |
+| `/pytorch-helper:gpu-check` | Vérifier config GPU/CUDA |
+| `/pytorch-helper:rl-template` | Template Reinforcement Learning |
+
+### threejs-snippets
+
+| Commande | Description |
+|----------|-------------|
+| `/threejs-snippets:init-r3f` | Projet React Three Fiber |
+| `/threejs-snippets:shader` | Templates shaders GLSL |
+| `/threejs-snippets:physics` | Ajouter physique Rapier/Cannon |
+| `/threejs-snippets:model` | Charger modèles GLTF/GLB |
+
+### jupyter-tools
+
+| Commande | Description |
+|----------|-------------|
+| `/jupyter-tools:new-notebook` | Créer notebook ML/Data |
+| `/jupyter-tools:convert` | Convertir notebook (HTML, PDF, .py) |
+| `/jupyter-tools:clean` | Nettoyer outputs pour git |
+
+## Plugins officiels recommandés
+
+```bash
+# LSP (autocomplétion, diagnostics)
+/plugin install pyright-lsp
+/plugin install typescript-lsp
+/plugin install rust-analyzer-lsp
+
+# Workflow
+/plugin install github
+/plugin install commit-commands
+```
+
+## Optimisé pour
+
+- **ML/IA**: PyTorch, Gymnasium, stable-baselines3
+- **Web 3D**: Three.js, React Three Fiber, GLSL
 - **Game Dev**: Godot, Pygame, Bevy
 - **Web**: React, Next.js, FastAPI
 
