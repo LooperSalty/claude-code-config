@@ -2,26 +2,17 @@
   "model": "claude-sonnet-4-5-20250929",
   "permissions": {
     "allow": [
+      "Bash",
       "Read",
+      "Edit",
+      "Write",
       "Glob",
       "Grep",
-      "Bash(git *)",
-      "Bash(npm install)",
-      "Bash(npm run *)",
-      "Bash(pip install *)",
-      "Bash(pytest *)",
-      "Bash(cargo *)",
-      "Bash(python *)",
-      "Bash(node *)",
-      "Bash(ls *)",
-      "Bash(mkdir *)",
-      "Bash(cd *)"
+      "WebFetch",
+      "WebSearch",
+      "NotebookEdit"
     ],
-    "deny": [
-      "Bash(rm -rf /)",
-      "Bash(rm -rf ~)",
-      "Bash(rm -rf *)"
-    ]
+    "deny": []
   },
   "env": {
     "EDITOR": "code"
