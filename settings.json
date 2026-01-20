@@ -10,10 +10,24 @@
       "Grep",
       "WebFetch",
       "WebSearch",
-      "NotebookEdit"
+      "NotebookEdit",
+      "Task",
+      "TodoWrite",
+      "AskUserQuestion",
+      "Skill",
+      "EnterPlanMode",
+      "ExitPlanMode",
+      "KillShell",
+      "TaskOutput"
     ],
     "deny": []
   },
+  "allowedPrompts": [
+    {
+      "tool": "Bash",
+      "prompt": "*"
+    }
+  ],
   "env": {
     "EDITOR": "code"
   }
