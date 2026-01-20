@@ -166,6 +166,27 @@ Plugin officiel Claude Code pour créer des interfaces frontend modernes et uniq
 /plugin install commit-commands
 ```
 
+## Configuration avancée
+
+### Activer la mémoire de session
+
+La mémoire permet à Claude de se souvenir des informations entre les conversations.
+
+Éditer `~/.claude.json` et modifier:
+```json
+"tengu_session_memory": true
+```
+
+Ou utiliser la commande:
+```bash
+/memory on
+```
+
+**Avantages** :
+- Claude se souvient de tes préférences
+- Contexte projet conservé entre sessions
+- Moins de répétitions nécessaires
+
 ## Vérifier les MCP installés
 
 ```bash
