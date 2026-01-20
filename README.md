@@ -12,6 +12,7 @@ Fichiers de configuration, plugins et serveurs MCP personnalisés pour [Claude C
 | `pytorch-helper/` | Plugin ML/PyTorch |
 | `threejs-snippets/` | Plugin Three.js/R3F |
 | `jupyter-tools/` | Plugin Jupyter notebooks |
+| `frontend-design/` | Plugin frontend design de qualité |
 
 ## Installation
 
@@ -27,6 +28,7 @@ cp settings.json ~/.claude/settings.json
 cp -r pytorch-helper ~/.claude/plugins/
 cp -r threejs-snippets ~/.claude/plugins/
 cp -r jupyter-tools ~/.claude/plugins/
+cp -r frontend-design ~/.claude/plugins/
 ```
 
 ### 3. Serveurs MCP
@@ -93,7 +95,9 @@ Accès aux designs Figma directement dans Claude.
 claude mcp add figma -- npx -y figma-developer-mcp --stdio
 
 # Configuration token (requis)
-# Créer un token sur https://www.figma.com/developers/api#access-tokens
+# 1. Créer un token sur https://www.figma.com/developers/api#access-tokens
+# 2. Ajouter dans mcp-servers.json :
+#    "env": { "FIGMA_ACCESS_TOKEN": "ton_token_ici" }
 ```
 
 **Utilisation** :
@@ -128,6 +132,26 @@ claude mcp add figma -- npx -y figma-developer-mcp --stdio
 | `/jupyter-tools:new-notebook` | Créer notebook ML/Data |
 | `/jupyter-tools:convert` | Convertir notebook (HTML, PDF, .py) |
 | `/jupyter-tools:clean` | Nettoyer outputs pour git |
+
+### frontend-design
+
+Plugin officiel Claude Code pour créer des interfaces frontend modernes et uniques.
+
+| Commande | Description |
+|----------|-------------|
+| `/frontend-design` | Créer des composants UI de qualité professionnelle |
+
+**Caractéristiques** :
+- Génère des designs distinctifs et créatifs
+- Évite l'esthétique générique des IA
+- Code production-ready avec React/Tailwind
+- Composants web modernes et responsifs
+
+**Installation** :
+```bash
+/plugin marketplace add anthropics/claude-code
+/plugin install frontend-design@claude-code
+```
 
 ## Plugins officiels recommandés
 

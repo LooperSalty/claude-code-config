@@ -16,7 +16,9 @@
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "figma-developer-mcp", "--stdio"],
-      "env": {}
+      "env": {
+        "FIGMA_ACCESS_TOKEN": "figd_WTHrwLfWG5KRIeSlZMDBrfWyUG5pIlS50f58zXza"
+      }
     }
   }
 }
