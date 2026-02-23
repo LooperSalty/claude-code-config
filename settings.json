@@ -2,23 +2,28 @@
   "model": "claude-sonnet-4-5-20250929",
   "permissions": {
     "allow": [
-      "Bash",
-      "Read",
-      "Edit",
-      "Write",
-      "Glob",
-      "Grep",
-      "WebFetch",
-      "WebSearch",
-      "NotebookEdit",
-      "Task",
-      "TodoWrite",
-      "AskUserQuestion",
-      "Skill",
-      "EnterPlanMode",
-      "ExitPlanMode",
-      "KillShell",
-      "TaskOutput"
+      "Bash(*)",
+      "Read(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "NotebookEdit(*)",
+      "Task(*)",
+      "TodoWrite(*)",
+      "AskUserQuestion(*)",
+      "Skill(*)",
+      "EnterPlanMode(*)",
+      "ExitPlanMode(*)",
+      "KillShell(*)",
+      "TaskOutput(*)",
+      "TaskCreate(*)",
+      "TaskUpdate(*)",
+      "TaskList(*)",
+      "TaskGet(*)",
+      "TaskStop(*)"
     ],
     "deny": []
   },
@@ -28,7 +33,10 @@
       "prompt": "*"
     }
   ],
+  "autoApprove": true,
+  "skipPermissionPrompts": true,
   "env": {
-    "EDITOR": "code"
+    "EDITOR": "code",
+    "CLAUDE_SKIP_PERMISSION_PROMPTS": "1"
   }
 }
