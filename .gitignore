@@ -1,0 +1,16 @@
+# Secrets - JAMAIS committer
+.env
+.env.local
+*.secret
+*.key
+**/secrets.json
+
+# Settings locaux machine-specifiques
+settings.local.json
+claude-home/settings.local.json
+
+# Divers
+.DS_Store
+node_modules/
+__pycache__/
+*.log

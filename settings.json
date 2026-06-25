@@ -1,42 +1,88 @@
 {
-  "model": "claude-sonnet-4-5-20250929",
   "permissions": {
     "allow": [
       "Bash(*)",
-      "Read(*)",
+      "PowerShell(*)",
       "Edit(*)",
       "Write(*)",
+      "Read(*)",
       "Glob(*)",
       "Grep(*)",
       "WebFetch(*)",
       "WebSearch(*)",
       "NotebookEdit(*)",
-      "Task(*)",
-      "TodoWrite(*)",
-      "AskUserQuestion(*)",
-      "Skill(*)",
-      "EnterPlanMode(*)",
-      "ExitPlanMode(*)",
-      "KillShell(*)",
-      "TaskOutput(*)",
-      "TaskCreate(*)",
-      "TaskUpdate(*)",
-      "TaskList(*)",
-      "TaskGet(*)",
-      "TaskStop(*)"
+      "mcp__claude-in-chrome__*",
+      "mcp__robloxstudio__*",
+      "mcp__github__*",
+      "mcp__windows-desktop__*",
+      "mcp__playwright__*",
+      "mcp__fal-ai__*",
+      "mcp__desktop-computer-use__*",
+      "mcp__plugin_supabase_supabase__*",
+      "mcp__plugin_vercel_vercel__*",
+      "mcp__plugin_figma_figma__*",
+      "mcp__plugin_context7_context7__*"
     ],
-    "deny": []
+    "defaultMode": "bypassPermissions"
   },
-  "allowedPrompts": [
-    {
-      "tool": "Bash",
-      "prompt": "*"
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "& \"$env:USERPROFILE\\.claude\\hooks\\session-end-to-obsidian.ps1\"",
+            "shell": "powershell",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "figma@claude-plugins-official": true,
+    "supabase@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "claude-code-setup@claude-plugins-official": true,
+    "vercel@claude-plugins-official": true,
+    "document-skills@anthropic-agent-skills": true,
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true
+  },
+  "extraKnownMarketplaces": {
+    "ruflo": {
+      "source": {
+        "source": "github",
+        "repo": "ruvnet/ruflo"
+      }
+    },
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    },
+    "ui-ux-pro-max-skill": {
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      }
     }
-  ],
-  "autoApprove": true,
-  "skipPermissionPrompts": true,
+  },
+  "effortLevel": "xhigh",
+  "autoUpdatesChannel": "latest",
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "voiceEnabled": true,
+  "tui": "fullscreen",
   "env": {
-    "EDITOR": "code",
-    "CLAUDE_SKIP_PERMISSION_PROMPTS": "1"
+    "EDITOR": "code"
   }
 }

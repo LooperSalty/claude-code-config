@@ -1,14 +1,28 @@
 # Configuration Claude Code
 
-Fichiers de configuration, plugins et serveurs MCP personnalisés pour [Claude Code](https://claude.ai/claude-code).
+Configuration, plugins et serveurs MCP personnalisés pour [Claude Code](https://claude.ai/claude-code) — et **kit de restauration complet** d'un poste de dev Windows.
+
+> 🚀 **Nouvelle machine ?** Tout est dans **[SETUP.md](SETUP.md)** (guide maître) +
+> **[bootstrap.ps1](bootstrap.ps1)** (installeur automatisé).
+> ```powershell
+> git clone git@github.com:LooperSalty/claude-code-config.git
+> cd claude-code-config
+> Copy-Item .env.example .env   # renseigner les tokens
+> pwsh -File bootstrap.ps1
+> ```
 
 ## Contenu
 
 | Élément | Description |
 |---------|-------------|
-| `settings.json` | Permissions (accès complet) |
-| `CLAUDE.md` | Instructions en français, conventions |
-| `mcp-servers.json` | Configuration serveurs MCP |
+| **`SETUP.md`** | **Guide maître new-machine** : runtimes, CLIs, MCP, plugins, skills, secrets |
+| **`bootstrap.ps1`** | Installeur PowerShell automatisé (WinGet, npm, uv, MCP, config) |
+| `settings.json` | Settings globaux `~/.claude` (autonomie totale, plugins, hooks) |
+| `mcp-servers.json` | Inventaire complet des serveurs MCP (secrets = placeholders) |
+| `.env.example` | Secrets requis (Figma, fal.ai, Roblox, GitHub) |
+| `SECURITY.md` | Gestion des secrets + rotation |
+| `claude-home/` | Config globale versionnée : `CLAUDE.md`, `rules/`, `agents/`, `hooks/` |
+| `CLAUDE.md` | Template d'instructions projet (conventions de code) |
 | `pytorch-helper/` | Plugin ML/PyTorch |
 | `threejs-snippets/` | Plugin Three.js/R3F |
 | `jupyter-tools/` | Plugin Jupyter notebooks |

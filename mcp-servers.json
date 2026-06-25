@@ -1,23 +1,113 @@
 {
-  "mcpServers": {
+  "_comment": "Inventaire complet des serveurs MCP utilises. Les secrets sont des placeholders ${VAR} a renseigner depuis .env (voir .env.example). NE JAMAIS committer de vraies cles. Les serveurs sont classes par portee (global vs par-projet). Voir SETUP.md pour les commandes d'installation.",
+
+  "global": {
     "context7": {
+      "_desc": "Documentation a jour pour n'importe quelle lib/framework (via plugin context7@claude-plugins-official)",
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "@upstash/context7-mcp@latest"],
       "env": {}
     },
     "playwright": {
+      "_desc": "Automatisation navigateur Chrome (tests E2E, scraping, screenshots)",
       "type": "stdio",
       "command": "npx",
-      "args": ["@playwright/mcp@latest"],
+      "args": ["@playwright/mcp@latest", "--browser", "chrome"],
       "env": {}
     },
     "figma": {
+      "_desc": "Acces designs/composants Figma -> code (via plugin figma@claude-plugins-official)",
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "figma-developer-mcp", "--stdio"],
       "env": {
-        "FIGMA_ACCESS_TOKEN": "figd_WTHrwLfWG5KRIeSlZMDBrfWyUG5pIlS50f58zXza"
+        "FIGMA_ACCESS_TOKEN": "${FIGMA_ACCESS_TOKEN}"
+      }
+    },
+    "fal-ai": {
+      "_desc": "Generation media IA (image/video/audio) via fal.ai - skill fal-ai-media",
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "fal-ai-mcp-server"],
+      "env": {
+        "FAL_KEY": "${FAL_KEY}"
+      }
+    },
+    "robloxstudio": {
+      "_desc": "MCP communautaire Roblox Studio (boshyxd/robloxstudio-mcp). Plugin MCPPlugin.rbxmx requis dans Studio.",
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "robloxstudio-mcp@latest"],
+      "env": {
+        "ROBLOX_OPEN_CLOUD_API_KEY": "${ROBLOX_OPEN_CLOUD_API_KEY}"
+      }
+    },
+    "blender": {
+      "_desc": "Pilotage Blender via MCP (blender-mcp). Addon Blender requis. Voir SETUP.md.",
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["blender-mcp"],
+      "env": {}
+    },
+    "unreal": {
+      "_desc": "Pilotage Unreal Engine 5.8 (fork chongdashu/unreal-mcp). Repo local + plugin C++ compile requis. Voir SETUP.md.",
+      "type": "stdio",
+      "command": "uv",
+      "args": ["--directory", "C:/Users/ANAKIN/unreal-mcp/Python", "run", "unreal_mcp_server.py"],
+      "env": {}
+    },
+    "windows-desktop": {
+      "_desc": "Automatisation desktop Windows (UI Automation). Repo local LooperSalty/mcp-desktop-windows.",
+      "type": "stdio",
+      "command": "python",
+      "args": ["C:/Users/ANAKIN/Documents/Projets/mcp_desktop_windows/server.py"],
+      "env": {}
+    },
+    "desktop-computer-use": {
+      "_desc": "Computer-use generique (souris/clavier/screenshots).",
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "computer-use-mcp"],
+      "env": {}
+    }
+  },
+
+  "per_project": {
+    "C:/Users/ANAKIN/roblox-tools": {
+      "roblox-studio-official": {
+        "_desc": "MCP officiel Roblox (rbx-studio-mcp.exe). Telecharge via Studio. Plugin Studio active requis.",
+        "type": "stdio",
+        "command": "C:/Users/ANAKIN/roblox-tools/rbx-studio-mcp.exe",
+        "args": ["--stdio"],
+        "env": {}
+      }
+    },
+    "C:/Users/ANAKIN/Desktop/CRUMBLE": {
+      "github": {
+        "_desc": "MCP GitHub officiel (issues, PRs, repos).",
+        "type": "stdio",
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-github"],
+        "env": {
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+        }
+      }
+    },
+    "C:/Users/ANAKIN/Documents/Projets/synapse": {
+      "blender": {
+        "_desc": "Idem global blender, scope projet synapse.",
+        "command": "uvx",
+        "args": ["blender-mcp"],
+        "env": {}
+      }
+    },
+    "C:/Users/ANAKIN/Documents/Projets/Ascension": {
+      "ascension-rpg-test": {
+        "_desc": "MCP custom du projet Ascension (build local: mcp-server/dist/index.js).",
+        "command": "node",
+        "args": ["C:/Users/ANAKIN/Documents/Projets/Ascension/mcp-server/dist/index.js"],
+        "env": {}
       }
     }
   }
