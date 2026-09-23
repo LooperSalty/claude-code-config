@@ -204,12 +204,32 @@ Marketplaces à ajouter (déjà déclarés dans `settings.json > extraKnownMarke
 anthropics/skills              -> anthropic-agent-skills
 nextlevelbuilder/ui-ux-pro-max-skill -> ui-ux-pro-max-skill
 ruvnet/ruflo                   -> ruflo
+ayghri/i-have-adhd             -> i-have-adhd
 ```
 
 Plugins activés (`enabledPlugins`) — officiels `claude-plugins-official` sauf indication :
 `frontend-design`, `context7`, `superpowers`, `code-review`, `github`, `figma`, `supabase`,
 `security-guidance`, `claude-code-setup`, `vercel`, `document-skills` (anthropic-agent-skills),
-`ui-ux-pro-max` (ui-ux-pro-max-skill).
+`ui-ux-pro-max` (ui-ux-pro-max-skill), `i-have-adhd` (i-have-adhd).
+
+### i-have-adhd (sortie adaptée TDAH)
+
+Skill [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) : action d'abord, étapes
+numérotées, pas de digressions, état rappelé à chaque tour. Actif jusqu'à « stop adhd mode ».
+
+```powershell
+# Claude Code (déjà couvert par settings.json, sinon manuellement) :
+claude plugin marketplace add ayghri/i-have-adhd
+claude plugin install i-have-adhd@i-have-adhd
+# Puis dans une session : /i-have-adhd
+# Always-on (optionnel) : New-Item "$env:USERPROFILE\.claude\.i-have-adhd-always"
+```
+
+**Claude Desktop / claude.ai** : la skill est liée au compte (synchronisée partout une fois
+uploadée). Pour la réinstaller, zipper `claude-desktop/skills/i-have-adhd/` (dossier à la
+racine du zip) et l'uploader via claude.ai → Personnaliser → Compétences → Ajouter →
+Importer une compétence. Cette variante retire `disable-model-invocation` (clé propre à
+Claude Code, refusée par claude.ai) ; le corps est identique à l'original.
 
 ```powershell
 # Après restauration de settings.json, les plugins se réinstallent au lancement.
