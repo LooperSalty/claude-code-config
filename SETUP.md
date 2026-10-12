@@ -278,6 +278,29 @@ Copy-Item -Recurse pytorch-helper,threejs-snippets,jupyter-tools "$env:USERPROFI
 - `github.com/sickn33/antigravity-awesome-skills` (1370+)
 - `github.com/travisvn/awesome-claude-skills`
 - `skills.pawgrammer.com`, `claudemarketplaces.com`
+- `skills.sh` (annuaire de vercel-labs/skills, CLI `npx skills`)
+
+#### find-skills (découverte + installation auto de skills)
+
+Skill [`vercel-labs/skills` → `find-skills`](https://skills.sh/vercel-labs/skills/find-skills) :
+se déclenche sur « how do I do X », « find a skill for X », « y a-t-il un skill pour… »,
+cherche via `npx skills find <mots-clés>`, vérifie installs/étoiles/source, puis installe
+avec `npx skills add <owner/repo@skill> -g -y`. Markdown pur, pas de hook ; c'est le CLI
+`npx skills` qui touche le réseau (télémétrie coupable via `DISABLE_TELEMETRY=1`).
+
+```powershell
+# Option 1 — CLI officiel (lancer via PowerShell : sortie vide connue sous Git Bash)
+$env:DISABLE_TELEMETRY = '1'
+npx skills add vercel-labs/skills --skill find-skills -g -a claude-code -y --copy
+
+# Option 2 — copie manuelle du SKILL.md
+git clone --depth 1 https://github.com/vercel-labs/skills "$env:TEMP\vercel-skills"
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills\find-skills" | Out-Null
+Copy-Item "$env:TEMP\vercel-skills\skills\find-skills\SKILL.md" "$env:USERPROFILE\.claude\skills\find-skills\"
+```
+
+> Écartés après revue (2026-10-12) : `wheelry/deep-skill-finder` (envoie les tâches à un
+> serveur tiers + lit les trajectoires), `K-Dense-AI/claude-skills-mcp` (non maintenu).
 
 ---
 
