@@ -181,6 +181,21 @@ Plugin officiel Claude Code pour créer des interfaces frontend modernes et uniq
 /plugin install commit-commands
 ```
 
+## Plugins communautaires
+
+| Plugin | Marketplace | Rôle |
+|--------|-------------|------|
+| `agent-skills` | `addyosmani/agent-skills` | 25 skills d'ingénierie spec → ship + `/agent-skills:spec`, `:plan`, `:build`, `:test`, `:review`, `:ship` |
+| `i-have-adhd` | `ayghri/i-have-adhd` | Sortie adaptée TDAH (`/i-have-adhd`) |
+| `ui-ux-pro-max` | `nextlevelbuilder/ui-ux-pro-max-skill` | Design UI/UX |
+
+```bash
+/plugin marketplace add addyosmani/agent-skills
+/plugin install agent-skills@addy-agent-skills
+```
+
+Détails dans [SETUP.md § 7](SETUP.md#7-plugins--marketplaces).
+
 ## Configuration avancée
 
 ### Activer la mémoire de session

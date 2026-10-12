@@ -205,12 +205,36 @@ anthropics/skills              -> anthropic-agent-skills
 nextlevelbuilder/ui-ux-pro-max-skill -> ui-ux-pro-max-skill
 ruvnet/ruflo                   -> ruflo
 ayghri/i-have-adhd             -> i-have-adhd
+addyosmani/agent-skills        -> addy-agent-skills
 ```
 
 Plugins activés (`enabledPlugins`) — officiels `claude-plugins-official` sauf indication :
 `frontend-design`, `context7`, `superpowers`, `code-review`, `github`, `figma`, `supabase`,
 `security-guidance`, `claude-code-setup`, `vercel`, `document-skills` (anthropic-agent-skills),
-`ui-ux-pro-max` (ui-ux-pro-max-skill), `i-have-adhd` (i-have-adhd).
+`ui-ux-pro-max` (ui-ux-pro-max-skill), `i-have-adhd` (i-have-adhd),
+`agent-skills` (addy-agent-skills).
+
+### agent-skills (Addy Osmani — cycle de dev complet)
+
+Plugin [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) (MIT) :
+25 skills d'ingénierie couvrant spec → plan → build → test → review → ship, plus 9 commandes
+namespacées (`/agent-skills:spec`, `:plan`, `:build`, `:test`, `:review`, `:ship`,
+`:code-simplify`, `:constraints`, `:webperf`). Pas de `hooks.json` → aucun hook auto-enregistré.
+
+Skills : `spec-driven-development`, `planning-and-task-breakdown`, `incremental-implementation`,
+`test-driven-development`, `code-review-and-quality`, `code-simplification`,
+`debugging-and-error-recovery`, `security-and-hardening`, `performance-optimization`,
+`frontend-ui-engineering`, `api-and-interface-design`, `browser-testing-with-devtools`,
+`ci-cd-and-automation`, `git-workflow-and-versioning`, `documentation-and-adrs`,
+`deprecation-and-migration`, `observability-and-instrumentation`, `shipping-and-launch`,
+`context-engineering`, `source-driven-development`, `constraint-driven-development`,
+`doubt-driven-development`, `idea-refine`, `interview-me`, `using-agent-skills`.
+
+```powershell
+claude plugin marketplace add addyosmani/agent-skills
+claude plugin install agent-skills@addy-agent-skills --scope user
+# Erreur SSH ? -> claude plugin marketplace add https://github.com/addyosmani/agent-skills.git
+```
 
 ### i-have-adhd (sortie adaptée TDAH)
 
