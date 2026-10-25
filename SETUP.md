@@ -101,13 +101,14 @@ Ces fichiers sont versionnés ici sous [`claude-home/`](claude-home/) et [`setti
 
 ```powershell
 $dst = "$env:USERPROFILE\.claude"
-New-Item -ItemType Directory -Force $dst, "$dst\rules", "$dst\agents", "$dst\hooks" | Out-Null
+New-Item -ItemType Directory -Force $dst, "$dst\rules", "$dst\agents", "$dst\hooks", "$dst\skills" | Out-Null
 
 Copy-Item settings.json              "$dst\settings.json" -Force
 Copy-Item claude-home\CLAUDE.md      "$dst\CLAUDE.md" -Force
 Copy-Item claude-home\rules\*.md     "$dst\rules\" -Force
 Copy-Item claude-home\agents\*.md    "$dst\agents\" -Force
 Copy-Item claude-home\hooks\*.ps1    "$dst\hooks\" -Force
+Copy-Item claude-home\skills\*       "$dst\skills\" -Recurse -Force
 ```
 
 ### Contenu de `claude-home/`
@@ -118,6 +119,7 @@ Copy-Item claude-home\hooks\*.ps1    "$dst\hooks\" -Force
 | `rules/` (8) | `agents`, `coding-style`, `git-workflow`, `hooks`, `patterns`, `performance`, `security`, `testing`. |
 | `agents/` (13) | architect, planner, code-reviewer, security-reviewer, tdd-guide, build-error-resolver, e2e-runner, refactor-cleaner, doc-updater, database-reviewer, python-reviewer, go-reviewer, go-build-resolver. |
 | `hooks/session-end-to-obsidian.ps1` | Log de fin de session vers l'Obsidian Vault (voir section 8). |
+| `skills/` | Skills perso : `public-apis` (API publiques pour la recherche, voir section 7 › Skills). |
 
 ### `settings.json` — points clés
 
@@ -301,6 +303,26 @@ Copy-Item "$env:TEMP\vercel-skills\skills\find-skills\SKILL.md" "$env:USERPROFIL
 
 > Écartés après revue (2026-10-12) : `wheelry/deep-skill-finder` (envoie les tâches à un
 > serveur tiers + lit les trajectoires), `K-Dense-AI/claude-skills-mcp` (non maintenu).
+
+#### public-apis (recherche et faits vérifiables, skill perso)
+
+Skill maison, versionné dans [`claude-home/skills/public-apis/`](claude-home/skills/public-apis/).
+Il remplace un souvenir incertain par une donnée sourcée, prise dans une API gratuite. Il se déclenche sur
+« cherche », « vérifie », « source », « dernière version », « étude », « API gratuite »…
+
+- `references/research.md` : 40 modèles d'URL **sans clé, testés le 2026-10-25** (Wikipédia, Wikidata, OpenAlex,
+  arXiv, Crossref, PubMed, npm, PyPI, crates, endoflife.date, OSV, GitHub, Hacker News, Stack Overflow,
+  Wayback Machine, Open-Meteo, API gouv FR, Frankfurter/BCE, CoinGecko, Open Library…).
+- `references/catalog.md` : 2 173 API de [public-apis/public-apis](https://github.com/public-apis/public-apis)
+  (1 050 sans authentification), à interroger avec Grep (`auth:none.*weather`). Lignes sponsorisées retirées.
+- `scripts/build_catalog.py` : régénère le catalogue depuis GitHub (bibliothèque standard seulement).
+
+Installé par `bootstrap.ps1` (copie de `claude-home\skills\*`). Pour le faire à la main, puis rafraîchir le catalogue :
+
+```powershell
+Copy-Item claude-home\skills\public-apis "$env:USERPROFILE\.claude\skills\" -Recurse -Force
+python -I "$env:USERPROFILE\.claude\skills\public-apis\scripts\build_catalog.py"
+```
 
 ---
 

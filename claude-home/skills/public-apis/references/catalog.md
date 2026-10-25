@@ -1,0 +1,2333 @@
+# Catalogue public-apis
+
+Source : https://github.com/public-apis/public-apis · généré le 2026-10-25 · 2173 API dans 51 catégories, dont 1050 sans authentification.
+
+Une ligne par API : `- **Nom** — description · auth:<none|apiKey|OAuth|…> · https:<yes|no> · cors:<yes|no|unknown> · <url>`.
+Cherche avec Grep, par exemple `auth:none.*weather` ou `^## Science` ; ne lis pas tout le fichier.
+Les entrées viennent d'une liste communautaire : une API peut avoir changé ou disparu, vérifie-la avant de t'y fier.
+
+## Animals
+
+- **Axolotl** — Collection of axolotl pictures and facts · auth:none · https:yes · cors:no · <https://theaxolotlapi.netlify.app/>
+- **Breed Health Score** — Dog breed health scores, median lifespans and conditions · auth:none · https:yes · cors:no · <https://breedhealthscore.com/developers/>
+- **Cat Facts** — Daily cat facts · auth:none · https:yes · cors:no · <https://alexwohlbruck.github.io/cat-facts/>
+- **Cat Facts** — Random cat facts · auth:none · https:yes · cors:yes · <https://catfact.ninja/>
+- **Cats** — Pictures of cats from Tumblr · auth:apiKey · https:yes · cors:no · <https://docs.thecatapi.com/>
+- **Dog Facts** — Random dog facts · auth:none · https:yes · cors:yes · <https://dukengn.github.io/Dog-facts-API/>
+- **Dog Facts** — Random facts of Dogs · auth:none · https:yes · cors:yes · <https://kinduff.github.io/dog-api/>
+- **Dogs** — Based on the Stanford Dogs Dataset · auth:none · https:yes · cors:yes · <https://dog.ceo/dog-api/>
+- **eBird** — Retrieve recent or notable birding observations within a region · auth:apiKey · https:yes · cors:no · <https://documenter.getpostman.com/view/664302/S1ENwy59>
+- **FishWatch** — Information and pictures about individual fish species · auth:none · https:yes · cors:yes · <https://www.fishwatch.gov/developers>
+- **HTTP Cat** — Cat for every HTTP Status · auth:none · https:yes · cors:yes · <https://http.cat/>
+- **HTTP Dog** — Dogs for every HTTP response status code · auth:none · https:yes · cors:yes · <https://http.dog/>
+- **IUCN** — IUCN Red List of Threatened Species · auth:apiKey · https:yes · cors:no · <https://www.iucnredlist.org/en>
+- **MeowFacts** — Get random cat facts · auth:none · https:yes · cors:no · <https://github.com/wh-iterabb-it/meowfacts>
+- **Movebank** — Movement and Migration data of animals · auth:none · https:yes · cors:yes · <https://github.com/movebank/movebank-api-doc>
+- **PlaceBear** — Placeholder bear pictures · auth:none · https:yes · cors:yes · <https://placebear.com/>
+- **PlaceDog** — Placeholder Dog pictures · auth:none · https:yes · cors:yes · <https://place.dog>
+- **RandomDog** — Random pictures of dogs · auth:none · https:yes · cors:yes · <https://random.dog/woof.json>
+- **RandomDuck** — Random pictures of ducks · auth:none · https:yes · cors:no · <https://random-d.uk/api>
+- **RandomFox** — Random pictures of foxes · auth:none · https:yes · cors:no · <https://randomfox.ca/floof/>
+- **RescueGroups** — Adoption · auth:none · https:yes · cors:unknown · <https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home>
+- **Shibe.Online** — Random pictures of Shiba Inu, cats or birds · auth:none · https:yes · cors:yes · <http://shibe.online/>
+- **The Dog** — A public service all about Dogs, free to use when making your fancy new App, Website or Service · auth:apiKey · https:yes · cors:no · <https://thedogapi.com/>
+- **xeno-canto** — Bird recordings · auth:none · https:yes · cors:unknown · <https://xeno-canto.org/explore/api>
+
+## Anime
+
+- **AniAPI** — Anime discovery, streaming & syncing with trackers · auth:OAuth · https:yes · cors:yes · <https://aniapi.com/docs/>
+- **AniDB** — Anime Database · auth:apiKey · https:no · cors:unknown · <https://wiki.anidb.net/HTTP_API_Definition>
+- **AniList** — Anime discovery & tracking · auth:OAuth · https:yes · cors:unknown · <https://github.com/AniList/ApiV2-GraphQL-Docs>
+- **AnimeChan** — Anime quotes (over 10k+) · auth:none · https:yes · cors:no · <https://github.com/RocktimSaikia/anime-chan>
+- **AnimeFacts** — Anime Facts (over 100+) · auth:none · https:yes · cors:yes · <https://chandan-02.github.io/anime-facts-rest-api/>
+- **AnimeNewsNetwork** — Anime industry news · auth:none · https:yes · cors:yes · <https://www.animenewsnetwork.com/encyclopedia/api.php>
+- **Catboy** — Neko images, funny GIFs & more · auth:none · https:yes · cors:yes · <https://catboys.com/api>
+- **Danbooru Anime** — Thousands of anime artist database to find good anime art · auth:apiKey · https:yes · cors:yes · <https://danbooru.donmai.us/wiki_pages/help:api>
+- **Jikan** — Unofficial MyAnimeList API · auth:none · https:yes · cors:yes · <https://jikan.moe>
+- **Kitsu** — Anime discovery platform · auth:OAuth · https:yes · cors:yes · <https://kitsu.docs.apiary.io/>
+- **MangaDex** — Manga Database and Community · auth:apiKey · https:yes · cors:unknown · <https://api.mangadex.org/docs/>
+- **Mangapi** — Translate manga pages from one language to another · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/pierre.carcellermeunier/api/mangapi3/>
+- **MangaUpdates** — Manga database: series, releases, groups and reading lists · auth:none · https:yes · cors:unknown · <https://api.mangaupdates.com/>
+- **MyAnimeList** — Anime and Manga Database and Community · auth:OAuth · https:yes · cors:unknown · <https://myanimelist.net/clubs.php?cid=13727>
+- **NekosBest** — Neko Images & Anime roleplaying GIFs · auth:none · https:yes · cors:yes · <https://docs.nekos.best>
+- **Shikimori** — Anime discovery, tracking, forum, rates · auth:OAuth · https:yes · cors:unknown · <https://shikimori.one/api/doc>
+- **Studio Ghibli** — Resources from Studio Ghibli films · auth:none · https:yes · cors:yes · <https://ghibliapi.vercel.app>
+- **Trace Moe** — A useful tool to get the exact scene of an anime from a screenshot · auth:none · https:yes · cors:yes · <https://soruly.github.io/trace.moe-api/#/>
+- **Waifu.im** — Get waifu pictures from an archive of over 4000 images and multiple tags · auth:none · https:yes · cors:yes · <https://waifu.im/docs>
+- **Waifu.pics** — Image sharing platform for anime images · auth:none · https:yes · cors:no · <https://waifu.pics/docs>
+
+## Anti-Malware
+
+- **AbuseIPDB** — IP/domain/URL reputation · auth:apiKey · https:yes · cors:unknown · <https://docs.abuseipdb.com/>
+- **AlienVault Open Threat Exchange (OTX)** — IP/domain/URL reputation · auth:apiKey · https:yes · cors:unknown · <https://otx.alienvault.com/api>
+- **CAPEsandbox** — Malware execution and analysis · auth:apiKey · https:yes · cors:unknown · <https://capev2.readthedocs.io/en/latest/usage/api.html>
+- **Google Safe Browsing** — Google Link/Domain Flagging · auth:apiKey · https:yes · cors:unknown · <https://developers.google.com/safe-browsing/>
+- **IPWhois.net Blacklist** — Community IP blacklist to check and report abusive IP addresses · auth:none · https:yes · cors:unknown · <https://ipwhois.net/blacklist/docs>
+- **MalDatabase** — Provide malware datasets and threat intelligence feeds · auth:apiKey · https:yes · cors:unknown · <https://maldatabase.com/api-doc.html>
+- **MalShare** — Malware Archive / file sourcing · auth:apiKey · https:yes · cors:no · <https://malshare.com/doc.php>
+- **Malwagon** — Detonates files and URLs in instrumented VMs and returns behaviour, IOCs and ATT&CK · auth:apiKey · https:yes · cors:unknown · <https://malwagon.com/docs/api>
+- **MalwareBazaar** — Collect and share malware samples · auth:apiKey · https:yes · cors:unknown · <https://bazaar.abuse.ch/api/>
+- **NoPhishy** — Check links to see if they're known phishing attempts · auth:apiKey · https:yes · cors:yes · <https://rapidapi.com/Amiichu/api/exerra-phishing-check/>
+- **Phisherman** — IP/domain/URL reputation · auth:apiKey · https:yes · cors:unknown · <https://phisherman.gg/>
+- **Scanii** — Simple REST API that can scan submitted documents/files for the presence of threats · auth:apiKey · https:yes · cors:yes · <https://docs.scanii.com/>
+- **ScanMalware** — Scan URLs in a sandboxed browser and search past scans by domain, IP, ASN, JARM or favicon hash · auth:none · https:yes · cors:yes · <https://scanmalware.com>
+- **URLhaus** — Bulk queries and Download Malware Samples · auth:none · https:yes · cors:yes · <https://urlhaus-api.abuse.ch/>
+- **URLScan.io** — Scan and Analyse URLs · auth:apiKey · https:yes · cors:unknown · <https://urlscan.io/about-api/>
+- **VirusTotal** — VirusTotal File/URL Analysis · auth:apiKey · https:yes · cors:unknown · <https://docs.virustotal.com/reference/overview>
+- **Web of Trust** — IP/domain/URL reputation · auth:apiKey · https:yes · cors:unknown · <https://support.mywot.com/hc/en-us/sections/360004477734-API->
+
+## Art & Design
+
+- **3DTexel** — Search free CC0 PBR materials, HDRIs, decals and 3D models for games · auth:none · https:yes · cors:yes · <https://3dtexel.com/developers/#public-api>
+- **Améthyste** — Generate images for Discord users · auth:apiKey · https:yes · cors:unknown · <https://api.amethyste.moe/>
+- **Art Institute of Chicago** — Art · auth:none · https:yes · cors:yes · <https://api.artic.edu/docs/>
+- **Colormind** — Color scheme generator · auth:none · https:no · cors:unknown · <http://colormind.io/api-access/>
+- **ColourLovers** — Get various patterns, palettes and images · auth:none · https:no · cors:unknown · <http://www.colourlovers.com/api>
+- **Cooper Hewitt** — Smithsonian Design Museum · auth:apiKey · https:yes · cors:unknown · <https://collection.cooperhewitt.org/api>
+- **Dribbble** — Discover the world’s top designers & creatives · auth:OAuth · https:yes · cors:unknown · <https://developer.dribbble.com>
+- **DummyImage** — Generate placeholder images with custom size, colors and text · auth:none · https:yes · cors:unknown · <https://dummyimage.com/>
+- **EmojiHub** — Get emojis by categories and groups · auth:none · https:yes · cors:yes · <https://github.com/cheatsnake/emojihub>
+- **Europeana** — European Museum and Galleries content · auth:apiKey · https:yes · cors:unknown · <https://pro.europeana.eu/resources/apis/search>
+- **Face Shape Guide Lookup** — Read-only lookup for published face-shape guide records · auth:none · https:yes · cors:yes · <https://myfaceshapechart.com/openapi.json>
+- **Favicondl** — Get any website's favicon by URL (SVG/PNG/ICO), with JSON metadata and fallbacks · auth:none · https:yes · cors:yes · <https://favicondl.com/documentation.html>
+- **Harvard Art Museums** — Art · auth:apiKey · https:no · cors:unknown · <https://github.com/harvardartmuseums/api-docs>
+- **Icon Horse** — Favicons for any website, with fallbacks · auth:none · https:yes · cors:yes · <https://icon.horse>
+- **Iconfinder** — Icons · auth:apiKey · https:yes · cors:unknown · <https://developer.iconfinder.com>
+- **Iconify** — Search and fetch SVG icons from 200+ open source icon sets · auth:none · https:yes · cors:yes · <https://iconify.design/docs/api/>
+- **Icons8** — Icons (find "search icon" hyperlink in page) · auth:none · https:yes · cors:unknown · <https://img.icons8.com/>
+- **Lordicon** — Icons with predone Animations · auth:none · https:yes · cors:yes · <https://lordicon.com/>
+- **Metropolitan Museum of Art** — Met Museum of Art · auth:none · https:yes · cors:no · <https://metmuseum.github.io/>
+- **Noun Project** — Icons · auth:OAuth · https:no · cors:unknown · <http://api.thenounproject.com/index.html>
+- **PHP-Noise** — Noise Background Image Generator · auth:none · https:yes · cors:yes · <https://php-noise.com/>
+- **PickShade** — Convert colors, check WCAG and APCA contrast, build palettes, gradients and tokens · auth:none · https:yes · cors:yes · <https://pickshade.com/api>
+- **Pixel Encounter** — SVG Icon Generator · auth:none · https:yes · cors:no · <https://pixelencounter.com/api>
+- **raFont** — 1,500+ free downloadable fonts with categories, tags and preview images · auth:none · https:yes · cors:yes · <https://rafont.com/api-docs>
+- **Rijksmuseum** — RijksMuseum Data · auth:apiKey · https:yes · cors:unknown · <https://data.rijksmuseum.nl/>
+- **Smithsonian Open Access** — Smithsonian collection metadata and open-access digital media · auth:apiKey · https:yes · cors:unknown · <https://github.com/Smithsonian/smithsonian-openaccess>
+- **The Color API** — Convert and generate color schemes · auth:none · https:yes · cors:yes · <https://www.thecolorapi.com>
+- **Thisispaper** — Curated architecture, design, photography and art projects with visual-similarity and taste metadata · auth:apiKey · https:yes · cors:yes · <https://www.thisispaper.com/intelligence/api-docs>
+- **UpRes** — AI image upscaling to 8K with 18 models (Real-ESRGAN, SeedVR2, AuraSR) · auth:apiKey · https:yes · cors:yes · <https://upres.ai/docs/api>
+- **Text-till-Kladdesign** — AI fashion design generator — transform Swedish text into clothing concepts · auth:apiKey · https:yes · cors:yes · <https://text-till-klad-design.gracestack.se/api/v1/openapi.json>
+- **Word Cloud** — Easily create word clouds · auth:apiKey · https:yes · cors:unknown · <https://wordcloudapi.com/>
+
+## Authentication & Authorization
+
+- **Auth0** — Easy to implement, adaptable authentication and authorization platform · auth:apiKey · https:yes · cors:yes · <https://auth0.com>
+- **GetOTP** — Implement OTP flow quickly · auth:apiKey · https:yes · cors:no · <https://otp.dev/en/docs/>
+- **Micro User Service** — User management and authentication · auth:apiKey · https:yes · cors:no · <https://m3o.com/user>
+- **MojoAuth** — Secure and modern passwordless authentication platform · auth:apiKey · https:yes · cors:yes · <https://mojoauth.com>
+- **SAWO Labs** — Simplify login and improve user experience by integrating passwordless authentication in your app · auth:apiKey · https:yes · cors:yes · <https://sawolabs.com>
+- **Stytch** — User infrastructure for modern applications · auth:apiKey · https:yes · cors:no · <https://stytch.com/>
+- **Warrant** — APIs for authorization and access control · auth:apiKey · https:yes · cors:yes · <https://warrant.dev/>
+
+## Blockchain
+
+- **Bitquery** — Onchain GraphQL APIs & DEX APIs · auth:apiKey · https:yes · cors:yes · <https://graphql.bitquery.io/ide>
+- **Blockscout** — Multichain block explorer REST API (with Etherscan-compatible JSON-RPC) · auth:apiKey · https:yes · cors:no · <https://dev.blockscout.com/>
+- **Chainlink** — Build hybrid smart contracts with Chainlink · auth:none · https:yes · cors:unknown · <https://chain.link/developer-resources>
+- **Chainpoint** — Chainpoint is a global network for anchoring data to the Bitcoin blockchain · auth:none · https:yes · cors:unknown · <https://tierion.com/chainpoint/>
+- **ClearTrace** — Cross-frontend DEX attribution and execution quality data across Ethereum and L2s · auth:none · https:yes · cors:yes · <https://cleartracedata.com/docs>
+- **Covalent** — Multi-blockchain data aggregator platform · auth:apiKey · https:yes · cors:unknown · <https://www.covalenthq.com/docs/>
+- **Dwellir** — RPC endpoints for 150+ blockchain networks, including Ethereum, Solana, Polkadot and Hyperliquid · auth:apiKey · https:yes · cors:yes · <https://www.dwellir.com/docs>
+- **Etherscan** — Ethereum explorer API · auth:apiKey · https:yes · cors:yes · <https://etherscan.io/apis>
+- **Get Started with Web3** — Bilingual Web3 lessons, glossary search and role-based learning paths · auth:none · https:yes · cors:yes · <https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md>
+- **Helium** — Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage · auth:none · https:yes · cors:unknown · <https://docs.helium.com/api/blockchain/introduction/>
+- **MELEK** — Graphene social blockchain (Steem family) with a keyless condenser_api JSON-RPC · auth:none · https:yes · cors:yes · <https://witness.melek.salon/dev/melek>
+- **Nownodes** — Blockchain-as-a-service solution that provides high-quality connection via API · auth:apiKey · https:yes · cors:unknown · <https://nownodes.io/>
+- **Steem** — Blockchain-based blogging and social media website · auth:none · https:no · cors:no · <https://developers.steem.io/>
+- **SwiftNodes** — Multi-chain blockchain RPC nodes (Ethereum, Solana and 75+ networks) · auth:apiKey · https:yes · cors:yes · <https://swiftnodes.io>
+- **TWZRD Agent Intel** — Solana on-chain agent trust scoring via MCP; 4 free tools to score, resolve and verify AI agent wallets · auth:none · https:yes · cors:yes · <https://intel.twzrd.xyz>
+- **The Graph** — Indexing protocol for querying networks like Ethereum with GraphQL · auth:apiKey · https:yes · cors:unknown · <https://thegraph.com>
+- **Walltime** — To retrieve Walltime's market info · auth:none · https:yes · cors:unknown · <https://walltime.info/api.html>
+- **Watchdata** — Provide simple and reliable API access to Ethereum blockchain · auth:apiKey · https:yes · cors:unknown · <https://docs.watchdata.io>
+
+## Books
+
+- **A Bíblia Digital** — Do not worry about managing the multiple versions of the Bible · auth:apiKey · https:yes · cors:no · <https://www.abibliadigital.com.br/en>
+- **Amanah Sunnah** — Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators · auth:apiKey · https:yes · cors:yes · <https://sunnah.amanahagent.cloud/developers>
+- **Bhagavad Gita** — Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi · auth:apiKey · https:yes · cors:yes · <https://docs.bhagavadgitaapi.in>
+- **Bhagavad Gita telugu** — Bhagavad Gita API in telugu and odia languages · auth:none · https:yes · cors:yes · <https://gita-api.vercel.app>
+- **Bible-api** — Free Bible API with multiple languages · auth:none · https:yes · cors:yes · <https://bible-api.com/>
+- **BookRank** — Book rankings from open reader ratings: books, series, reading orders and authors · auth:none · https:yes · cors:yes · <https://openbookrank.com/en/open-data>
+- **British National Bibliography** — Books · auth:none · https:no · cors:unknown · <http://bnb.data.bl.uk/>
+- **Crossref Metadata Search** — Books & Articles Metadata · auth:none · https:yes · cors:unknown · <https://github.com/CrossRef/rest-api-doc>
+- **Ganjoor** — Classic Persian poetry works including access to related manuscripts, recitations and music tracks · auth:OAuth · https:yes · cors:yes · <https://api.ganjoor.net>
+- **Google Books** — Books · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/books/>
+- **Greenlit Books** — Catalog of practical AI books with search, series, glossary and a claim ledger · auth:none · https:yes · cors:yes · <https://greenlitbooks.com/developers>
+- **GurbaniNow** — Fast and Accurate Gurbani RESTful API · auth:none · https:yes · cors:unknown · <https://github.com/GurbaniNow/api>
+- **Gutendex** — Web-API for fetching data from Project Gutenberg Books Library · auth:none · https:yes · cors:unknown · <https://gutendex.com/>
+- **KDP Intelligence** — KDP niche demand scores, competition analysis and revenue estimates · auth:none · https:yes · cors:yes · <https://kdp-intelligence-api.vercel.app/docs>
+- **Open Library** — Books, book covers and related data · auth:none · https:yes · cors:no · <https://openlibrary.org/developers/api>
+- **Penguin Publishing** — Books, book covers and related data · auth:none · https:yes · cors:yes · <http://www.penguinrandomhouse.biz/webservices/rest/>
+- **PoetryDB** — Enables you to get instant data from our vast poetry collection · auth:none · https:yes · cors:yes · <https://github.com/thundercomb/poetrydb#readme>
+- **Quran** — RESTful Quran API with multiple languages · auth:none · https:yes · cors:yes · <https://quran.api-docs.io/>
+- **Quran Cloud** — A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran · auth:none · https:yes · cors:yes · <https://alquran.cloud/api>
+- **Quran-api** — Free Quran API Service with 90+ different languages and 400+ translations · auth:none · https:yes · cors:yes · <https://github.com/fawazahmed0/quran-api#readme>
+- **Runyankole Bible** — Free REST API for the Runyankore-Rukiga Bible — 66 books, 31106 verses · auth:none · https:yes · cors:yes · <https://runyankole-bible-api.vercel.app>
+- **The Bible** — Everything you need from the Bible in one discoverable place · auth:apiKey · https:yes · cors:unknown · <https://docs.api.bible>
+- **Thirukkural** — 1330 Thirukkural poems and explanation in Tamil and English · auth:none · https:yes · cors:yes · <https://api-thirukkural.web.app/>
+- **Urantia Papers** — Full-text + semantic search across the Urantia Papers, with audio narration, entities, translations · auth:none · https:yes · cors:yes · <https://urantia.dev>
+- **Wizard World** — Get information from the Harry Potter universe · auth:none · https:yes · cors:yes · <https://wizard-world-api.herokuapp.com/swagger/index.html>
+- **Wolne Lektury** — API for obtaining information about e-books available on the WolneLektury.pl website · auth:none · https:yes · cors:unknown · <https://wolnelektury.pl/api/>
+
+## Business
+
+- **Apache Superset** — API to manage your BI dashboards and data sources on Superset · auth:apiKey · https:yes · cors:yes · <https://superset.apache.org/docs/api>
+- **Charity Search** — Non-profit charity data · auth:apiKey · https:no · cors:unknown · <http://charityapi.orghunter.com/>
+- **Clearbit Logo** — Search for company logos and embed them in your projects · auth:apiKey · https:yes · cors:unknown · <https://clearbit.com/docs#logo-api>
+- **Compabase** — Polish company data: 3M+ KRS and CEIDG entities with financial statements, people and rankings · auth:apiKey · https:yes · cors:unknown · <https://compabase.com/docs/>
+- **Crustdata** — People and company data covering profiles, headcount, funding and contacts · auth:apiKey · https:yes · cors:unknown · <https://docs.crustdata.com>
+- **Domainsdb.info** — Registered Domain Names Search · auth:none · https:yes · cors:no · <https://domainsdb.info/>
+- **EuroValidate** — EU VAT (VIES), IBAN and EORI validation with company name & address lookup · auth:apiKey · https:yes · cors:yes · <https://eurovalidate.com>
+- **Freelancer** — Hire freelancers to get work done · auth:OAuth · https:yes · cors:unknown · <https://developers.freelancer.com>
+- **Funding Signals** — Companies that just raised funding, scored as sales leads, from public SEC filings · auth:apiKey · https:yes · cors:no · <https://fundingsignals.net/docs>
+- **GlobalEntity** — Official company data from 56 European business registers as normalized JSON · auth:apiKey · https:yes · cors:yes · <https://www.globalentityapi.com/docs>
+- **Gmail** — Flexible, RESTful access to the user's inbox · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/gmail/api/>
+- **Google Analytics** — Collect, configure and analyze your data to reach the right audience · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/analytics/>
+- **gstinapi** — Verify Indian GST numbers (GSTIN): legal name, status, address and return filing history; free tier · auth:apiKey · https:yes · cors:no · <https://www.gstinapi.in/docs>
+- **Instatus** — Post to and update maintenance and incidents on your status page through an HTTP REST API · auth:apiKey · https:yes · cors:unknown · <https://instatus.com/help/api>
+- **InvoiceIn** — Parse and validate received e-invoices: XRechnung, ZUGFeRD, Peppol, FatturaPA, KSeF · auth:apiKey · https:yes · cors:yes · <https://invoicein.peculiar.systems/>
+- **Invovate** — Generate PDF, JSON & UBL invoices in 11 languages from one JSON POST · auth:apiKey · https:yes · cors:no · <https://invovate.com/api>
+- **Katalis** — UK company checks: payment practices, contracts won, registers, filed accounts, change feed · auth:apiKey · https:yes · cors:no · <https://meetkatalis.com/apis>
+- **KontragentPro** — Russian company data from state registers by INN or OGRN: profile, finances, timeline · auth:none · https:yes · cors:yes · <https://kontragentpro.ru/api/v2/docs>
+- **Leadgen Romania** — Romanian company registry, ANAF tax status and financial statements · auth:apiKey · https:yes · cors:yes · <https://leadgen.adrianhomelab.com/docs>
+- **Legal Sandbox Georgia** — Find verified legal specialists in Georgia from natural-language queries · auth:none · https:yes · cors:yes · <https://legal.ge/api/openapi.json>
+- **Mailchimp** — Send marketing campaigns and transactional mails · auth:apiKey · https:yes · cors:unknown · <https://mailchimp.com/developer/>
+- **mailjet** — Marketing email can be sent and mail templates made in MJML or HTML can be sent using API · auth:apiKey · https:yes · cors:unknown · <https://www.mailjet.com/>
+- **markerapi** — Trademark Search · auth:none · https:no · cors:unknown · <https://markerapi.com>
+- **Meirra** — SEO monitoring, email verification, lead generation, and marketing analytics · auth:apiKey · https:yes · cors:yes · <https://meirra.com/api>
+- **ORB Intelligence** — Company lookup · auth:apiKey · https:yes · cors:unknown · <https://api.orb-intelligence.com/docs/>
+- **PeopleSearch** — People and company search in plain English, with verified work emails and email verification · auth:apiKey · https:yes · cors:no · <https://peoplesearch.im/developers>
+- **Pick an Agency** — Search 47,000+ marketing agencies by service, location and rating · auth:none · https:yes · cors:yes · <https://www.pickanagency.com/developers>
+- **RankFabrik Places** — Search businesses and points of interest by city, deduplicated with a coverage report · auth:apiKey · https:yes · cors:unknown · <https://rankfabrik.com/produits/etablissements>
+- **Redash** — Access your queries and dashboards on Redash · auth:apiKey · https:yes · cors:yes · <https://redash.io/help/user-guide/integrations-and-api/api>
+- **RegisterWire** — Real-time alerts on UK company register changes · auth:apiKey · https:yes · cors:no · <https://www.registerwire.uk/docs/index.html>
+- **RunDossier** — Pre-meeting briefing on a person from public professional and web sources, as JSON · auth:apiKey · https:yes · cors:no · <https://rundossier.com/docs/api>
+- **Signaliz** — GTM enrichment, lead generation, email verification, and company signals · auth:apiKey · https:yes · cors:unknown · <https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introduction>
+- **Smartsheet** — Allows you to programmatically access and Smartsheet data and account information · auth:OAuth · https:yes · cors:no · <https://smartsheet.redoc.ly/>
+- **Square** — Easy way to take payments, manage refunds, and help customers checkout online · auth:OAuth · https:yes · cors:unknown · <https://developer.squareup.com/reference/square>
+- **SwiftKanban** — Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity · auth:apiKey · https:yes · cors:unknown · <https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi>
+- **Tenders in Hungary** — Get data for procurements in Hungary in JSON format · auth:none · https:yes · cors:unknown · <https://tenders.guru/hu/api>
+- **Tenders in Poland** — Get data for procurements in Poland in JSON format · auth:none · https:yes · cors:unknown · <https://tenders.guru/pl/api>
+- **Tenders in Romania** — Get data for procurements in Romania in JSON format · auth:none · https:yes · cors:unknown · <https://tenders.guru/ro/api>
+- **Tenders in Spain** — Get data for procurements in Spain in JSON format · auth:none · https:yes · cors:unknown · <https://tenders.guru/es/api>
+- **Tenders in Ukraine** — Get data for procurements in Ukraine in JSON format · auth:none · https:yes · cors:unknown · <https://tenders.guru/ua/api>
+- **TradeDataHub** — U.S. contractor datasets with a free discovery API for coverage, pricing and masked previews · auth:none · https:yes · cors:yes · <https://www.tradedatahub.net>
+- **Tomba email finder** — Email Finder for B2B sales and email marketing and email verifier · auth:apiKey · https:yes · cors:yes · <https://tomba.io/api>
+- **Trello** — Boards, lists and cards to help you organize and prioritize your projects · auth:OAuth · https:yes · cors:unknown · <https://developers.trello.com/>
+- **UGC VZ** — Directory of DACH user-generated-content creators with topics, cities, rates and contact requests · auth:none · https:yes · cors:no · <https://ugc-vz.de/developers>
+- **Verif Entreprise FR** — French company checks by SIREN: status, insolvency (BODACC), VAT (VIES); free preview · auth:none · https:yes · cors:yes · <https://api-production-24833.up.railway.app>
+- **Village** — Person and company enrichment plus warm introduction paths through your network · auth:apiKey · https:yes · cors:yes · <https://docs.village.ai>
+- **W System EU Business Data** — EU VAT (VIES) and EORI validation, company registers, EU/UN/OFAC/UK sanctions screening · auth:none · https:yes · cors:yes · <https://api.wsystem.dev/docs>
+
+## Calendar
+
+- **Africa Compliance Data** — Public holidays and business days for all 54 African countries, from official sources · auth:apiKey · https:yes · cors:yes · <https://africacompliancedata.com/docs>
+- **caldays** — Public holidays for 195+ countries · auth:none · https:yes · cors:yes · <https://caldays.com/api>
+- **Calendarific** — Worldwide Holidays · auth:apiKey · https:yes · cors:unknown · <https://calendarific.com/>
+- **Checkiday - National Holiday** — Industry-leading holiday data with over 5,000 holidays and thousands of descriptions · auth:apiKey · https:yes · cors:unknown · <https://apilayer.com/marketplace/checkiday-api>
+- **Church Calendar** — Catholic liturgical calendar · auth:none · https:no · cors:unknown · <http://calapi.inadiutorium.cz/>
+- **CountdownsHQ** — Dates and timezone-correct countdowns for 150+ holidays and observances in 18 countries · auth:none · https:yes · cors:yes · <https://countdownshq.com/developers>
+- **Czech Namedays Calendar** — Lookup for a name and returns nameday date · auth:none · https:no · cors:unknown · <https://svatky.adresa.info>
+- **Festivo Public Holidays** — Fastest and most advanced public holiday and observance service on the market · auth:apiKey · https:yes · cors:yes · <https://docs.getfestivo.com/docs/products/public-holidays-api/intro>
+- **Google Calendar** — Display, create and modify Google calendar events · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/google-apps/calendar/>
+- **Hebrew Calendar** — Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc · auth:none · https:no · cors:unknown · <https://www.hebcal.com/home/developer-apis>
+- **Holidays** — Historical data regarding holidays · auth:apiKey · https:yes · cors:unknown · <https://holidayapi.com/>
+- **India Public Holidays** — Official Indian public holidays for the Central government and 36 states/UTs · auth:none · https:yes · cors:yes · <https://calendar-api-web.vercel.app/docs>
+- **Intellibook** — Appointment booking and availability API for salons and clinics · auth:none · https:yes · cors:yes · <https://www.intellibookai.com/docs>
+- **LectServe** — Protestant liturgical calendar · auth:none · https:no · cors:unknown · <http://www.lectserve.com>
+- **Nager.Date** — Public holidays for more than 90 countries · auth:none · https:yes · cors:no · <https://date.nager.at>
+- **Namedays Calendar** — Provides namedays for multiple countries · auth:none · https:yes · cors:yes · <https://nameday.abalin.net>
+- **Non-Working Days** — Database of ICS files for non working days · auth:none · https:yes · cors:unknown · <https://github.com/gadael/icsdb>
+- **Non-Working Days** — Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other · auth:none · https:yes · cors:yes · <https://isdayoff.ru>
+- **Public Holidays** — Data on national, regional, and religious holidays via API · auth:apiKey · https:yes · cors:yes · <https://www.abstractapi.com/holidays-api>
+- **Russian Calendar** — Check if a date is a Russian holiday or not · auth:none · https:yes · cors:no · <https://github.com/egno/work-calendar>
+- **The Calendar** — Public holidays for US states and 30 countries plus sports and finance calendars as static JSON · auth:none · https:yes · cors:yes · <https://the-calendar.net/api/>
+- **UK Bank Holidays** — Bank holidays in England and Wales, Scotland and Northern Ireland · auth:none · https:yes · cors:unknown · <https://www.gov.uk/bank-holidays.json>
+
+## Cloud Storage & File Sharing
+
+- **Box** — File Sharing and Storage · auth:OAuth · https:yes · cors:unknown · <https://developer.box.com/>
+- **ddownload** — File Sharing and Storage · auth:apiKey · https:yes · cors:unknown · <https://ddownload.com/api>
+- **Dropbox** — File Sharing and Storage · auth:OAuth · https:yes · cors:unknown · <https://www.dropbox.com/developers>
+- **File.io** — Super simple file sharing, convenient, anonymous and secure · auth:none · https:yes · cors:unknown · <https://www.file.io>
+- **Filestack** — Filestack File Uploader & File Upload API · auth:apiKey · https:yes · cors:unknown · <https://www.filestack.com>
+- **FileUp** — Temporary file hosting with upload API, expiration times, and view limits · auth:none · https:yes · cors:unknown · <https://github.com/RealSinaSnp/FileUp>
+- **GoFile** — Unlimited size file uploads for free · auth:apiKey · https:yes · cors:unknown · <https://gofile.io/api>
+- **Google Drive** — File Sharing and Storage · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/drive/>
+- **Gyazo** — Save & Share screen captures instantly · auth:apiKey · https:yes · cors:unknown · <https://gyazo.com/api/docs>
+- **Imgbb** — Simple and quick private image sharing · auth:apiKey · https:yes · cors:unknown · <https://api.imgbb.com/>
+- **OneDrive** — File Sharing and Storage · auth:OAuth · https:yes · cors:unknown · <https://developer.microsoft.com/onedrive>
+- **Pantry** — Free JSON storage for small projects · auth:none · https:yes · cors:yes · <https://getpantry.cloud/>
+- **Pastebin** — Plain Text Storage · auth:apiKey · https:yes · cors:unknown · <https://pastebin.com/doc_api>
+- **Pinata** — IPFS Pinning Services API · auth:apiKey · https:yes · cors:unknown · <https://docs.pinata.cloud/>
+- **Quip** — File Sharing and Storage for groups · auth:apiKey · https:yes · cors:yes · <https://quip.com/dev/automation/documentation>
+- **Revdoku** — Cloud file storage, version history, sharing and incoming email attachments · auth:apiKey · https:yes · cors:unknown · <https://revdoku.com/api.md>
+- **Storj** — Decentralized Open-Source Cloud Storage · auth:apiKey · https:yes · cors:unknown · <https://docs.storj.io/dcs/>
+- **The Null Pointer** — No-bullshit file hosting and URL shortening service · auth:none · https:yes · cors:unknown · <https://0x0.st>
+- **Web3 Storage** — File Sharing and Storage for Free with 1TB Space · auth:apiKey · https:yes · cors:yes · <https://web3.storage/>
+
+## Continuous Integration
+
+- **Azure DevOps Health** — Resource health helps you diagnose and get support when an Azure issue impacts your resources · auth:apiKey · https:no · cors:no · <https://docs.microsoft.com/en-us/rest/api/resourcehealth>
+- **Bitrise** — Build tool and processes integrations to create efficient development pipelines · auth:apiKey · https:yes · cors:unknown · <https://api-docs.bitrise.io/>
+- **Buddy** — The fastest continuous integration and continuous delivery platform · auth:OAuth · https:yes · cors:unknown · <https://buddy.works/docs/api/getting-started/overview>
+- **CircleCI** — Automate the software development process using continuous integration and continuous delivery · auth:apiKey · https:yes · cors:unknown · <https://circleci.com/docs/api/>
+- **Codeship** — Codeship is a Continuous Integration Platform in the cloud · auth:apiKey · https:yes · cors:unknown · <https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/>
+- **Travis CI** — Sync your GitHub projects with Travis CI to test your code in minutes · auth:apiKey · https:yes · cors:unknown · <https://docs.travis-ci.com/api/>
+
+## Cryptocurrency
+
+- **0x** — API for querying token and pool stats across various liquidity pools · auth:none · https:yes · cors:yes · <https://docs.0x.org/>
+- **1inch** — API for querying decentralize exchange · auth:apiKey · https:yes · cors:unknown · <https://business.1inch.com/portal/documentation>
+- **Alchemy Ethereum** — Ethereum Node-as-a-Service Provider · auth:apiKey · https:yes · cors:yes · <https://www.alchemy.com/docs/>
+- **Alpha (Mossland)** — Korean crypto channel stance + RAG Q&A + canonical entity/topic/event store · auth:none · https:yes · cors:yes · <https://alpha.moss.land/developers>
+- **Binance** — Exchange for Trading Cryptocurrencies based in China · auth:apiKey · https:yes · cors:unknown · <https://github.com/binance/binance-spot-api-docs>
+- **Bitcambio** — Get the list of all traded assets in the exchange · auth:none · https:yes · cors:unknown · <https://nova.bitcambio.com.br/api/v3/docs#a-public>
+- **BitcoinAverage** — Digital Asset Price Data for the blockchain industry · auth:apiKey · https:yes · cors:unknown · <https://apiv2.bitcoinaverage.com/>
+- **BitcoinCharts** — Financial and Technical Data related to the Bitcoin Network · auth:none · https:yes · cors:unknown · <https://bitcoincharts.com/about/exchanges/>
+- **Bitcoin Halving** — Halving era, block reward, and schedule arithmetic for any Bitcoin block height · auth:none · https:yes · cors:yes · <https://why21million.com/halving-api/>
+- **BitcoinYield** — Live yields on BTC, ETH and stablecoins across DeFi and CeFi, with an A-D risk grade per offer · auth:none · https:yes · cors:yes · <https://bitcoinyield.co/docs>
+- **Bitculator** — Crypto prices, OHLCV history, sentiment, technical indicators, exchanges and liquidations · auth:apiKey · https:yes · cors:yes · <https://bitculator.com/en/documentation/api/v1>
+- **Bitfinex** — Cryptocurrency Trading Platform · auth:apiKey · https:yes · cors:unknown · <https://docs.bitfinex.com/docs>
+- **BitPanda** — Cryptocurrency Information · auth:apiKey · https:yes · cors:unknown · <https://developers.bitpanda.com>
+- **Bitmex** — Real-Time Cryptocurrency derivatives trading platform based in Hong Kong · auth:apiKey · https:yes · cors:unknown · <https://www.bitmex.com/app/apiOverview>
+- **Bittrex** — Next Generation Crypto Trading Platform · auth:apiKey · https:yes · cors:unknown · <https://bittrex.github.io/api/v3>
+- **Block** — Bitcoin Payment, Wallet & Transaction Data · auth:apiKey · https:yes · cors:unknown · <https://block.io/docs/basic>
+- **BlazePhoenix** — On-chain DEX aggregator quotes and route execution data · auth:none · https:yes · cors:yes · <https://blazephoenix.xyz/api>
+- **bilbop** — Solana USDC x402 pay-per-call tools for agents: SPL mint info, token brief, text summarize, Piper TTS, brand feedback · auth:none · https:yes · cors:yes · <https://api.bilbop.org>
+- **Block Lottos** — On-chain lottery, draw history, jackpot and advertising endpoints · auth:none · https:yes · cors:yes · <https://blocklottos.com/openapi.json>
+- **Blockchain** — Bitcoin Payment, Wallet & Transaction Data · auth:apiKey · https:yes · cors:unknown · <https://www.blockchain.com/api>
+- **blockfrost Cardano** — Interaction with the Cardano mainnet and several testnets · auth:apiKey · https:yes · cors:unknown · <https://blockfrost.io/>
+- **Brave NewCoin** — Real-time and historic crypto data from more than 200+ exchanges · auth:apiKey · https:yes · cors:unknown · <https://bravenewcoin.com/developers>
+- **BTCGlobe** — Bitcoin height, fees, mempool and peer data served live from two self-hosted nodes · auth:none · https:yes · cors:yes · <https://btcglobe.live/join#makers>
+- **btcnode.uk** — Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints. · auth:none · https:yes · cors:unknown · <https://btcnode.uk>
+- **BtcTurk** — Real-time cryptocurrency data, graphs and API that allows buy&sell · auth:apiKey · https:yes · cors:yes · <https://docs.btcturk.com/>
+- **Bybit** — Cryptocurrency data feed and algorithmic trading · auth:apiKey · https:yes · cors:unknown · <https://www.bybit.com/docs/v5/introduction>
+- **CoinAPI** — All Currency Exchanges integrate under a single api · auth:apiKey · https:yes · cors:no · <https://docs.coinapi.io/>
+- **Coinbase** — Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices · auth:apiKey · https:yes · cors:unknown · <https://developers.coinbase.com>
+- **Coinbase Pro** — Cryptocurrency Trading Platform · auth:apiKey · https:yes · cors:unknown · <https://docs.pro.coinbase.com/#api>
+- **CoinCap** — Real time Cryptocurrency prices through a RESTful API · auth:none · https:yes · cors:unknown · <https://docs.coincap.io/>
+- **CoinDCX** — Cryptocurrency Trading Platform · auth:apiKey · https:yes · cors:unknown · <https://docs.coindcx.com/>
+- **CoinGecko** — Cryptocurrency Price, Market, and Developer/Social Data · auth:none · https:yes · cors:yes · <http://www.coingecko.com/api>
+- **Coinigy** — Interacting with Coinigy Accounts and Exchange Directly · auth:apiKey · https:yes · cors:unknown · <https://coinigy.docs.apiary.io>
+- **Coinlib** — Crypto Currency Prices · auth:apiKey · https:yes · cors:unknown · <https://coinlib.io/>
+- **CoinLobster** — Live executed whale trades across 15 exchanges and on-chain DEX with an unusualness radar · auth:none · https:yes · cors:yes · <https://coinlobster.com/developers>
+- **Coinlore** — Cryptocurrencies prices, volume and more · auth:none · https:yes · cors:unknown · <https://www.coinlore.com/cryptocurrency-data-api>
+- **CoinMarketCap** — Cryptocurrencies Prices · auth:apiKey · https:yes · cors:unknown · <https://coinmarketcap.com/api/>
+- **Coinmico** — Crypto prices, volume and liquidity measured from real trades on 50+ exchanges and DEXs · auth:apiKey · https:yes · cors:yes · <https://docs.coinmico.com>
+- **CoinNudge** — Current crypto market breadth, funding and open-interest research datasets · auth:apiKey · https:yes · cors:unknown · <https://coinnudge.site/data/api-docs>
+- **Coinpaprika** — Cryptocurrencies prices, volume and more · auth:none · https:yes · cors:yes · <https://api.coinpaprika.com>
+- **CoinRanking** — Live Cryptocurrency data · auth:apiKey · https:yes · cors:unknown · <https://developers.coinranking.com/api/documentation>
+- **Coinremitter** — Cryptocurrencies Payment & Prices · auth:apiKey · https:yes · cors:unknown · <https://coinremitter.com/docs>
+- **CoinStats** — Crypto Tracker · auth:none · https:yes · cors:unknown · <https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest>
+- **CorpStacking** — Corporate, government and ETF Bitcoin, Ethereum and Solana treasury disclosures · auth:none · https:yes · cors:yes · <https://www.corpstacking.com/feed.json>
+- **CryptAPI** — Cryptocurrency Payment Processor · auth:none · https:yes · cors:unknown · <https://docs.cryptapi.io/>
+- **CryptingUp** — Cryptocurrency data · auth:none · https:yes · cors:unknown · <https://www.cryptingup.com/apidoc/#introduction>
+- **Crypto Vision** — Free crypto news aggregator with market context, JSON REST and RSS · auth:none · https:yes · cors:yes · <https://cryptocurrency.cv/developers>
+- **CryptoCompare** — Cryptocurrencies Comparison · auth:none · https:yes · cors:unknown · <https://www.cryptocompare.com/api#>
+- **CryptoMarket** — Cryptocurrencies Trading platform · auth:apiKey · https:yes · cors:yes · <https://api.exchange.cryptomkt.com/>
+- **Cryptonator** — Cryptocurrencies Exchange Rates · auth:none · https:yes · cors:unknown · <https://www.cryptonator.com/api/>
+- **Deep Blue Alpha** — Real-time Ethereum whale wallet tracking, DEX trades, net flow, and conviction scoring · auth:apiKey · https:yes · cors:yes · <https://deepbluealpha.io/whale-api>
+- **DefiLlama** — Open and transparent DeFi data, TVL, coin prices, volumes, and yields · auth:none · https:yes · cors:yes · <https://defillama.com/docs/api>
+- **Degenscan Intel** — Hyperliquid funding on every dex (HIP-3 incl.), cross-dex spreads, event feed; free trial key · auth:apiKey · https:yes · cors:no · <https://intel.degenscan.io/carry>
+- **Dudelytics** — Productive crypto indices, daily benchmarks, sector indices and market-stress data · auth:none · https:yes · cors:no · <https://dudelytics.com/en/dpmi/data/>
+- **dYdX** — Decentralized cryptocurrency exchange · auth:apiKey · https:yes · cors:unknown · <https://docs.dydx.exchange/>
+- **Ethplorer** — Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures · auth:apiKey · https:yes · cors:unknown · <https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API>
+- **EXMO** — Cryptocurrencies exchange based in UK · auth:apiKey · https:yes · cors:unknown · <https://documenter.getpostman.com/view/10287440/SzYXWKPi>
+- **FraudCoins** — On-chain top-10 holder concentration and contract permissions for crypto tokens · auth:none · https:yes · cors:yes · <https://fraudcoins.com/data/>
+- **Gateio** — API provides spot, margin and futures trading operations · auth:apiKey · https:yes · cors:unknown · <https://www.gate.io/api2>
+- **Gemini** — Cryptocurrencies Exchange · auth:none · https:yes · cors:unknown · <https://docs.gemini.com/rest-api/>
+- **Hirak Exchange Rates** — Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits · auth:apiKey · https:yes · cors:unknown · <https://rates.hirak.site/>
+- **HostDeFi** — Free A+–F token-safety grades across Solana and EVM chains · auth:none · https:yes · cors:yes · <https://hostdefi.com/docs/api/>
+- **Huobi** — Seychelles based cryptocurrency exchange · auth:apiKey · https:yes · cors:unknown · <https://huobiapi.github.io/docs/spot/v1/en/>
+- **Hyperliquid Market Data** — Hyperliquid open interest, funding and cross-venue predicted rates per coin · auth:apiKey · https:yes · cors:yes · <https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest>
+- **icy.tools** — GraphQL based NFT API · auth:apiKey · https:yes · cors:unknown · <https://developers.icy.tools/>
+- **Indodax** — Trade your Bitcoin and other assets with rupiah · auth:apiKey · https:yes · cors:unknown · <https://github.com/btcid/indodax-official-api-docs>
+- **INFURA Ethereum** — Interaction with the Ethereum mainnet and several testnets · auth:apiKey · https:yes · cors:yes · <https://infura.io/product/ethereum>
+- **Kraken** — Cryptocurrencies Exchange · auth:apiKey · https:yes · cors:unknown · <https://docs.kraken.com/rest/>
+- **KuCoin** — Cryptocurrency Trading Platform · auth:apiKey · https:yes · cors:unknown · <https://docs.kucoin.com/>
+- **Localbitcoins** — P2P platform to buy and sell Bitcoins · auth:none · https:yes · cors:unknown · <https://localbitcoins.com/api-docs/>
+- **MadeOnSol** — Real-time Solana & Robinhood Chain KOL trades, deployer reputation, and DEX activity · auth:apiKey · https:yes · cors:yes · <https://madeonsol.com/developer>
+- **MarginPad** — Crypto futures prices, candles, funding, open interest, long/short and liquidations, 9 exchanges · auth:none · https:yes · cors:yes · <https://marginpad.io/free-crypto-api/>
+- **Mempool** — Bitcoin API Service focusing on the transaction fee · auth:none · https:yes · cors:no · <https://mempool.space/api>
+- **MercadoBitcoin** — Brazilian Cryptocurrency Information · auth:none · https:yes · cors:unknown · <https://www.mercadobitcoin.com.br/api-doc/>
+- **Messari** — Provides API endpoints for thousands of crypto assets · auth:none · https:yes · cors:unknown · <https://messari.io/api>
+- **Mexc** — Cryptocurrency info, place order · auth:apiKey · https:yes · cors:unknown · <https://www.mexc.com/api-docs>
+- **monerometrics** — Reorg-aware Monero (XMR) network metrics, mining-pool centralization and chain reorganizations · auth:none · https:yes · cors:yes · <https://monerometrics.net>
+- **Nexchange** — Automated cryptocurrency exchange service · auth:none · https:no · cors:yes · <https://nexchange2.docs.apiary.io/>
+- **Nomics** — Historical and realtime cryptocurrency prices and market data · auth:apiKey · https:yes · cors:yes · <https://nomics.com/docs/>
+- **NovaDax** — NovaDAX API to access all market data, trading management endpoints · auth:apiKey · https:yes · cors:unknown · <https://doc.novadax.com/en-US/#introduction>
+- **OKEx** — Cryptocurrency exchange based in Seychelles · auth:apiKey · https:yes · cors:unknown · <https://www.okex.com/docs/>
+- **Paribu** — Turkish cryptocurrency exchange with real-time market data, trading and WebSocket streams · auth:apiKey · https:yes · cors:no · <https://docs.paribu.com/api>
+- **Poloniex** — US based digital asset exchange · auth:apiKey · https:yes · cors:unknown · <https://docs.poloniex.com>
+- **PumpFunData** — Historical Pump.fun and PumpSwap AMM swap data as hourly Parquet files · auth:apiKey · https:yes · cors:unknown · <https://pumpfundata.com/docs>
+- **Shumi** — Crypto market data: prices, trends, funding rates, sentiment, narratives and market regime · auth:apiKey · https:yes · cors:yes · <https://docs.shumi.ai/api-reference/introduction>
+- **Solana JSON RPC** — Provides various endpoints to interact with the Solana Blockchain · auth:none · https:yes · cors:unknown · <https://docs.solana.com/developing/clients/jsonrpc-api>
+- **SoloLuck** — Bitcoin solo mining pool stats, per-address miner stats and an open dataset of solo-mined blocks · auth:none · https:yes · cors:yes · <https://sololuck.io/api>
+- **Technical Analysis** — Cryptocurrency prices and technical analysis · auth:apiKey · https:yes · cors:no · <https://technical-analysis-api.com>
+- **The Coin Analysis** — Live and historical cryptocurrency prices, market caps, volatility and drawdown · auth:apiKey · https:yes · cors:yes · <https://www.thecoinanalysis.com/developers>
+- **VALR** — Cryptocurrency Exchange based in South Africa · auth:apiKey · https:yes · cors:unknown · <https://docs.valr.com/>
+- **ScriptMasterLabs MCP** — Model Context Protocol server with web search, social search & LLM chat paid via x402 · auth:apiKey · https:yes · cors:yes · <https://mcp-x402.onrender.com>
+- **WhiteBIT** — European cryptocurrency exchange · auth:none · https:yes · cors:yes · <https://docs.whitebit.com>
+- **WorldCoinIndex** — Cryptocurrencies Prices · auth:apiKey · https:yes · cors:unknown · <https://www.worldcoinindex.com/apiservice>
+- **Zennet** — x402 pay-per-use APIs: Polymarket signals, CEX/DEX spreads, contract risk scores, gas oracle · auth:none · https:yes · cors:yes · <https://zennet.cloud>
+- **ZMOK** — Ethereum JSON RPC API and Web3 provider · auth:none · https:yes · cors:unknown · <https://zmok.io>
+
+## Currency Exchange
+
+- **1Forge** — Forex currency market data · auth:apiKey · https:yes · cors:unknown · <https://1forge.com/forex-data-api/api-documentation>
+- **Amdoren** — Free currency API with over 150 currencies · auth:apiKey · https:yes · cors:unknown · <https://www.amdoren.com/currency-api/>
+- **api-mint** — Free utility APIs: timezone, forex rates, crypto prices, page metadata · auth:none · https:yes · cors:yes · <https://api-mint.hoiwan.workers.dev>
+- **Bank of Russia** — Exchange rates and currency conversion · auth:none · https:yes · cors:unknown · <https://www.cbr.ru/development/SXML/>
+- **Currency-api** — Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits · auth:none · https:yes · cors:yes · <https://github.com/fawazahmed0/currency-api#readme>
+- **CurrencyBeacon** — Real-time and historical currency exchange rates with free tier · auth:apiKey · https:yes · cors:yes · <https://currencybeacon.com/>
+- **CurrencyFreaks** — Provides current and historical currency exchange rates with free plan 1K requests/month · auth:apiKey · https:yes · cors:yes · <https://currencyfreaks.com/>
+- **CurrencyScoop** — Real-time and historical currency rates JSON API · auth:apiKey · https:yes · cors:yes · <https://currencyscoop.com/api-documentation>
+- **Czech National Bank** — A collection of exchange rates · auth:none · https:yes · cors:unknown · <https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml>
+- **Daleelak** — Egyptian bank and dealer exchange rates, gold and silver prices · auth:none · https:yes · cors:yes · <https://getdaleelak.com/en/api>
+- **Economia.Awesome** — Portuguese free currency prices and conversion with no rate limits · auth:none · https:yes · cors:unknown · <https://docs.awesomeapi.com.br/api-de-moedas>
+- **ExchangeRate-API** — Free currency conversion · auth:apiKey · https:yes · cors:yes · <https://www.exchangerate-api.com>
+- **Exchangerate.dev** — Live & historical FX, 168 pairs back to 1999, Frankfurter-compatible, free 10k/mo · auth:none · https:yes · cors:unknown · <https://exchangerate.dev/docs>
+- **Frankfurter** — Exchange rates, currency conversion and time series · auth:none · https:yes · cors:yes · <https://frankfurter.dev>
+- **FreeForexAPI** — Real-time foreign exchange rates for major currency pairs · auth:none · https:yes · cors:no · <https://freeforexapi.com/Home/Api>
+- **Fulusly** — Exchange rates for 144 currencies with daily history back to the 1990s, English and Arabic · auth:none · https:yes · cors:yes · <https://fulusly.soft9.us/developers>
+- **FXpeek** — Source-linked historical reference exchange rates with CSV, JSON and an MCP server · auth:none · https:yes · cors:unknown · <https://fxpeek.com/en/api>
+- **National Bank of Poland** — A collection of currency exchange rates (data in XML and JSON) · auth:none · https:yes · cors:yes · <http://api.nbp.pl/en.html>
+- **Nerkhsanj** — Iran free-market USD, EUR, CNY, gold and coin rates in toman, live and daily archive since 2010 · auth:none · https:yes · cors:no · <https://nerkh.jahankhahan.shop/developers/en>
+- **paralelo.bo** — Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s · auth:none · https:yes · cors:yes · <https://paralelo.bo/api>
+- **Rate-API** — Hourly exchange rates for 160+ currencies in JSON, XML or CSV with free plan 2,500 requests/month · auth:apiKey · https:yes · cors:yes · <https://rate-api.com/docs/api>
+- **TaxID** — EU VAT number validation with company name and address lookup across all 27 member states · auth:apiKey · https:yes · cors:unknown · <https://www.taxid.dev/docs>
+- **VATComply.com** — Exchange rates, geolocation and VAT number validation · auth:none · https:yes · cors:yes · <https://www.vatcomply.com/documentation>
+
+## Data Validation
+
+- **Attestwire** — Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS · auth:apiKey · https:yes · cors:yes · <https://api.attestwire.com/docs>
+- **invowerk** — Validate e-invoices (ZUGFeRD, Factur-X, XRechnung, Peppol BIS) and get a validation report · auth:apiKey · https:yes · cors:unknown · <https://invowerk.dev/docs>
+- **Lob.com** — US Address Verification · auth:apiKey · https:yes · cors:unknown · <https://lob.com/>
+- **Postman Echo** — Test api server to receive and return value from HTTP method · auth:none · https:yes · cors:unknown · <https://www.postman-echo.com>
+- **PurgoMalum** — Content validator against profanity & obscenity · auth:none · https:no · cors:unknown · <http://www.purgomalum.com>
+- **RevAddress** — US address standardization, congressional and state legislative districts, Census data; free tier · auth:apiKey · https:yes · cors:no · <https://revaddress.com/docs/>
+- **SchemaShield** — Read-only preflight for breaking schema changes and downstream query impact · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/kaiasistentedavid/api/schema-change-risk>
+- **sthan.io Address Autocomplete** — Real-time US address suggestions as users type · auth:apiKey · https:yes · cors:no · <https://sthan.io/products/address-autocomplete-usa>
+- **sthan.io Address Parser** — Parse freeform US addresses into structured fields (house number, street, unit, city, state, ZIP) · auth:apiKey · https:yes · cors:no · <https://sthan.io/products/address-parser-usa>
+- **sthan.io Address Verification** — Validate and standardize US addresses, with ZIP+4 and deliverability status · auth:apiKey · https:yes · cors:no · <https://sthan.io/products/address-verification-usa>
+- **Temsor** — Validates Turkish national ID, tax number, IBAN, phone, plate and parses addresses · auth:apiKey · https:yes · cors:yes · <https://api.temsor.com/docs>
+- **US Autocomplete** — Enter address data quickly with real-time address suggestions · auth:apiKey · https:yes · cors:yes · <https://www.smarty.com/docs/cloud/us-autocomplete-pro-api>
+- **US Extract** — Extract postal addresses from any text including emails · auth:apiKey · https:yes · cors:yes · <https://www.smarty.com/products/apis/us-extract-api>
+- **US Street Address** — Validate and append data for any US postal address · auth:apiKey · https:yes · cors:yes · <https://www.smarty.com/docs/cloud/us-street-api>
+- **VerifNow** — Validates email, phone, IBAN, EU VAT against VIES, and Canadian, Spanish and US national IDs · auth:apiKey · https:yes · cors:no · <https://docs.verifnow.io>
+
+## Development
+
+- **24 Pull Requests** — Project to promote open source collaboration during December · auth:none · https:yes · cors:yes · <https://24pullrequests.com/api>
+- **Aether Bridge** — Autonomous agent team management and API workflow orchestration · auth:apiKey · https:yes · cors:unknown · <https://a-to-mind.com>
+- **Agent Nexus** — Continuously probed registry of APIs, MCP servers and CLIs callable by agents · auth:none · https:yes · cors:yes · <https://agentnexus.app/llms.txt>
+- **AgentPay Domain Lookup** — DNS records, WHOIS/RDAP, IP ownership and domain reports for AI agents, paid per call via x402 · auth:none · https:yes · cors:yes · <https://agentpay-lookup.agentpay-apis.workers.dev>
+- **Agify.io** — Estimates the age from a first name · auth:none · https:yes · cors:yes · <https://agify.io>
+- **Allscreenshots** — Website screenshots and PDFs with full-page capture, dark mode and ad blocking · auth:apiKey · https:yes · cors:no · <https://allscreenshots.com>
+- **Amazonscraperapi** — Amazon product, search & batch scraping API with residential proxies (1000 free) · auth:apiKey · https:yes · cors:no · <https://amazonscraperapi.com>
+- **AmberOne** — Turn any website into a build-ready Android, iOS, PWA or Electron app project · auth:apiKey · https:yes · cors:no · <https://scubamike124.github.io/amberone-api/>
+- **AnswerLine** — Answers, citations and sources from AI assistants and Google surfaces through one API · auth:apiKey · https:yes · cors:yes · <https://answerline.dev>
+- **API Grátis** — Multiples services and public APIs · auth:none · https:yes · cors:unknown · <https://apigratis.com.br/>
+- **API Tool Calls** — API Tool Calls: Home cost planners, page to Markdown, SEO checks and recalls · auth:none · https:yes · cors:no · <https://apitoolcalls.com/api/>
+- **ApicAgent** — Extract device details from user-agent string · auth:none · https:yes · cors:yes · <https://www.apicagent.com>
+- **ApiFlash** — Chrome based screenshot API for developers · auth:apiKey · https:yes · cors:unknown · <https://apiflash.com/>
+- **APIs.guru** — Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs · auth:none · https:yes · cors:unknown · <https://apis.guru/api-doc/>
+- **APIzone** — Independent uptime & status monitoring for 200+ popular APIs · auth:none · https:yes · cors:yes · <https://apizone.io/api-docs>
+- **Aquanode** — Live GPU rental prices and availability across nine cloud providers · auth:none · https:yes · cors:no · <https://docs.aquanode.io/docs/api/marketplace>
+- **Azure DevOps** — The Azure DevOps basic components of a REST API request/response pair · auth:apiKey · https:yes · cors:unknown · <https://docs.microsoft.com/en-us/rest/api/azure/devops>
+- **Base** — Building quick backends · auth:apiKey · https:yes · cors:yes · <https://www.base-api.io/>
+- **Beeceptor** — Build a mock Rest API endpoint in seconds · auth:none · https:yes · cors:yes · <https://beeceptor.com/>
+- **Bitbucket** — Bitbucket API · auth:OAuth · https:yes · cors:unknown · <https://developer.atlassian.com/bitbucket/api/2/reference/>
+- **Blague.xyz** — La plus grande API de Blagues FR/The biggest FR jokes API · auth:apiKey · https:yes · cors:yes · <https://blague.xyz/>
+- **Blitapp** — Schedule screenshots of web pages and sync them to your cloud · auth:apiKey · https:yes · cors:unknown · <https://blitapp.com/api/>
+- **Blynk-Cloud** — Control IoT Devices from Blynk IoT Cloud · auth:apiKey · https:no · cors:unknown · <https://blynkapi.docs.apiary.io/#>
+- **Bored** — Find random activities to fight boredom · auth:none · https:yes · cors:unknown · <https://bored-api.appbrewery.com/>
+- **BountyCheck** — Claimability verdicts for GitHub bounty issues; free stats and sample, checks paid per call via x402 · auth:none · https:yes · cors:yes · <https://bountycheck.vercel.app>
+- **Brainshop.ai** — Make A Free A.I Brain · auth:apiKey · https:yes · cors:yes · <https://brainshop.ai/>
+- **BrewPage** — Free hosting for HTML, JSON, key-value, files, multi-file sites with short URLs and TTL retention · auth:none · https:yes · cors:no · <https://brewpage.app>
+- **Browshot** — Easily make screenshots of web pages in any screen size, as any device · auth:apiKey · https:yes · cors:yes · <https://browshot.com/api/documentation>
+- **CDNJS** — Library info on CDNJS · auth:none · https:yes · cors:unknown · <https://api.cdnjs.com/libraries/jquery>
+- **Changelogs.md** — Structured changelog metadata from open source projects · auth:none · https:yes · cors:unknown · <https://changelogs.md>
+- **ChartBytes** — Chart image API: turn a URL into a PNG or SVG chart (bar, line, area, scatter, pie, donut, stacked) · auth:none · https:yes · cors:yes · <https://chartbytes.meridian-digital.pro>
+- **Ciprand** — Secure random string generator · auth:none · https:yes · cors:no · <https://github.com/polarspetroll/ciprand>
+- **Clair** — Live public web data as JSON: Google Search, Maps, News, Amazon, jobs, reviews & more, one API key · auth:apiKey · https:yes · cors:no · <https://clair.im>
+- **claudecookie** — Convert cookie formats, check Claude sessions and generate Claude Code credentials · auth:none · https:yes · cors:yes · <https://claudecookie.com/api/>
+- **Cloudflare** — Manage DNS, CDN, Workers and other services; documented with an official OpenAPI 3.0 spec · auth:apiKey · https:yes · cors:no · <https://developers.cloudflare.com/api/>
+- **Cloudflare Trace** — Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More · auth:none · https:yes · cors:yes · <https://github.com/fawazahmed0/cloudflare-trace-api>
+- **Codeberg** — Git hosting, repos and issues via Gitea API · auth:none · https:yes · cors:yes · <https://codeberg.org/api/swagger>
+- **Codex** — Online Compiler for Various Languages · auth:none · https:yes · cors:unknown · <https://github.com/Jaagrav/CodeX>
+- **Contentful Images** — Used to retrieve and apply transformations to images · auth:apiKey · https:yes · cors:yes · <https://www.contentful.com/developers/docs/references/images-api/>
+- **CORS Proxy** — Get around the dreaded CORS error by using this proxy as a middle man · auth:none · https:yes · cors:yes · <https://github.com/burhanuday/cors-proxy>
+- **CountAPI** — Free and simple counting service. You can use it to track page hits and specific events · auth:none · https:yes · cors:yes · <https://countapi.xyz>
+- **crates.io** — Rust crate versions, downloads and dependency metadata · auth:none · https:yes · cors:yes · <https://crates.io/data-access>
+- **Crawl Readiness** — Check if AI crawlers (ChatGPT, Claude, Perplexity, 30+ others) can access any website · auth:apiKey · https:yes · cors:yes · <https://crawlreadiness.com>
+- **crawlbrulee** — EU-native web scraping for AI agents & developers: turn any page into markdown, screenshots and more · auth:apiKey · https:yes · cors:no · <https://crawlbrulee.com/docs>
+- **CurlShot** — Screenshots, PDFs and scrolling videos of any URL, HTML or Markdown; free tier · auth:apiKey · https:yes · cors:yes · <https://curlshot.com/docs>
+- **Databricks** — Service to manage your databricks account,clusters, notebooks, jobs and workspaces · auth:apiKey · https:yes · cors:yes · <https://docs.databricks.com/dev-tools/api/latest/index.html>
+- **Diagrams.so** — Generate editable draw.io architecture diagrams from text or infrastructure code · auth:apiKey · https:yes · cors:no · <https://diagrams.so/developers>
+- **DigitalOcean Status** — Status of all DigitalOcean services · auth:none · https:yes · cors:unknown · <https://status.digitalocean.com/api>
+- **DigMyName** — Domain availability and registrar pricing across 52 TLDs · auth:none · https:yes · cors:yes · <https://digmyname.com/api>
+- **Docker Hub** — Interact with Docker Hub · auth:apiKey · https:yes · cors:yes · <https://docs.docker.com/docker-hub/api/latest/>
+- **Domain Info by LifeStep** — DNS records, SPF/DMARC detection and TLS certificate expiry · auth:none · https:yes · cors:yes · <https://dns.lifestep.io>
+- **DomainDb Info** — Domain name search to find all domains containing particular words/phrases/etc · auth:none · https:yes · cors:unknown · <https://api.domainsdb.info/>
+- **dotsweep** — Domain availability across 1200+ TLDs with registration and renewal prices · auth:none · https:yes · cors:yes · <https://dotsweep.com/docs>
+- **DownStatus** — Real-time status for GitHub, AWS, Discord and 90+ services · auth:none · https:yes · cors:yes · <https://isitdownstatus.com>
+- **EndOfLife.date** — Software end-of-life dates and support lifecycles · auth:none · https:yes · cors:yes · <https://endoflife.date/docs/api>
+- **ExtendsClass JSON Storage** — A simple JSON store API · auth:none · https:yes · cors:yes · <https://extendsclass.com/json-storage.html>
+- **Fair Draw** — Verifiable random draws bound to the drand public randomness beacon · auth:none · https:yes · cors:yes · <https://bettip.co.za/fair-draw/api/>
+- **Framejet** — Website screenshot API with cookie banners and chat widgets removed; free tier · auth:apiKey · https:yes · cors:no · <https://framejet.dev/docs>
+- **GeekFlare** — Provide numerous capabilities for important testing and monitoring methods for websites · auth:apiKey · https:yes · cors:unknown · <https://apidocs.geekflare.com/docs/geekflare-api>
+- **GcrawlAI** — Web scraping, SERP API, screenshots, URL to Markdown and prebuilt extractors · auth:apiKey · https:yes · cors:yes · <https://gcrawlai.com>
+- **Genderize.io** — Estimates a gender from a first name · auth:none · https:yes · cors:yes · <https://genderize.io>
+- **GeraCode** — Barcode (EAN-13, UPC-A, Code 128, ITF-14) and QR code images, PNG or SVG. Docs in Portuguese · auth:none · https:yes · cors:yes · <https://www.geracodigo.com.br/api-codigo-de-barras>
+- **GETPing** — Trigger an email notification with a simple GET request · auth:apiKey · https:yes · cors:unknown · <https://www.getping.info>
+- **Ghost** — Get Published content into your Website, App or other embedded media · auth:apiKey · https:yes · cors:yes · <https://ghost.org/>
+- **GitHub** — Make use of GitHub repositories, code and user info programmatically · auth:OAuth · https:yes · cors:yes · <https://docs.github.com/en/free-pro-team@latest/rest>
+- **GithubTrends** — GitHub Trending repositories with star history and open-source alternatives to paid tools · auth:none · https:yes · cors:yes · <https://githubtrends.app/api/>
+- **Gitlab** — Automate GitLab interaction programmatically · auth:OAuth · https:yes · cors:unknown · <https://docs.gitlab.com/ee/api/>
+- **Gitter** — Chat for Developers · auth:OAuth · https:yes · cors:unknown · <https://developer.gitter.im/docs/welcome>
+- **Glitterly** — Image generation API · auth:apiKey · https:yes · cors:yes · <https://developers.glitterly.app>
+- **Go Module Proxy** — Go module versions and source metadata · auth:none · https:yes · cors:unknown · <https://go.dev/ref/mod#goproxy-protocol>
+- **Google Docs** — API to read, write, and format Google Docs documents · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/docs/api/reference/rest>
+- **Google Firebase** — Google's mobile application development platform that helps build, improve, and grow app · auth:apiKey · https:yes · cors:yes · <https://firebase.google.com/docs>
+- **Google Fonts** — Metadata for all families served by Google Fonts · auth:apiKey · https:yes · cors:unknown · <https://developers.google.com/fonts/docs/developer_api>
+- **Google Keep** — API to read, write, and format Google Keep notes · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/keep/api/reference/rest>
+- **Google PageSpeed Insights** — Website performance and Lighthouse audit scores · auth:apiKey · https:yes · cors:yes · <https://developers.google.com/speed/docs/insights/v5/get-started>
+- **Google Sheets** — API to read, write, and format Google Sheets data · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/sheets/api/reference/rest>
+- **Google Slides** — API to read, write, and format Google Slides presentations · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/slides/api/reference/rest>
+- **Gorest** — Online REST API for Testing and Prototyping · auth:OAuth · https:yes · cors:unknown · <https://gorest.co.in/>
+- **Hasura** — GraphQL and REST API Engine with built in Authorization · auth:apiKey · https:yes · cors:yes · <https://hasura.io/opensource/>
+- **Heroku** — REST API to programmatically create apps, provision add-ons and perform other task on Heroku · auth:OAuth · https:yes · cors:yes · <https://devcenter.heroku.com/articles/platform-api-reference/>
+- **Hex** — Elixir and Erlang package versions and docs · auth:none · https:yes · cors:unknown · <https://github.com/hexpm/specifications>
+- **Homebrew Formulae** — Package and cask data for the Homebrew package manager · auth:none · https:yes · cors:unknown · <https://formulae.brew.sh/api/>
+- **host-t.com** — Basic DNS query via HTTP GET request · auth:none · https:yes · cors:no · <https://host-t.com>
+- **Host.io** — Domains Data API for Developers · auth:apiKey · https:yes · cors:yes · <https://host.io>
+- **HostDealRadar** — Source-backed hosting price and provider record lookup · auth:none · https:yes · cors:yes · <https://hostdealradar.com/ai/>
+- **HTTP2.Pro** — Test endpoints for client and server HTTP/2 protocol support · auth:none · https:yes · cors:unknown · <https://http2.pro/doc/api>
+- **Httpbin** — A Simple HTTP Request & Response Service · auth:none · https:yes · cors:yes · <https://httpbin.org/>
+- **Hipsum** — Hipster-themed lorem ipsum generator for placeholder text · auth:none · https:yes · cors:unknown · <https://hipsum.co>
+- **Hunter** — API for domain search, professional email finder, author finder and email verifier · auth:apiKey · https:yes · cors:unknown · <https://hunter.io/api>
+- **IBM Text to Speech** — Convert text to speech · auth:apiKey · https:yes · cors:yes · <https://cloud.ibm.com/docs/text-to-speech/getting-started.html>
+- **Icanhazepoch** — Get Epoch time · auth:none · https:yes · cors:yes · <https://icanhazepoch.com>
+- **Icanhazip** — IP Address API · auth:none · https:yes · cors:yes · <https://major.io/icanhazip-com-faq/>
+- **IFTTT** — IFTTT Connect API · auth:none · https:yes · cors:unknown · <https://platform.ifttt.com/docs/connect_api>
+- **Image-Charts** — Generate charts, QR codes and graph images · auth:none · https:yes · cors:yes · <https://documentation.image-charts.com/>
+- **import.io** — Retrieve structured data from a website or RSS feed · auth:apiKey · https:yes · cors:unknown · <http://api.docs.import.io/>
+- **Index Agentica** — Agent-first directory of skills, MCP servers, tools, protocols and APIs as JSON, markdown, llms.txt · auth:none · https:yes · cors:yes · <https://indexagentica.com/agents/>
+- **ip-fast.com** — IP address, country and city · auth:none · https:yes · cors:yes · <https://ip-fast.com/docs/>
+- **IP2WHOIS Information Lookup** — WHOIS domain name lookup · auth:apiKey · https:yes · cors:unknown · <https://www.ip2whois.com/>
+- **ipfind.io** — Geographic location of an IP address or any domain name along with some other useful information · auth:apiKey · https:yes · cors:yes · <https://ipfind.io>
+- **IPify** — A simple IP Address API · auth:none · https:yes · cors:unknown · <https://www.ipify.org/>
+- **IPinfo** — Another simple IP Address API · auth:none · https:yes · cors:unknown · <https://ipinfo.io/developers>
+- **Ironfang Render** — Screenshots, PDFs, dynamic images, QR codes and video from URLs or HTML · auth:apiKey · https:yes · cors:no · <https://ironfang.com/render/docs>
+- **Is This Site Down?** — Check if any website is down, from two continents; live status, uptime history and TLS expiry · auth:none · https:yes · cors:yes · <https://downforjustmeoreveryone.com/api>
+- **isitdownstatus** — Check if websites and online services are currently down · auth:none · https:yes · cors:unknown · <https://isitdownstatus.com>
+- **jsDelivr** — Package info and download stats on jsDelivr CDN · auth:none · https:yes · cors:yes · <https://github.com/jsdelivr/data.jsdelivr.com>
+- **JSON 2 JSONP** — Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript · auth:none · https:yes · cors:unknown · <https://json2jsonp.com/>
+- **JSONbin.io** — Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps · auth:apiKey · https:yes · cors:yes · <https://jsonbin.io>
+- **JSONPlaceholder** — Fake REST API for testing and prototyping · auth:none · https:yes · cors:yes · <https://jsonplaceholder.typicode.com>
+- **jstash** — Save JSON with one request and get a URL; private JSON for each signed-in user of your app · auth:apiKey · https:yes · cors:no · <https://jstash.app/docs/>
+- **Keyvalue** — Simple key-value storage REST API for quick prototyping · auth:none · https:yes · cors:unknown · <https://keyvalue.immanuel.co/>
+- **Kroki** — Creates diagrams from textual descriptions · auth:none · https:yes · cors:yes · <https://kroki.io>
+- **Labelixa** — Render, validate and generate Zebra ZPL label barcodes as PNG/PDF · auth:apiKey · https:yes · cors:yes · <https://labelixa.com/docs/api>
+- **License-API** — Unofficial REST API for choosealicense.com · auth:none · https:yes · cors:no · <https://github.com/cmccandless/license-api/blob/master/README.md>
+- **Litport Free Proxy** — Live-tested HTTP, SOCKS4, and SOCKS5 proxies with latency, uptime, and geolocation · auth:none · https:yes · cors:no · <https://litport.net/docs/free-proxy-api>
+- **LiveOrDown** — Live up/down status of 240+ online services, checked every minute from 3 regions · auth:none · https:yes · cors:yes · <https://liveordown.com/developers>
+- **Logs.to** — Generate logs · auth:apiKey · https:yes · cors:unknown · <https://logs.to/>
+- **Lua Decompiler** — Online Lua 5.1 Decompiler · auth:none · https:yes · cors:yes · <https://lua-decompiler.ferib.dev/>
+- **MAC address vendor lookup** — Retrieve vendor details and other information regarding a given MAC address or an OUI · auth:apiKey · https:yes · cors:yes · <https://macaddress.io/api>
+- **macadress** — MAC address and OUI vendor lookup synced from IEEE, with randomized-MAC detection · auth:none · https:yes · cors:yes · <https://macadress.com/mac-address-api>
+- **Micro DB** — Simple database service · auth:apiKey · https:yes · cors:unknown · <https://m3o.com/db>
+- **Micro-SaaS AI Suite** — 8 serverless AI APIs for sentiment analysis, copy generation, email verification, & OCR · auth:apiKey · https:yes · cors:unknown · <https://microsaas-agent-api.vercel.app/openapi.json>
+- **MicroENV** — Fake Rest API for developers · auth:none · https:yes · cors:unknown · <https://microenv.com/>
+- **Mocky** — Mock user defined test JSON for REST API endpoints · auth:none · https:yes · cors:yes · <https://designer.mocky.io/>
+- **msgboard** — Public message board for agent-to-agent messaging, no account or key · auth:none · https:yes · cors:no · <https://msgboard.dev>
+- **MY IP** — Get IP address information · auth:none · https:yes · cors:unknown · <https://www.myip.com/api-docs/>
+- **MyIPRightNow** — Public IP address with network, location, and connection details · auth:none · https:yes · cors:yes · <https://myiprightnow.com>
+- **NameGender** — Gender from a first name, full name, email or username, with probability · auth:apiKey · https:yes · cors:yes · <https://namegender.com/docs>
+- **Nationalize.io** — Estimate the nationality of a first name · auth:none · https:yes · cors:yes · <https://nationalize.io>
+- **Nerdulator** — Everything derivable from one value: numbers, dates, colours, UUIDs, cron expressions · auth:none · https:yes · cors:yes · <https://nerdulator.com/api>
+- **Netlify** — Netlify is a hosting service for the programmable web · auth:OAuth · https:yes · cors:unknown · <https://docs.netlify.com/api/get-started/>
+- **NetworkCalc** — Network calculators, including subnets, DNS, binary, and security tools · auth:none · https:yes · cors:yes · <https://networkcalc.com/api/docs>
+- **npm Registry** — Query information about your favorite Node.js libraries programatically · auth:none · https:yes · cors:unknown · <https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md>
+- **NuGet** — .NET package versions, metadata and search · auth:none · https:yes · cors:yes · <https://learn.microsoft.com/en-us/nuget/api/overview>
+- **OneSignal** — Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App · auth:apiKey · https:yes · cors:unknown · <https://developers.onesignal.com/>
+- **Open Page Rank** — API for calculating and comparing metrics of different websites using Page Rank algorithm · auth:apiKey · https:yes · cors:unknown · <https://www.domcop.com/openpagerank/>
+- **Open VSX** — Search and access VS Code extensions from the Open VSX registry · auth:none · https:yes · cors:yes · <https://open-vsx.org/>
+- **OpenAPIHub** — The All-in-one API Platform · auth:X-Mashape-Key · https:yes · cors:unknown · <https://hub.openapihub.com/>
+- **OpenGraphr** — Really simple API to retrieve Open Graph data from an URL · auth:apiKey · https:yes · cors:unknown · <https://opengraphr.com/docs/1.0/overview>
+- **OpenQR** — Generate QR codes and manage dynamic (editable) QR codes with scan analytics · auth:apiKey · https:yes · cors:yes · <https://openqr.uk/api>
+- **Orca Scan** — Generate barcode images (QR, Code 128, EAN, Data Matrix and more) in SVG, PNG, JPG or PDF · auth:none · https:yes · cors:yes · <https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6>
+- **OutageDeck** — Live status and incidents for 170+ cloud and SaaS providers from official feeds · auth:none · https:yes · cors:yes · <https://outagedeck.com/developers/api>
+- **oyyi** — API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation · auth:none · https:yes · cors:yes · <https://oyyi.xyz/docs/1.0>
+- **Packagist** — PHP Composer package versions and dist metadata · auth:none · https:yes · cors:no · <https://packagist.org/apidoc>
+- **PageCDN** — Public API for javascript, css and font libraries on PageCDN · auth:apiKey · https:yes · cors:yes · <https://pagecdn.com/docs/public-api>
+- **Peak** — Cloudflare Turnstile and 5-second challenge solving, pay per successful solve, 1,000 free solves · auth:apiKey · https:yes · cors:yes · <https://peak.fo/docs>
+- **Postman** — Tool for testing APIs · auth:apiKey · https:yes · cors:unknown · <https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a>
+- **ProxyCrawl** — Scraping and crawling anticaptcha service · auth:apiKey · https:yes · cors:unknown · <https://proxycrawl.com>
+- **ProxyForge** — Free auto-updating list of live-tested proxies (HTTP/HTTPS/SOCKS4/SOCKS5), refreshed every 6 h · auth:none · https:yes · cors:yes · <https://proxyforge.dev>
+- **ProxyKingdom** — Rotating Proxy API that produces a working proxy on every request · auth:apiKey · https:yes · cors:yes · <https://proxykingdom.com>
+- **Pusher Beams** — Push notifications for Android & iOS · auth:apiKey · https:yes · cors:unknown · <https://pusher.com/beams>
+- **QR & Barcode** — QR codes and barcodes (Code 128, EAN-13, Data Matrix, PDF417 + more). SVG or PNG output · auth:none · https:yes · cors:yes · <https://solsigs.com/qrapi/>
+- **QR code** — Create an easy to read QR code and URL shortener · auth:none · https:yes · cors:yes · <https://www.qrtag.net/api/>
+- **QR code** — Generate and decode / read QR code graphics · auth:none · https:yes · cors:unknown · <http://goqr.me/api/>
+- **QR Code by LifeStep** — Generate QR codes as PNG or SVG with size, border and color options · auth:none · https:yes · cors:yes · <https://qr.lifestep.io>
+- **QR Code Crafter** — Generate static QR codes in SVG, PNG, JPG, WebP, PDF, or EPS · auth:none · https:yes · cors:yes · <https://qrcodecrafter.com/qr-code-api>
+- **QR Codes** — Generate QR codes via a single GET request, with logo embedding and custom colors · auth:apiKey · https:yes · cors:no · <https://qr-api.62-238-102-93.sslip.io/docs>
+- **Qrcode Monkey** — Integrate custom and unique looking QR codes into your system or workflow · auth:none · https:yes · cors:unknown · <https://www.qrcode-monkey.com/qr-code-api-with-logo/>
+- **QRX** — Artistic, branded QR codes from a text prompt and a link, checked to scan · auth:apiKey · https:yes · cors:no · <https://qrx.codes/developers>
+- **QuickChart** — Generate chart and graph images · auth:none · https:yes · cors:yes · <https://quickchart.io/>
+- **Quotable** — Random quotes with authors and tags · auth:none · https:yes · cors:yes · <https://github.com/lukePeavey/quotable>
+- **Random Stuff** — Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed · auth:apiKey · https:yes · cors:yes · <https://api-docs.pgamerx.com/>
+- **RealUptime** — Manage uptime monitors, heartbeat checks, incidents and status pages with an API key · auth:apiKey · https:yes · cors:no · <https://realuptime.io/docs/api>
+- **Rejax** — Reverse AJAX service to notify clients · auth:apiKey · https:yes · cors:no · <https://rejax.io/>
+- **ReplyNodes** — Convert a public web page into clean Markdown · auth:none · https:yes · cors:no · <https://replynodes.com/markdown-api/>
+- **ReqRes** — A hosted REST-API ready to respond to your AJAX requests · auth:none · https:yes · cors:unknown · <https://reqres.in/>
+- **RSS feed to JSON** — Returns RSS feed in JSON format using feed URL · auth:none · https:yes · cors:yes · <https://rss-to-json-serverless-api.vercel.app>
+- **RubyGems** — Ruby gem metadata, versions, dependencies and search · auth:none · https:yes · cors:yes · <https://guides.rubygems.org/rubygems-org-api/>
+- **SavePage.io** — A free, RESTful API used to screenshot any desktop, or mobile website · auth:apiKey · https:yes · cors:yes · <https://www.savepage.io>
+- **ScrapeNinja** — Scraping API with Chrome fingerprint and residential proxies · auth:apiKey · https:yes · cors:unknown · <https://scrapeninja.net>
+- **ScraperApi** — Easily build scalable web scrapers · auth:apiKey · https:yes · cors:unknown · <https://www.scraperapi.com>
+- **scraperBox** — Undetectable web scraping API · auth:apiKey · https:yes · cors:yes · <https://scraperbox.com/>
+- **scrapestack** — Real-time, Scalable Proxy & Web Scraping REST API · auth:apiKey · https:yes · cors:unknown · <https://scrapestack.com/>
+- **ScrapingAnt** — Headless Chrome scraping with a simple API · auth:apiKey · https:yes · cors:unknown · <https://scrapingant.com>
+- **ScrapingBot** — Web scraping, AI extraction, and public TikTok, Instagram, Google and Amazon data as JSON · auth:apiKey · https:yes · cors:no · <https://scrapingbot.io>
+- **ScrapingDog** — Proxy API for Web scraping · auth:apiKey · https:yes · cors:unknown · <https://www.scrapingdog.com/>
+- **Scrappa** — Google Search, Maps, Jobs, YouTube and review site results as structured JSON · auth:apiKey · https:yes · cors:yes · <https://scrappa.co/docs>
+- **Scrax** — Web scraping API that only bills for successful scrapes · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/mtaahoperators/api/scrax>
+- **Screenshot** — Take programmatic screenshots of web pages from any website · auth:apiKey · https:yes · cors:yes · <https://www.abstractapi.com/website-screenshot-api>
+- **Screenshot Happy** — Website screenshot API (PNG/JPEG/PDF) with full-page capture and visual-diff monitors · auth:apiKey · https:yes · cors:no · <https://screenshot-api-production-ffd7.up.railway.app/docs>
+- **ScreenshotAPI.net** — Create pixel-perfect website screenshots · auth:apiKey · https:yes · cors:yes · <https://screenshotapi.net/>
+- **SegmentLite** — Lightweight event routing and webhook fan-out API alternative to Segment · auth:apiKey · https:yes · cors:yes · <https://segmentlite-api-dfru.fly.dev>
+- **Serialif Color** — Color conversion, complementary, grayscale and contrasted text · auth:none · https:yes · cors:no · <https://color.serialif.com/>
+- **Serply** — Google, Bing, News, Scholar and Maps search results and page scraping as JSON · auth:apiKey · https:yes · cors:yes · <https://serply.io/docs>
+- **serpstack** — Real-Time & Accurate Google Search Results API · auth:apiKey · https:yes · cors:yes · <https://serpstack.com/>
+- **Sheetsu** — Easy google sheets integration · auth:apiKey · https:yes · cors:unknown · <https://sheetsu.com/>
+- **Shotanvil** — Screenshot, PDF and HTML rendering API with a free tier, API key or x402 auth · auth:apiKey · https:yes · cors:no · <https://shotanvil.com>
+- **SHOUTCLOUD** — ALL-CAPS AS A SERVICE · auth:none · https:no · cors:unknown · <http://shoutcloud.io/>
+- **SiteIntel** — Extract metadata, tech stack, emails, and screenshots from any URL · auth:apiKey · https:yes · cors:unknown · <https://siteintel.duckdns.org>
+- **SnapRender** — Website screenshots as PNG, JPEG, WebP or PDF, and page content as markdown, with a free tier · auth:apiKey · https:yes · cors:yes · <https://snap-render.com/docs>
+- **SnoopScan** — Scrape, crawl, map and search the web as clean markdown or JSON, with a free monthly tier · auth:apiKey · https:yes · cors:unknown · <https://snoopscan.com/docs>
+- **SolidPing** — Create and run uptime checks, read results and incidents, manage status pages, with a free tier · auth:apiKey · https:yes · cors:unknown · <https://docs.solidping.io/docs/api>
+- **Sonar** — Project Sonar DNS Enumeration API · auth:none · https:yes · cors:yes · <https://github.com/Cgboal/SonarSearch>
+- **SonarQube** — SonarQube REST APIs to detect bugs, code smells & security vulnerabilities · auth:OAuth · https:yes · cors:unknown · <https://sonarcloud.io/web_api>
+- **StackExchange** — Q&A forum for developers · auth:OAuth · https:yes · cors:unknown · <https://api.stackexchange.com/>
+- **Statically** — A free CDN for developers · auth:none · https:yes · cors:yes · <https://statically.io/>
+- **Supportivekoala** — Autogenerate images with template · auth:apiKey · https:yes · cors:yes · <https://developers.supportivekoala.com/>
+- **Suprsonic** — Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities · auth:apiKey · https:yes · cors:yes · <https://suprsonic.ai>
+- **Talordata** — SERP data from major search engines with a free trial · auth:apiKey · https:yes · cors:unknown · <https://docs.talordata.com/>
+- **TheQRCode** — Generate QR codes for URLs, WiFi, contact cards, email and text, with custom colors and styling · auth:none · https:yes · cors:yes · <https://theqrcode.io/qr-code-api>
+- **Thunder Client** — API testing tool · auth:none · https:yes · cors:yes · <https://www.thunderclient.com/>
+- **Thunderbit** — Extract web pages as Markdown or structured data for AI apps · auth:apiKey · https:yes · cors:unknown · <https://thunderbit.com/docs/introduction>
+- **TidyTools** — Web page to clean Markdown and AI crawler robots.txt checks, free without a key (rate limited) · auth:none · https:yes · cors:yes · <https://tools.yukai.uk/llms.txt>
+- **Timezone WorldTime** — Current time, UTC offset and DST for any time zone or IP, a drop-in WorldTimeAPI replacement · auth:none · https:yes · cors:yes · <https://www.timezone.io/docs/worldtimeapi>
+- **TinyMind Agent Tools** — Free APIs by an AI agent on a VPS: actor lookup, word-of-the-day, poems, jokes, ping · auth:none · https:yes · cors:yes · <https://tinymind.eu/api/>
+- **ToolForte** — Deterministic utilities: IBAN/VAT validation, cron parsing, regex, diffs, Dutch holidays, test data · auth:apiKey · https:yes · cors:unknown · <https://toolforte.com/developers>
+- **Tyk** — Api and service management platform · auth:apiKey · https:yes · cors:yes · <https://tyk.io/open-source-api-gateway/>
+- **unfurlr** — Link-preview metadata for any URL: title, Open Graph, Twitter tags, favicon, oEmbed · auth:apiKey · https:yes · cors:yes · <https://unfurlr.onrender.com/docs>
+- **URLpipe** — Turn a URL into Markdown, screenshots, metadata or Lighthouse audits, rendered in real Chrome · auth:apiKey · https:yes · cors:no · <https://urlpipe.dev/docs>
+- **Utilorax** — 203 JSON endpoints: hashing, encoding, unit conversion, text, dates and file conversion · auth:apiKey · https:yes · cors:yes · <https://utilorax.com/api>
+- **Vornamencheck** — Gender probability for a first name, optionally per country; documentation in German · auth:none · https:yes · cors:yes · <https://vornamencheck.de/#api>
+- **W3C Validator** — Validate HTML and check markup errors · auth:none · https:yes · cors:unknown · <https://validator.w3.org/docs/api.html>
+- **Wandbox** — Code compiler supporting 35+ languages mentioned at wandbox.org · auth:none · https:yes · cors:unknown · <https://github.com/melpon/wandbox/blob/master/kennel2/API.rst>
+- **Web Metadata & Contact Extractor** — Extract SEO metadata, contact emails, social links, and tech stack (<200ms) · auth:apiKey · https:yes · cors:yes · <https://rapidapi.com/josejuanjocoding/api/web-metadata-and-contact-extractor>
+- **Webclaw** — Web content extraction for LLMs with scrape, crawl, search, and summarize · auth:apiKey · https:yes · cors:yes · <https://webclaw.io/docs/api>
+- **WebScraping.AI** — Web Scraping API with built-in proxies and JS rendering · auth:apiKey · https:yes · cors:yes · <https://webscraping.ai/>
+- **WeInc** — AI website builder: manage clients, website projects, templates and webhooks · auth:apiKey · https:yes · cors:no · <https://my.we.inc/docs/api>
+- **XLSX Inspector** — Inspect XLSX/XLSM structure: sheets, formulas, macros and external links · auth:none · https:yes · cors:yes · <https://api.lifestep.io>
+- **Yumi Wheel Evidence** — Intersect wheel tags for explicit PyPI releases with caller-supplied tags · auth:none · https:yes · cors:yes · <https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence>
+- **ZenRows** — Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies · auth:apiKey · https:yes · cors:unknown · <https://www.zenrows.com/>
+
+## Dictionaries
+
+- **Chinese Character Web** — Chinese character definitions and pronunciations · auth:none · https:no · cors:no · <http://ccdb.hemiola.com/>
+- **Chinese Text Project** — Online open-access digital library for pre-modern Chinese texts · auth:none · https:yes · cors:unknown · <https://ctext.org/tools/api>
+- **Collins** — Bilingual Dictionary and Thesaurus Data · auth:apiKey · https:yes · cors:unknown · <https://api.collinsdictionary.com/api/v1/documentation/html/>
+- **Free Dictionary** — Definitions, phonetics, pronunciations, parts of speech, examples, synonyms · auth:none · https:yes · cors:unknown · <https://dictionaryapi.dev/>
+- **Indonesia Dictionary** — Indonesia dictionary many words · auth:none · https:yes · cors:unknown · <https://new-kbbi-api.herokuapp.com/>
+- **Lingua Robot** — Word definitions, pronunciations, synonyms, antonyms and others · auth:apiKey · https:yes · cors:yes · <https://www.linguarobot.io>
+- **Merriam-Webster** — Dictionary and Thesaurus Data · auth:apiKey · https:yes · cors:unknown · <https://dictionaryapi.com/>
+- **Oxford** — Dictionary Data · auth:apiKey · https:yes · cors:no · <https://developer.oxforddictionaries.com/>
+- **Random Lexicon** — Random words and definitions using optional filters · auth:none · https:yes · cors:yes · <https://randomlexicon.com/api-reference>
+- **SayItVid** — English video pronunciation search with timestamps, IPA phonetics and subtitle context · auth:apiKey · https:yes · cors:yes · <https://sayitvid.com>
+- **Synonyms** — Synonyms, thesaurus and antonyms information for any given word · auth:apiKey · https:yes · cors:unknown · <https://www.synonyms.com/synonyms_api.php>
+- **Wiktionary** — Collaborative dictionary data · auth:none · https:yes · cors:yes · <https://en.wiktionary.org/w/api.php>
+- **Wordnik** — Dictionary Data · auth:apiKey · https:yes · cors:unknown · <https://developer.wordnik.com>
+- **Words** — Definitions and synonyms for more than 150,000 words · auth:apiKey · https:yes · cors:unknown · <https://www.wordsapi.com/docs/>
+- **WordSoHard** — Word definitions with Scrabble validity and tile score in one call, built for word games · auth:none · https:yes · cors:yes · <https://wordsohard.com/api>
+
+## Documents & Productivity
+
+- **AgentPay Doc Tools** — PDF to text, RSS/Atom/JSON feeds to JSON and sitemaps to URL lists, paid per call via x402 · auth:none · https:yes · cors:yes · <https://agentpay-tools.agentpay-apis.workers.dev>
+- **Airtable** — Integrate with Airtable · auth:apiKey · https:yes · cors:unknown · <https://airtable.com/api>
+- **Api2Convert** — Online File Conversion API · auth:apiKey · https:yes · cors:unknown · <https://www.api2convert.com/>
+- **apilayer pdflayer** — HTML/URL to PDF · auth:apiKey · https:yes · cors:unknown · <https://pdflayer.com>
+- **Asana** — Programmatic access to all data in your asana system · auth:apiKey · https:yes · cors:yes · <https://developers.asana.com/docs>
+- **Assinafy** — Brazilian e-signature API with a free plan · auth:apiKey · https:yes · cors:unknown · <https://api.assinafy.com.br/v1/docs>
+- **BuildPDF** — Convert HTML, images, and text to PDF · auth:apiKey · https:yes · cors:yes · <https://buildpdf.co/api/docs>
+- **ClickUp** — ClickUp is a robust, cloud-based project management tool for boosting productivity · auth:OAuth · https:yes · cors:unknown · <https://clickup.com/api>
+- **Clockify** — Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems · auth:apiKey · https:yes · cors:unknown · <https://clockify.me/developers-api>
+- **CloudConvert** — Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation · auth:apiKey · https:yes · cors:unknown · <https://cloudconvert.com/api/v2>
+- **Cloudmersive Document and Data Conversion** — HTML/URL to PDF/PNG, Office documents to PDF, image conversion · auth:apiKey · https:yes · cors:yes · <https://cloudmersive.com/convert-api>
+- **Code::Stats** — Automatic time tracking for programmers · auth:apiKey · https:yes · cors:no · <https://codestats.net/api-docs>
+- **Convert Online** — Online file converter for image, video, audio, document, ebook, font, archive and CAD formats · auth:apiKey · https:yes · cors:no · <https://convert.online/api-docs>
+- **CraftMyPDF** — Generate PDF documents from templates with a drop-and-drop editor and a simple API · auth:apiKey · https:yes · cors:no · <https://craftmypdf.com>
+- **DocCheap** — Read passports, ID cards and driver's licences into JSON, $0.01 per recognised document · auth:apiKey · https:yes · cors:yes · <https://doc.cheap/docs>
+- **DocStruct** — AI extraction of invoices, receipts, bank statements & contracts into structured JSON/CSV · auth:none · https:yes · cors:yes · <https://docstruct.pages.dev>
+- **Emboss** — Make PDF forms fillable, fill them from JSON or documents, and read filled forms back · auth:apiKey · https:yes · cors:no · <https://getemboss.ai/docs>
+- **FaturaPDF** — Generate Brazilian invoice/receipt PDFs with checksum-validated CPF/CNPJ and PIX QR · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/leosanchees2014/api/brazilian-invoice-receipt-pdf-api-cpf-cnpj>
+- **flatmark** — Convert PDF, Word, PowerPoint, Excel and HTML documents to Markdown for RAG and agents · auth:apiKey · https:yes · cors:unknown · <https://flatmark.dev/docs>
+- **Flowdash** — Automate business workflows · auth:apiKey · https:yes · cors:unknown · <https://docs.flowdash.com/docs/api-introduction>
+- **Formfeed** — Render PDFs and images from HTML (Jinja2, Liquid, Handlebars) or Word templates, with a free tier · auth:apiKey · https:yes · cors:no · <https://docs.formfeed.dev/api/overview>
+- **Html2PDF** — HTML/URL to PDF · auth:apiKey · https:yes · cors:unknown · <https://html2pdf.app/>
+- **iLovePDF** — Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month · auth:apiKey · https:yes · cors:yes · <https://developer.ilovepdf.com/>
+- **JIRA** — JIRA is a proprietary issue tracking product that allows bug tracking and agile project management · auth:OAuth · https:yes · cors:unknown · <https://developer.atlassian.com/server/jira/platform/rest-apis/>
+- **Mattermost** — An open source platform for developer collaboration · auth:OAuth · https:yes · cors:unknown · <https://api.mattermost.com/>
+- **Mercury** — Web parser · auth:apiKey · https:yes · cors:unknown · <https://mercury.postlight.com/web-parser/>
+- **Monday** — Programmatically access and update data inside a monday.com account · auth:apiKey · https:yes · cors:unknown · <https://api.developer.monday.com/docs>
+- **Notion** — Integrate with Notion · auth:OAuth · https:yes · cors:unknown · <https://developers.notion.com/docs/getting-started>
+- **OCR.Space** — OCR text extraction from images and PDFs with a free tier · auth:apiKey · https:yes · cors:unknown · <https://ocr.space/ocrapi>
+- **PandaDoc** — DocGen and eSignatures API · auth:apiKey · https:yes · cors:no · <https://developers.pandadoc.com>
+- **PDFFleet** — HTML and URL to PDF API with templates and a free tier · auth:apiKey · https:yes · cors:yes · <https://pdffleet.com>
+- **PDFMint** — HTML, Markdown or a URL to PDF or PNG, with a no-key demo endpoint and a free tier · auth:apiKey · https:yes · cors:no · <https://pdf.mintapis.com/docs>
+- **pdfrender** — HTML and CSS to PDF with page headers, footers and page numbers, no headless browser · auth:apiKey · https:yes · cors:unknown · <https://pdfrender.dev/docs>
+- **Pocket** — Bookmarking service · auth:OAuth · https:yes · cors:unknown · <https://getpocket.com/developer/>
+- **Podio** — File sharing and productivity · auth:OAuth · https:yes · cors:unknown · <https://developers.podio.com>
+- **PolyDoc** — HTML/URL to PDF and screenshots, plus Factur-X/ZUGFeRD e-invoices; free tier · auth:apiKey · https:yes · cors:unknown · <https://polydoc.tech>
+- **PrexView** — Data from XML or JSON to PDF, HTML or Image · auth:apiKey · https:yes · cors:unknown · <https://prexview.com>
+- **PrintSocket** — Send PDFs, ZPL labels and ESC/POS receipts to your own printers from any language; free tier · auth:apiKey · https:yes · cors:no · <https://www.printsocket.com/docs>
+- **Renderly** — HTML to PDF conversion API built on Chromium · auth:apiKey · https:yes · cors:yes · <https://renderlyapi.com>
+- **Rendex** — Render HTML, Markdown, or URLs to PNG/JPEG/WebP/PDF, with extraction and templating · auth:apiKey · https:yes · cors:unknown · <https://rendex.dev>
+- **Restpack** — Provides screenshot, HTML to PDF and content extraction APIs · auth:apiKey · https:yes · cors:unknown · <https://restpack.io/>
+- **RunConvert** — Convert video, audio, image, and document files programmatically · auth:apiKey · https:yes · cors:no · <https://www.runconvert.com/docs>
+- **Sahifa** — HTML/URL to PDF and screenshots with Arabic and right-to-left support; free tier · auth:apiKey · https:yes · cors:no · <https://sahifa.dev/en/docs>
+- **Shortcut** — Manage stories, epics, iterations and objectives in a Shortcut workspace · auth:apiKey · https:yes · cors:no · <https://developer.shortcut.com>
+- **TeamSort** — Create a ranked-choice poll from a text prompt and get a shareable link · auth:none · https:yes · cors:yes · <https://teamsort.world/developers>
+- **Todoist** — Todo Lists · auth:OAuth · https:yes · cors:unknown · <https://developer.todoist.com>
+- **Smart Image Enhancement** — Performs image upscaling by adding detail to images through multiple super-resolution algorithms · auth:apiKey · https:yes · cors:unknown · <https://apilayer.com/marketplace/image_enhancement-api>
+- **staffSign** — Digital employment contract API with QES/eIDAS support for HR and staffing · auth:apiKey · https:yes · cors:yes · <https://staffsign.de/docs>
+- **Thirds** — Create branded PDFs and images from HTML or reusable templates · auth:apiKey · https:yes · cors:no · <https://thirds.ai/docs/api>
+- **Vector Express v2.0** — Free vector file converting API · auth:none · https:yes · cors:no · <https://vector.express>
+- **WakaTime** — Automated time tracking leaderboards for programmers · auth:none · https:yes · cors:unknown · <https://wakatime.com/developers>
+- **Zube** — Full stack project management · auth:OAuth · https:yes · cors:unknown · <https://zube.io/docs/api>
+- **Zero Retention PDF** — Zero-retention HTML to PDF conversion · auth:apiKey · https:yes · cors:unknown · <https://xeropdf.com>
+
+## Email
+
+- **AGPC Domain Check** — Check a domain's SPF, DKIM, DMARC and MX with a graded shareable report · auth:none · https:yes · cors:yes · <https://guild.tradeuniquecapital.com/api>
+- **Atomic Mail** — Email for AI agents: programmatic inbox creation and send/receive over JMAP · auth:apiKey · https:yes · cors:unknown · <https://atomic-mail.github.io/atomic-mail-agentic/>
+- **Best Temp Mail** — Disposable inboxes for automated email testing, with OTP extraction · auth:none · https:yes · cors:no · <https://best-tempmail.com/api>
+- **Cloudmersive Validate** — Validate email addresses, phone numbers, VAT numbers and domain names · auth:apiKey · https:yes · cors:yes · <https://cloudmersive.com/validate-api>
+- **ContactLint** — Validate email syntax, MX, disposable and role addresses with typo suggestions, plus phone numbers · auth:apiKey · https:yes · cors:yes · <https://contactlint.com/>
+- **Disban** — Classify email domains as disposable, free, alias, testing or parked to block fake signups · auth:apiKey · https:yes · cors:no · <https://disban.io/docs>
+- **Disify** — Validate and detect disposable and temporary email addresses · auth:none · https:yes · cors:yes · <https://www.disify.com/>
+- **DropMail** — GraphQL API for creating and managing ephemeral e-mail inboxes · auth:none · https:yes · cors:unknown · <https://dropmail.me/api/#live-demo>
+- **Email Spam Tester** — Send a test message and get a spam score, 41 checks with RFC citations and a fix plan · auth:none · https:yes · cors:yes · <https://email-spam-tester.com/api-docs/>
+- **EmailJS** — Send emails directly from client-side JavaScript without a backend server · auth:apiKey · https:yes · cors:yes · <https://www.emailjs.com/docs/>
+- **Email Validation** — Validate email addresses for deliverability and spam · auth:apiKey · https:yes · cors:yes · <https://www.abstractapi.com/email-verification-validation-api>
+- **Email Validator by LifeStep** — Validate email syntax and MX, detect disposable/role addresses, suggest typo fixes · auth:none · https:yes · cors:yes · <https://email.lifestep.io>
+- **EVA** — Validate email addresses · auth:none · https:yes · cors:yes · <https://eva.pingutil.com/>
+- **Guerrilla Mail** — Disposable temporary Email addresses · auth:none · https:yes · cors:unknown · <https://www.guerrillamail.com/GuerrillaMailAPI.html>
+- **ImprovMX** — API for free email forwarding service · auth:apiKey · https:yes · cors:unknown · <https://improvmx.com/api>
+- **inboxsink** — Disposable inboxes for end-to-end tests that wait for the email and extract OTP codes · auth:apiKey · https:yes · cors:no · <https://inboxsink.com/docs>
+- **Kickbox** — Email verification API · auth:none · https:yes · cors:yes · <https://open.kickbox.com/>
+- **Kiprio Email Validate** — Free email validation: MX check, disposable detection, syntax · auth:apiKey · https:yes · cors:yes · <https://kiprio.com/v1/email-validate>
+- **mail.gw** — 10 Minute Mail · auth:none · https:yes · cors:yes · <https://docs.mail.gw>
+- **mail.tm** — Temporary Email Service · auth:none · https:yes · cors:yes · <https://docs.mail.tm>
+- **MailboxValidator** — Validate email address to improve deliverability · auth:apiKey · https:yes · cors:unknown · <https://www.mailboxvalidator.com/api-email-free>
+- **MailCheck.ai** — Prevent users to sign up with temporary email addresses · auth:none · https:yes · cors:unknown · <https://www.mailcheck.ai/#documentation>
+- **Mailfornet** — Disposable inboxes for end-to-end signup tests, with long-polling and HMAC-signed webhooks · auth:apiKey · https:yes · cors:yes · <https://mailfornet.com/api>
+- **MailRambo** — Verify email deliverability with a strict yes/no, disposable and catch-all detection · auth:apiKey · https:yes · cors:no · <https://www.mailrambo.com/developers>
+- **MailSenpai DNS Check** — Check a domain's SPF, DKIM, DMARC and MX records and get what to fix, with the values to publish · auth:none · https:yes · cors:yes · <https://en.mailsenpai.com/dns-check-api/>
+- **Mailtrap** — Email API and SMTP for sending transactional and bulk emails, with email testing sandbox for safe development · auth:apiKey · https:yes · cors:unknown · <https://mailtrap.io>
+- **Nitrosend** — Send marketing and transactional email; manage contacts, segments and flows · auth:apiKey · https:yes · cors:no · <https://docs.nitrosend.com/api>
+- **PostStack** — EU-hosted email API for transactional and marketing email, with contacts, broadcasts, and analytics · auth:apiKey · https:yes · cors:no · <https://poststack.dev/docs>
+- **RankFabrik Verify** — Validate email addresses for deliverability, syntax and disposable detection · auth:apiKey · https:yes · cors:unknown · <https://rankfabrik.com/produits/verification>
+- **Sendgrid** — A cloud-based SMTP provider that allows you to send emails without having to maintain email servers · auth:apiKey · https:yes · cors:unknown · <https://docs.sendgrid.com/api-reference/>
+- **Sendinblue** — A service that provides solutions relating to marketing and/or transactional email and/or SMS · auth:apiKey · https:yes · cors:unknown · <https://developers.brevo.com/>
+- **SendRaven** — Email for AI agents: send email, receive replies as threads, with per-key send limits and approvals · auth:apiKey · https:yes · cors:no · <https://sendraven.ai/docs/api>
+- **SMTPfast** — Send transactional email, manage contacts and broadcasts, free 3,000 emails/month · auth:apiKey · https:yes · cors:yes · <https://smtpfa.st/docs>
+- **TempMailGrab** — Disposable inboxes for email testing with OTP extraction and webhooks · auth:apiKey · https:yes · cors:no · <https://tempmailgrab.com/api-docs>
+- **uchecker** — Bulk email verification with full SMTP server responses · auth:apiKey · https:yes · cors:unknown · <https://api.uchecker.net/docs>
+- **Verifier** — Verifies that a given email is real · auth:apiKey · https:yes · cors:yes · <https://verifier.meetchopra.com/docs#/>
+- **Xeramail Temp Mail** — Temp email address REST API for privacy, testing, automation with OTP extraction · auth:apiKey · https:yes · cors:no · <https://xeramail.com/docs/api>
+
+## Entertainment
+
+- **Anycrap** — 35,000+ absurdist AI-generated product concepts with names, descriptions, and images · auth:apiKey · https:yes · cors:yes · <https://anycrap.shop/developers>
+- **Bucketlist Dream of the Day** — Daily travel and life-experience inspiration with canonical links and images · auth:none · https:yes · cors:yes · <https://bucketlist.nl/samenwerken?lang=en#droom-van-de-dag>
+- **chucknorris.io** — JSON API for hand curated Chuck Norris jokes · auth:none · https:yes · cors:unknown · <https://api.chucknorris.io>
+- **Corporate Buzz Words** — REST API for Corporate Buzz Words · auth:none · https:yes · cors:yes · <https://github.com/sameerkumar18/corporate-bs-generator-api>
+- **CosmyDay Astrology** — Natal charts and sky events computed from Swiss Ephemeris · auth:none · https:yes · cors:yes · <https://cosmyday.com/api-docs>
+- **Excuser** — Get random excuses for various situations · auth:none · https:yes · cors:unknown · <https://excuser.herokuapp.com/>
+- **Fun Fact** — A simple HTTPS api that can randomly select and return a fact from the FFA database · auth:none · https:yes · cors:yes · <https://api.aakhilv.me>
+- **Imgflip** — Gets an array of popular memes · auth:none · https:yes · cors:unknown · <https://imgflip.com/api>
+- **JokeAPI** — Programmable jokes in multiple languages with filtering options · auth:none · https:yes · cors:yes · <https://v2.jokeapi.dev/>
+- **justmeme.wtf** — Free meme API with 2400+ templates, search, trending, and AI generation · auth:none · https:yes · cors:yes · <https://justmeme.wtf/api-docs>
+- **Meme Maker** — REST API for create your own meme · auth:none · https:yes · cors:unknown · <https://mememaker.github.io/API/>
+- **Memesio** — Meme creation API with templates, editable captions and hosted share links · auth:none · https:yes · cors:no · <https://memesio.com/developers/api>
+- **NaMoMemes** — Memes on Narendra Modi · auth:none · https:yes · cors:unknown · <https://github.com/theIYD/NaMoMemes>
+- **PotterDB** — Harry Potter universe database with characters, spells, potions and more · auth:none · https:yes · cors:yes · <https://docs.potterdb.com/>
+- **Random Useless Facts** — Get useless, but true facts · auth:none · https:yes · cors:unknown · <https://uselessfacts.jsph.pl/>
+- **TasteDive** — Content-based recommendations for movies, music, TV shows, books, games, and podcasts · auth:apiKey · https:yes · cors:no · <https://tastedive.com/read/api>
+- **Techy** — JSON and Plaintext API for tech-savvy sounding phrases · auth:none · https:yes · cors:unknown · <https://techy-api.vercel.app/>
+- **Yes or No Oracle** — Random yes/no/maybe answers in 7 themed oracle voices (Magic 8 Ball, Tarot, and more) · auth:none · https:yes · cors:yes · <https://yesnooracle.app/api>
+- **Yo Momma Jokes** — REST API for Yo Momma Jokes · auth:none · https:yes · cors:unknown · <https://github.com/beanboi7/yomomma-apiv2>
+
+## Environment
+
+- **AirNow** — US EPA air quality data and forecasts · auth:apiKey · https:yes · cors:yes · <https://docs.airnowapi.org/>
+- **BreezoMeter Pollen** — Daily Forecast pollen conditions data for a specific location · auth:apiKey · https:yes · cors:unknown · <https://docs.breezometer.com/api-documentation/pollen-api/v2/>
+- **Carbon Interface** — API to calculate carbon (C02) emissions estimates for common C02 emitting activities · auth:apiKey · https:yes · cors:yes · <https://docs.carboninterface.com/>
+- **Climatiq** — Calculate the environmental footprint created by a broad range of emission-generating activities · auth:apiKey · https:yes · cors:yes · <https://docs.climatiq.io>
+- **Cloverly** — API calculates the impact of common carbon-intensive activities in real time · auth:apiKey · https:yes · cors:unknown · <https://www.cloverly.com/carbon-offset-documentation>
+- **CO2 Offset** — API calculates and validates the carbon footprint · auth:none · https:yes · cors:unknown · <https://co2offset.io/api.html>
+- **Danish data service Energi** — Open energy data from Energinet to society · auth:none · https:yes · cors:unknown · <https://www.energidataservice.dk/>
+- **EIA Open Data** — US energy statistics: electricity, petroleum, gas · auth:apiKey · https:yes · cors:unknown · <https://www.eia.gov/opendata/>
+- **GridHub** — Live wholesale electricity prices and demand across 25 grid zones · auth:apiKey · https:yes · cors:yes · <https://grid-hub.app/developers>
+- **GridVigil** — Pressure scores, demand, generation mix and alerts for the 10 major U.S. power grids · auth:none · https:yes · cors:yes · <https://gridvigil.com/developers>
+- **GrünstromIndex** — Green Power Index for Germany (Grünstromindex/GSI) · auth:none · https:no · cors:yes · <https://gruenstromindex.de/>
+- **IQAir** — Air quality and weather data · auth:apiKey · https:yes · cors:unknown · <https://www.iqair.com/air-pollution-data-api>
+- **kanari** — Real-time worldwide wildfire detections, water bomber tracking and open fire archive · auth:none · https:yes · cors:yes · <https://kanari.io/en/api>
+- **Luchtmeetnet** — Predicted and actual air quality components for The Netherlands (RIVM) · auth:none · https:yes · cors:unknown · <https://api-docs.luchtmeetnet.nl/>
+- **Mycelium** — Corporate carbon emissions disclosures (scope 1, 2 and 3), company-reported and estimated · auth:apiKey · https:yes · cors:unknown · <https://api.mycelium.global/docs/v1>
+- **National Grid ESO** — Open data from Great Britain’s Electricity System Operator · auth:none · https:yes · cors:unknown · <https://data.nationalgrideso.com/>
+- **OpenAQ** — Open air quality data · auth:apiKey · https:yes · cors:unknown · <https://docs.openaq.org/>
+- **Open-Meteo** — Free weather API for non-commercial use · auth:none · https:yes · cors:yes · <https://open-meteo.com/>
+- **PM2.5 Open Data Portal** — Open low-cost PM2.5 sensor data · auth:none · https:yes · cors:unknown · <https://pm25.lass-net.org/#apis>
+- **PM25.in** — Air quality of China · auth:apiKey · https:no · cors:unknown · <http://www.pm25.in/api_doc>
+- **PVGIS** — EU solar radiation and photovoltaic performance estimates · auth:none · https:yes · cors:no · <https://joint-research-centre.ec.europa.eu/pvgis-photovoltaic-geographical-information-system/getting-started-pvgis/api-non-interactive-service>
+- **PVWatts** — Energy production photovoltaic (PV) energy systems · auth:apiKey · https:yes · cors:unknown · <https://developer.nrel.gov/docs/solar/pvwatts/v6/>
+- **sensor.community** — Community air quality sensor network data worldwide · auth:User-Agent · https:yes · cors:yes · <https://github.com/opendata-stuttgart/meta/wiki/EN-APIs>
+- **Solematica** — Compare Italian solar (photovoltaic) installer offers, energy prices (PUN/ARERA) and satellite roof data · auth:none · https:yes · cors:no · <https://www.solematica.it/sviluppatori>
+- **Srp Energy** — Hourly usage energy report for Srp customers · auth:apiKey · https:yes · cors:no · <https://srpenergy-api-client-python.readthedocs.io/en/latest/api.html>
+- **SustainMetrics** — 18,000+ GHG emission factors from DEFRA, EPA, ADEME, Ember · auth:apiKey · https:yes · cors:yes · <https://www.sustainmetrics.net/api>
+- **Sähkön hinta nyt** — Finnish and Nordic day-ahead electricity spot prices (15-minute), cheapest hours · auth:none · https:yes · cors:yes · <https://xn--shknhintanyt-gcb8w.org/integraatiot/>
+- **UK Carbon Intensity** — The Official Carbon Intensity API for Great Britain developed by National Grid · auth:none · https:yes · cors:unknown · <https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0>
+- **WattFigure** — US electricity rates by state, with appliance and EV charging running costs · auth:none · https:yes · cors:yes · <https://api.wattfigure.com/>
+- **Website Carbon** — API to estimate the carbon footprint of loading web pages · auth:none · https:yes · cors:unknown · <https://api.websitecarbon.com/>
+
+## Events
+
+- **Eventbrite** — Find events · auth:OAuth · https:yes · cors:unknown · <https://www.eventbrite.com/platform/api/>
+- **FindLocal** — Hyper-local US events: concerts, trivia, open mics, readings, storytimes · auth:apiKey · https:yes · cors:yes · <https://findlocal.community/docs>
+- **SeatGeek** — Search events, venues and performers · auth:apiKey · https:yes · cors:unknown · <https://platform.seatgeek.com/>
+- **Things To Do** — Local events in plain words: concerts, pop-ups, markets, classes, gallery nights · auth:none · https:yes · cors:yes · <https://thingstodoapi.com/docs/>
+- **Ticketmaster** — Search events, attractions, or venues · auth:apiKey · https:yes · cors:unknown · <http://developer.ticketmaster.com/products-and-docs/apis/getting-started/>
+
+## Finance
+
+- **Aletheia** — Insider trading data, earnings call analysis, financial statements, and more · auth:apiKey · https:yes · cors:yes · <https://aletheiaapi.com/>
+- **Alpaca** — Realtime and historical market data on all US equities and ETFs · auth:apiKey · https:yes · cors:yes · <https://docs.alpaca.markets/us/docs/about-market-data-api>
+- **Alpha Vantage** — Realtime and historical stock data · auth:apiKey · https:yes · cors:unknown · <https://www.alphavantage.co/>
+- **Arkleon** — Point-in-time SEC EDGAR fundamentals over /v1 · auth:apiKey · https:yes · cors:unknown · <https://arkleon.com>
+- **Banco do Brasil** — All Banco do Brasil financial transaction APIs · auth:OAuth · https:yes · cors:yes · <https://developers.bb.com.br/home>
+- **Bank Data** — Instant IBAN and SWIFT number validation across the globe · auth:apiKey · https:yes · cors:unknown · <https://apilayer.com/marketplace/bank_data-api>
+- **Banking Access Index** — Which US business banking providers accept founders by country of residence, with sources · auth:none · https:yes · cors:yes · <https://www.globalsolo.global/data/banking-access-index>
+- **Billplz** — Payment platform · auth:apiKey · https:yes · cors:unknown · <https://www.billplz.com/api>
+- **Binlist** — Public access to a database of IIN/BIN information · auth:none · https:yes · cors:unknown · <https://binlist.net/>
+- **Boleto.Cloud** — A api to generate boletos in Brazil · auth:apiKey · https:yes · cors:unknown · <https://boleto.cloud/>
+- **Brainy Prices** — UAE living costs: KHDA fees, DLD rents, fuel, utilities, telecom and relocation, with dated sources · auth:none · https:yes · cors:yes · <https://prices.brainy.ae/developers.html>
+- **BriefTape** — Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged · auth:apiKey · https:yes · cors:yes · <https://brieftape.com>
+- **CardBinCheck** — Card BIN/IIN lookup: network, issuer, country and card type for the first 6-8 digits · auth:none · https:yes · cors:yes · <https://cardbincheck.com/bin-lookup-api>
+- **Citi** — All Citigroup account and statement data APIs · auth:apiKey · https:yes · cors:unknown · <https://sandbox.developerhub.citi.com/api-catalog-list>
+- **CongressInvests** — Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk · auth:apiKey · https:yes · cors:yes · <https://congressinvests.com>
+- **contix** — Spain: IBAN validation with bank and BIC, EU VAT number check (VIES), Modelo 303 VAT sums · auth:none · https:yes · cors:yes · <https://contix.es/api/#herramientas>
+- **Degenscan Intel Macro** — U.S. Treasury auctions, stablecoin supply, Brazil crypto-dollar premium vs BCB PTAX; free trial key · auth:apiKey · https:yes · cors:no · <https://intel.degenscan.io/docs>
+- **Dino.markets** — Matched Kalshi and Polymarket prediction-market data, cross-venue spreads · auth:apiKey · https:yes · cors:no · <https://dino.markets/docs>
+- **Drillr** — Fundamentals, filings, earnings, ownership and events for US, China and Japan equities · auth:apiKey · https:yes · cors:no · <https://drillr.ai/docs/api>
+- **Econdb** — Global macroeconomic data · auth:none · https:yes · cors:yes · <https://www.econdb.com/api/>
+- **EconPulse** — Live economic data — CPI, PPI, energy, treasury rates, BTC premium · auth:apiKey · https:yes · cors:yes · <https://econpulse.io>
+- **EOD Historical Data** — Real-time and historical stock market data with 150+ exchanges · auth:apiKey · https:yes · cors:yes · <https://eodhd.com/>
+- **EstimateTax** — US federal, state and local income tax calculation for 2026, with the source of every figure · auth:none · https:yes · cors:yes · <https://estimatetax.net/api/>
+- **FarmDash** — DeFi intelligence, protocol risk, yield simulation plus 84 MCP agent tools, free Scout tier · auth:apiKey · https:yes · cors:yes · <https://www.farmdash.one/agents>
+- **Fed Treasury** — U.S. Department of the Treasury Data · auth:none · https:yes · cors:unknown · <https://fiscaldata.treasury.gov/api-documentation/>
+- **Filingrail** — SEC EDGAR filings, XBRL financials, Form 4 insider trades, 8-K events and 13F holdings · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/hudson-enterprises-llc-hudson-enterprises-llc-default/api/filingrail>
+- **Finage** — Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider · auth:apiKey · https:yes · cors:unknown · <https://finage.co.uk>
+- **Finance Clearly Tax Rates** — Current UK and US tax rates, allowances and thresholds · auth:none · https:yes · cors:yes · <https://financeclearly.com/tax-rates-api/>
+- **Financial Modeling Prep** — Realtime and historical stock data · auth:apiKey · https:yes · cors:unknown · <https://site.financialmodelingprep.com/developer/docs>
+- **FinBridge** — Official-source financials, segments, valuation, peers and prices for KR, US, JP, TW companies · auth:apiKey · https:yes · cors:yes · <https://www.gronox.kr/docs>
+- **Finnhub** — Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto · auth:apiKey · https:yes · cors:unknown · <https://finnhub.io/docs/api>
+- **FloorGuard** — Sourced prop firm daily-loss and max-drawdown rules, plus a drawdown-room check · auth:none · https:yes · cors:yes · <https://floorguard-kappa.vercel.app/api/>
+- **FRED** — Economic data from the Federal Reserve Bank of St. Louis · auth:apiKey · https:yes · cors:yes · <https://fred.stlouisfed.org/docs/api/fred/>
+- **Front Accounting APIs** — Front accounting is multilingual and multicurrency software for small businesses · auth:OAuth · https:yes · cors:yes · <https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule>
+- **Futures Clock** — Trading hours and session windows for 65 futures products on 16 global exchanges · auth:none · https:yes · cors:yes · <https://futuresclock.com/en/data-methodology/#open-data>
+- **FXNewsBias** — AI-scored news sentiment for the 8 major forex currencies, refreshed every 3 hours · auth:apiKey · https:yes · cors:yes · <https://fxnewsbias.com/developers>
+- **Goldprice.dev** — Cross-validated gold, silver & copper spot, futures & 30-year history in 13 currencies · auth:none · https:yes · cors:unknown · <https://goldprice.dev/docs>
+- **Halal Terminal** — Shariah-compliant stock and ETF screening across 5 methodologies, zakat and purification · auth:apiKey · https:yes · cors:yes · <https://api.halalterminal.com/docs>
+- **Helious** — US Treasury auction results with the tail and bidder split, plus scored economic releases · auth:none · https:yes · cors:yes · <https://helious.io/developers/>
+- **Helium** — News with media bias scoring, balanced news synthesis, live market data, AI options pricing · auth:none · https:yes · cors:yes · <https://heliumtrades.com/mcp-page/>
+- **IBAN Analyzer** — Resolve an IBAN to its bank name, BIC, city and address for 60+ countries · auth:none · https:yes · cors:yes · <https://iban-analyzer.com/free-iban-api>
+- **IBANforge** — IBAN validation and BIC/SWIFT lookup for 89 countries with 121k+ BIC entries · auth:apiKey · https:yes · cors:no · <https://api.ibanforge.com>
+- **IEX Cloud** — Realtime & Historical Stock and Market Data · auth:apiKey · https:yes · cors:yes · <https://iexcloud.io/docs/api/>
+- **IG** — Spreadbetting and CFD Market Data · auth:apiKey · https:yes · cors:unknown · <https://labs.ig.com/gettingstarted>
+- **India GST HSN & SAC** — Indian GST HSN and SAC classification code lookup and search · auth:none · https:yes · cors:yes · <https://gst-hsn-sac-api.vercel.app/docs>
+- **Indian Mutual Fund** — Get complete history of India Mutual Funds Data · auth:none · https:yes · cors:unknown · <https://www.mfapi.in/>
+- **Intrinio** — A wide selection of financial data feeds · auth:apiKey · https:yes · cors:unknown · <https://intrinio.com/>
+- **Klarna** — Klarna payment and shopping service · auth:apiKey · https:yes · cors:unknown · <https://docs.klarna.com/klarna-payments/>
+- **KmalServico Gold Price Dataset** — Current gold price per gram at 6 purities for 188 countries, JSON, no auth · auth:none · https:yes · cors:no · <https://www.kmalservico.com/data>
+- **LiquiLens** — Public-record bank and lender failure-risk evidence · auth:none · https:yes · cors:yes · <https://liquilens.in/developers/>
+- **Live SEC Form 4 Insider Trades** — Latest SEC Form 4 insider trading filings from EDGAR, by ticker or market-wide · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-sec-form-4-insider-trades>
+- **matchwire.win** — Matched prediction-market games across Kalshi, Polymarket US/Intl and Predict.fun · auth:apiKey · https:yes · cors:no · <https://matchwire.win/docs/>
+- **MercadoPago** — Mercado Pago API reference - all the information you need to develop your integrations · auth:apiKey · https:yes · cors:unknown · <https://www.mercadopago.com.br/developers/es/reference>
+- **Mono** — Connect with users’ bank accounts and access transaction data in Africa · auth:apiKey · https:yes · cors:unknown · <https://mono.co/>
+- **Moov** — The Moov API makes it simple for platforms to send, receive, and store money · auth:apiKey · https:yes · cors:unknown · <https://docs.moov.io/api/>
+- **Nigeria PAYE** — Nigerian income tax (PAYE) and take-home pay under the Nigeria Tax Act 2025 · auth:none · https:yes · cors:yes · <https://www.orionsoftlimited.com/developers>
+- **NORTH7 Agent** — Trading signals, market analysis and geopolitical intelligence · auth:apiKey · https:yes · cors:yes · <https://north7.ai/v1/docs>
+- **Nordigen** — Connect to bank accounts using official bank APIs and get raw transaction data · auth:apiKey · https:yes · cors:unknown · <https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/>
+- **OpenFIGI** — Equity, index, futures, options symbology from Bloomberg LP · auth:apiKey · https:yes · cors:yes · <https://www.openfigi.com/api>
+- **Pink Agentic AI Payments** — Approval layer for AI agent payments: per-agent budgets, rules, single-use credentials, sandbox · auth:apiKey · https:yes · cors:yes · <https://pinkwallet.com/agentic/developers/>
+- **PIT Financial State** — Point-in-time quarterly revenue for 20 U.S. issuers · auth:apiKey · https:yes · cors:unknown · <https://agent-economy-pit-evaluation.onrender.com/docs>
+- **Plaid** — Connect with user's bank accounts and access transaction data · auth:apiKey · https:yes · cors:unknown · <https://www.plaid.com/docs>
+- **Polygon** — Historical stock market data · auth:apiKey · https:yes · cors:unknown · <https://polygon.io/>
+- **PolyKal Fees** — Kalshi & Polymarket trading fee rates and formulas as verified JSON · auth:none · https:yes · cors:yes · <https://polymarket-kalshi.com/fee-schedule/>
+- **Portfolio Optimizer** — Portfolio analysis and optimization · auth:none · https:yes · cors:yes · <https://portfoliooptimizer.io/>
+- **Razorpay IFSC** — Indian Financial Systems Code (Bank Branch Codes) · auth:none · https:yes · cors:unknown · <https://razorpay.com/docs/>
+- **Real Time Finance** — Websocket API to access realtime stock data · auth:apiKey · https:no · cors:unknown · <https://github.com/Real-time-finance/finance-websocket-API/>
+- **SEC EDGAR Data** — API to access annual reports of public US companies · auth:none · https:yes · cors:yes · <https://www.sec.gov/edgar/sec-api-documentation>
+- **Segmara** — IPO calendars, filing stages and estimated lockup dates · auth:User-Agent · https:yes · cors:yes · <https://segmara.com/syndicate>
+- **Seiche** — Free public funding, FX and capital-market evidence with source clocks · auth:none · https:yes · cors:yes · <https://seiche.info/developers>
+- **SmartAPI** — Gain access to set of <SmartAPI> and create end-to-end broking services · auth:apiKey · https:yes · cors:unknown · <https://smartapi.angelbroking.com/>
+- **Stanza VAT Validator** — Validate EU and UK VAT numbers with country formats, checksums, and VIES status · auth:apiKey · https:yes · cors:no · <https://stanzaapi.com/tools/vat-validator>
+- **StockData** — Real-Time, Intraday & Historical Market Data, News and Sentiment API · auth:apiKey · https:yes · cors:yes · <https://www.StockData.org>
+- **StockFit** — SEC filings, financial statements, earnings, ETF holdings and ownership data · auth:apiKey · https:yes · cors:yes · <https://api.stockfit.io/docs>
+- **Styvio** — Realtime and historical stock data and current stock sentiment · auth:apiKey · https:yes · cors:unknown · <https://www.Styvio.com>
+- **Sugra** — One API for market data, economics, commodities, climate, and global news. LLM-ready JSON · auth:apiKey · https:yes · cors:yes · <https://sugra.ai>
+- **Sales Tax Calculator** — Computes exact sales tax amounts and breakdowns for checkout and billing · auth:apiKey · https:yes · cors:yes · <https://salestaxcalculatorapi.com>
+- **Tax Data** — Instant VAT number and tax validation across the globe · auth:apiKey · https:yes · cors:unknown · <https://apilayer.com/marketplace/tax_data-api>
+- **TickerInside** — Holdings of every US ETF, which ETFs hold a stock, and overlap between funds, each dated · auth:none · https:yes · cors:yes · <https://tickerinside.com/api/>
+- **TickerLayer** — Real-time and historical market data for stocks, forex, crypto and more · auth:apiKey · https:yes · cors:unknown · <https://tickerlayer.com>
+- **Top 5 Stocks** — Daily AI-ranked stock and crypto watchlists · auth:none · https:yes · cors:unknown · <https://top5stocks.netlify.app/developers>
+- **Tradier** — US equity/option market data (delayed, intraday, historical) · auth:OAuth · https:yes · cors:yes · <https://developer.tradier.com>
+- **Twelve Data** — Stock market data (real-time & historical) · auth:apiKey · https:yes · cors:unknown · <https://twelvedata.com/>
+- **Undertow** — Public market-depth and sized exit estimates, not executable quotes · auth:none · https:yes · cors:yes · <https://liquilens-undertow.com/developers/>
+- **US Mortgage Calculator** — Mortgage payment, amortization, affordability and 50-state property tax data · auth:none · https:yes · cors:yes · <https://www.usmortgagecalc.com/developers/api>
+- **USTariffRates** — US HTS lookup and origin-specific tariff breakdowns with source context · auth:apiKey · https:yes · cors:unknown · <https://api.ustariffrates.com/openapi.json>
+- **VAT Validation** — Validate VAT numbers and calculate VAT rates · auth:apiKey · https:yes · cors:yes · <https://www.abstractapi.com/vat-validation-rates-api>
+- **VoxOdds** — Polymarket and Kalshi odds, all-in executable quotes, EV checks and audited forecast scores · auth:none · https:yes · cors:no · <https://voxodds.com/api>
+- **WallstreetBets** — WallstreetBets Stock Comments Sentiment Analysis · auth:none · https:yes · cors:unknown · <https://dashboard.nbshare.io/apps/reddit/api/>
+- **XFINLAB** — Market events, sentiment, technical analysis and macro data for stocks · auth:apiKey · https:yes · cors:unknown · <https://www.xfinlab.com/intelligence-api.html>
+- **XOOMAR** — US market data from SEC, FINRA, CFTC and the Fed: filings, insiders, earnings dates, short interest · auth:none · https:yes · cors:yes · <https://xoomar.com/markets/api>
+- **Yahoo Finance** — Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange · auth:apiKey · https:yes · cors:yes · <https://www.yahoofinanceapi.com/>
+- **YNAB** — Budgeting & Planning · auth:OAuth · https:yes · cors:yes · <https://api.youneedabudget.com/>
+- **Zelothorn** — Plain-English explanations of US public companies with SEC filings and earnings data · auth:none · https:yes · cors:yes · <https://zelothorn.com/developers>
+- **Zoho Books** — Online accounting software, built for your business · auth:OAuth · https:yes · cors:unknown · <https://www.zoho.com/books/api/v3/>
+
+## Food & Drink
+
+- **BaconMockup** — Resizable bacon placeholder images · auth:none · https:yes · cors:yes · <https://baconmockup.com/>
+- **CalorieNinjas** — Nutrition and calorie data for foods and recipes · auth:apiKey · https:yes · cors:yes · <https://calorieninjas.com/api>
+- **Chomp** — Data about various grocery products and foods · auth:apiKey · https:yes · cors:unknown · <https://chompthis.com/api/>
+- **Coffee** — Random pictures of coffee · auth:none · https:yes · cors:unknown · <https://coffee.alexflipnote.dev/>
+- **CookbookSocial Nutrition** — Nutrition data for 4,631 ingredients with food names in 19 languages · auth:apiKey · https:yes · cors:no · <https://cookbooksocial.app/api>
+- **Daily Food Recalls** — U.S. FDA and USDA food recalls, merged and normalized, updated daily · auth:none · https:yes · cors:yes · <https://dailyfoodrecalls.com/api/>
+- **DoughMatrix** — Sourdough and pizza dough formula calculators: true hydration, DDT, fermentation windows · auth:none · https:yes · cors:no · <https://doughmatrix.com>
+- **Edamam nutrition** — Nutrition Analysis · auth:apiKey · https:yes · cors:unknown · <https://developer.edamam.com/edamam-docs-nutrition-api>
+- **Edamam recipes** — Recipe Search · auth:apiKey · https:yes · cors:unknown · <https://developer.edamam.com/edamam-docs-recipe-api>
+- **ExactCup** — Cooking ingredient densities: grams per US cup, tablespoon, teaspoon and mL · auth:none · https:yes · cors:yes · <https://exactcup.github.io/api/>
+- **FiberUp Fiber Database** — Dietary fiber per serving and per 100 g, split into soluble and insoluble, for ~200 common foods · auth:none · https:yes · cors:yes · <https://fiberup.app/data/>
+- **Food Info** — Nutrition data for millions of foods from six national food composition datasets · auth:apiKey · https:yes · cors:no · <https://food-info.org/developer>
+- **Foodish** — Random pictures of food dishes · auth:none · https:yes · cors:yes · <https://github.com/surhud004/Foodish#readme>
+- **Fruityvice** — Data about all kinds of fruit · auth:none · https:yes · cors:unknown · <https://www.fruityvice.com>
+- **IndiaRestros** — Indian restaurants, menus with rupee prices, dish search and timings across 9,000+ cities · auth:none · https:yes · cors:yes · <https://indiarestros.com/api/docs>
+- **Kroger** — Supermarket Data · auth:apiKey · https:yes · cors:unknown · <https://developer.kroger.com/reference>
+- **LCBO** — Alcohol · auth:apiKey · https:yes · cors:unknown · <https://lcboapi.com/>
+- **Noms** — Nutrition data for 3.7M foods and 298K brands across 230 countries, with barcodes and images · auth:apiKey · https:yes · cors:yes · <https://noms.sh/docs>
+- **Open Brewery DB** — Breweries, Cideries and Craft Beer Bottle Shops · auth:none · https:yes · cors:yes · <https://www.openbrewerydb.org>
+- **Open Food Facts** — Food Products Database · auth:none · https:yes · cors:unknown · <https://world.openfoodfacts.org/data>
+- **PunkAPI** — Brewdog Beer Recipes · auth:none · https:yes · cors:unknown · <https://punkapi.com/>
+- **Racion** — Weekly meal plans with grocery prices and shopping lists, 22 countries · auth:none · https:yes · cors:yes · <https://racion.app/developers>
+- **RecipeAPI** — Recipes, ingredients, nutrition data and cooking instructions · auth:apiKey · https:yes · cors:yes · <https://recipeapi.io>
+- **Rustybeer** — Beer brewing tools · auth:none · https:yes · cors:no · <https://rustybeer.herokuapp.com/>
+- **Spoonacular** — Recipes, Food Products, and Meal Planning · auth:apiKey · https:yes · cors:unknown · <https://spoonacular.com/food-api>
+- **Systembolaget** — Govornment owned liqour store in Sweden · auth:apiKey · https:yes · cors:unknown · <https://api-portal.systembolaget.se>
+- **TacoFancy** — Community-driven taco database · auth:none · https:no · cors:unknown · <https://github.com/evz/tacofancy-api>
+- **Tasty** — API to query data about recipe, plan, ingredients · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/apidojo/api/tasty/>
+- **The Report of the Week** — Food & Drink Reviews · auth:none · https:yes · cors:unknown · <https://github.com/andyklimczak/TheReportOfTheWeek-API>
+- **TheCocktailDB** — Cocktail Recipes · auth:apiKey · https:yes · cors:yes · <https://www.thecocktaildb.com/api.php>
+- **TheMealDB** — Meal Recipes · auth:apiKey · https:yes · cors:yes · <https://www.themealdb.com/api.php>
+- **Tiny Plates** — Structured recipes, semantic search, serving adjustments and shopping lists · auth:apiKey · https:yes · cors:yes · <https://www.tinyplates.dev/docs>
+- **Untappd** — Social beer sharing · auth:OAuth · https:yes · cors:unknown · <https://untappd.com/api/docs>
+- **What's on the menu?** — NYPL human-transcribed historical menu collection · auth:apiKey · https:no · cors:unknown · <http://nypl.github.io/menus-api/>
+- **WhiskyHunter** — Past online whisky auctions statistical data · auth:none · https:yes · cors:unknown · <https://whiskyhunter.net/api/>
+- **Zestful** — Parse recipe ingredients · auth:apiKey · https:yes · cors:yes · <https://zestfuldata.com/>
+
+## Games & Comics
+
+- **AmiiboAPI** — Nintendo Amiibo Information · auth:none · https:yes · cors:yes · <https://amiiboapi.com/>
+- **Animal Crossing: New Horizons** — API for critters, fossils, art, music, furniture and villagers · auth:none · https:yes · cors:unknown · <http://acnhapi.com/>
+- **Astroworld** — Free Minecraft data: mobs, biomes, items, enchantments, structures, commands, versions, achievements, trades · auth:none · https:yes · cors:yes · <https://api.astroworldmc.com>
+- **Autochess VNG** — Rest Api for Autochess VNG · auth:none · https:yes · cors:yes · <https://github.com/didadadida93/autochess-vng-api>
+- **Barter.VG** — Provides information about Game, DLC, Bundles, Giveaways, Trading · auth:none · https:yes · cors:yes · <https://github.com/bartervg/barter.vg/wiki>
+- **Battle.net** — Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs · auth:OAuth · https:yes · cors:yes · <https://develop.battle.net/documentation/guides/getting-started>
+- **Board Game Geek** — Board games, RPG and videogames · auth:none · https:yes · cors:no · <https://boardgamegeek.com/wiki/page/BGG_XML_API2>
+- **Brawl Stars** — Brawl Stars Game Information · auth:apiKey · https:yes · cors:unknown · <https://developer.brawlstars.com>
+- **Bugsnax** — Get information about Bugsnax · auth:none · https:yes · cors:yes · <https://www.bugsnaxapi.com/>
+- **Call of Duty Mobile** — Unofficial API for CODM player data and daily cache claiming · auth:none · https:yes · cors:unknown · <https://callofdutymobile.vercel.app/>
+- **CheapShark** — Steam/PC Game Prices and Deals · auth:none · https:yes · cors:yes · <https://www.cheapshark.com/api>
+- **Chess.com** — Chess.com read-only REST API · auth:none · https:yes · cors:unknown · <https://www.chess.com/news/view/published-data-api>
+- **Chuck Norris Database** — Jokes · auth:none · https:no · cors:unknown · <http://www.icndb.com/api/>
+- **Clash of Clans** — Clash of Clans Game Information · auth:apiKey · https:yes · cors:unknown · <https://developer.clashofclans.com>
+- **Clash Royale** — Clash Royale Game Information · auth:apiKey · https:yes · cors:unknown · <https://developer.clashroyale.com>
+- **Comic Vine** — Comics · auth:none · https:yes · cors:unknown · <https://comicvine.gamespot.com/api/documentation>
+- **Crafatar** — API for Minecraft skins and faces · auth:none · https:yes · cors:yes · <https://crafatar.com>
+- **Cross Universe** — Cross Universe Card Data · auth:none · https:yes · cors:yes · <https://crossuniverse.psychpsyo.com/apiDocs.html>
+- **Deck of Cards** — Deck of Cards · auth:none · https:no · cors:unknown · <http://deckofcardsapi.com/>
+- **Destiny The Game** — Bungie Platform API · auth:apiKey · https:yes · cors:unknown · <https://bungie-net.github.io/multi/index.html>
+- **Digimon Information** — Provides information about digimon creatures · auth:none · https:yes · cors:unknown · <https://digimon-api.vercel.app/>
+- **Digimon TCG** — Search for Digimon cards in digimoncard.io · auth:none · https:yes · cors:unknown · <https://documenter.getpostman.com/view/14059948/TzecB4fH>
+- **Disney** — Information of Disney characters · auth:none · https:yes · cors:yes · <https://disneyapi.dev>
+- **Dota 2** — Provides information about Player stats , Match stats, Rankings for Dota 2 · auth:apiKey · https:yes · cors:unknown · <https://docs.opendota.com/>
+- **DotaSense Timings** — Reviewed Dota 2 objective timings in JSON and CSV · auth:none · https:yes · cors:yes · <https://dotasense.com/cheat-sheet#timing-api>
+- **Dungeons and Dragons** — Reference for 5th edition spells, classes, monsters, and more · auth:none · https:no · cors:no · <https://www.dnd5eapi.co/docs/>
+- **Dungeons and Dragons (Alternate)** — Includes all monsters and spells from the SRD (System Reference Document) as well as a search API · auth:none · https:yes · cors:yes · <https://open5e.com/>
+- **Eve Online** — Third-Party Developer Documentation · auth:OAuth · https:yes · cors:unknown · <https://esi.evetech.net/ui>
+- **FFXIV Collect** — Final Fantasy XIV data on collectables · auth:none · https:yes · cors:yes · <https://ffxivcollect.com/>
+- **FIFA Ultimate Team** — FIFA Ultimate Team items API · auth:none · https:yes · cors:unknown · <https://www.easports.com/fifa/ultimate-team/api/fut/item>
+- **Final Fantasy XIV** — Final Fantasy XIV Game data API · auth:none · https:yes · cors:yes · <https://xivapi.com/>
+- **Fortnite** — Fortnite Stats · auth:apiKey · https:yes · cors:unknown · <https://fortnitetracker.com/site-api>
+- **Forza** — Show random image of car from Forza · auth:none · https:yes · cors:unknown · <https://docs.forza-api.tk>
+- **FreeToGame** — Free-To-Play Games Database · auth:none · https:yes · cors:yes · <https://www.freetogame.com/api-doc>
+- **Fun Facts** — Random Fun Facts · auth:none · https:yes · cors:yes · <https://asli-fun-fact-api.herokuapp.com/>
+- **FunTranslations** — Translate Text into funny languages · auth:none · https:yes · cors:yes · <https://api.funtranslations.com/>
+- **GamerPower** — Game Giveaways Tracker · auth:none · https:yes · cors:yes · <https://www.gamerpower.com/api-read>
+- **GDBrowser** — Easy way to use the Geometry Dash Servers · auth:none · https:yes · cors:unknown · <https://gdbrowser.com/api>
+- **Geek-Jokes** — Fetch a random geeky/programming related joke for use in all sorts of applications · auth:none · https:yes · cors:yes · <https://github.com/sameerkumar18/geek-joke-api>
+- **Genshin Impact** — Genshin Impact game data · auth:none · https:yes · cors:yes · <https://genshin.dev>
+- **Giant Bomb** — Video Games · auth:apiKey · https:yes · cors:unknown · <https://www.giantbomb.com/api/documentation>
+- **GraphQL Pokemon** — GraphQL powered Pokemon API. Supports generations 1 through 8 · auth:none · https:yes · cors:yes · <https://github.com/favware/graphql-pokemon>
+- **Guild Wars 2** — Guild Wars 2 Game Information · auth:apiKey · https:yes · cors:unknown · <https://wiki.guildwars2.com/wiki/API:Main>
+- **GW2Spidy** — GW2Spidy API, Items data on the Guild Wars 2 Trade Market · auth:none · https:yes · cors:unknown · <https://github.com/rubensayshi/gw2spidy/wiki>
+- **GZW Data** — Gray Zone Warfare weapons, missions, loot, armor and game data · auth:none · https:yes · cors:yes · <https://gzw-data.vercel.app/docs/>
+- **Halo** — Halo 5 and Halo Wars 2 Information · auth:apiKey · https:yes · cors:unknown · <https://developer.haloapi.com/>
+- **Hearthstone** — Hearthstone Cards Information · auth:X-Mashape-Key · https:yes · cors:unknown · <http://hearthstoneapi.com/>
+- **Humble Bundle** — Humble Bundle's current bundles · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/Ziggoto/api/humble-bundle>
+- **Humor** — Humor, Jokes, and Memes · auth:apiKey · https:yes · cors:unknown · <https://humorapi.com>
+- **Hypixel** — Hypixel player stats · auth:apiKey · https:yes · cors:unknown · <https://api.hypixel.net/>
+- **Hyrule Compendium** — Data on all interactive items from The Legend of Zelda: BOTW · auth:none · https:yes · cors:unknown · <https://github.com/gadhagod/Hyrule-Compendium-API>
+- **Hytale** — Hytale blog posts and jobs · auth:none · https:yes · cors:unknown · <https://hytale-api.com/>
+- **IGDB.com** — Video Game Database · auth:apiKey · https:yes · cors:unknown · <https://api-docs.igdb.com>
+- **JokeAPI** — Programming, Miscellaneous and Dark Jokes · auth:none · https:yes · cors:yes · <https://sv443.net/jokeapi/v2/>
+- **Jokes One** — Joke of the day and large category of jokes accessible via REST API · auth:apiKey · https:yes · cors:yes · <https://jokes.one/api/joke/>
+- **Jservice** — Jeopardy Question Database · auth:none · https:no · cors:unknown · <http://jservice.io>
+- **KrakenKeys** — Steam game key price comparison across 20+ stores, deals, and price history · auth:apiKey · https:yes · cors:no · <https://krakenkeys.com/api-docs>
+- **L2 Calendar** — Lineage 2 private servers list with names, websites, chronicles, rates and opening dates · auth:none · https:yes · cors:yes · <https://l2calendar.com/api/servers>
+- **Lichess** — Access to all data of users, games, puzzles and etc on Lichess · auth:OAuth · https:yes · cors:unknown · <https://lichess.org/api>
+- **Magic The Gathering** — Magic The Gathering Game Information · auth:none · https:no · cors:unknown · <http://magicthegathering.io/>
+- **Mario Kart Tour** — API for Drivers, Karts, Gliders and Courses · auth:OAuth · https:yes · cors:unknown · <https://mario-kart-tour-api.herokuapp.com/>
+- **Marvel** — Marvel Comics · auth:apiKey · https:yes · cors:unknown · <https://developer.marvel.com>
+- **Master Setter** — Pokémon TCG cards and sets in 14 languages, with every printing and variant · auth:apiKey · https:yes · cors:yes · <https://api.master-setter.com>
+- **Minecraft Server Status** — API to get Information about a Minecraft Server · auth:none · https:yes · cors:no · <https://api.mcsrvstat.us>
+- **MMO Games** — MMO Games Database, News and Giveaways · auth:none · https:yes · cors:no · <https://www.mmobomb.com/api>
+- **mod.io** — Cross Platform Mod API · auth:apiKey · https:yes · cors:unknown · <https://docs.mod.io>
+- **Mojang** — Mojang / Minecraft API · auth:apiKey · https:yes · cors:unknown · <https://wiki.vg/Mojang_API>
+- **Monster Hunter World** — Monster Hunter World data · auth:none · https:yes · cors:yes · <https://docs.mhw-db.com/>
+- **Online Sudoku - Sudokumax** — Free Sudoku puzzles, printable Sudoku worksheets and online play: https://sudokumax.com · auth:apiKey · https:yes · cors:yes · <https://sudokumax.com/developers>
+- **Open Trivia** — Trivia Questions · auth:none · https:yes · cors:unknown · <https://opentdb.com/api_config.php>
+- **PandaScore** — E-sports games and results · auth:apiKey · https:yes · cors:unknown · <https://developers.pandascore.co/>
+- **Path of Exile** — Path of Exile Game Information · auth:OAuth · https:yes · cors:unknown · <https://www.pathofexile.com/developer/docs>
+- **PlayerDB** — Query Minecraft, Steam and XBox Accounts · auth:none · https:yes · cors:unknown · <https://playerdb.co/>
+- **Pokéapi** — Pokémon Information · auth:none · https:yes · cors:unknown · <https://pokeapi.co>
+- **PokéAPI (GraphQL)** — The Unofficial GraphQL for PokeAPI · auth:none · https:yes · cors:yes · <https://github.com/mazipan/graphql-pokeapi>
+- **Pokémon TCG** — Pokémon TCG Information · auth:none · https:yes · cors:unknown · <https://pokemontcg.io>
+- **PokéSprite** — Database of Pokémon sprites and icons · auth:none · https:yes · cors:yes · <https://msikma.github.io/pokesprite/>
+- **Psychonauts** — Psychonauts World Characters Information and PSI Powers · auth:none · https:yes · cors:yes · <https://psychonauts-api.netlify.app/>
+- **PUBG** — Access in-game PUBG data · auth:apiKey · https:yes · cors:yes · <https://developer.pubg.com/>
+- **Puyo Nexus** — Puyo Puyo information from Puyo Nexus Wiki · auth:none · https:yes · cors:yes · <https://github.com/deltadex7/puyodb-api-deno>
+- **quizapi.io** — Access to various kind of quiz questions · auth:apiKey · https:yes · cors:yes · <https://quizapi.io/>
+- **Raider** — Provides detailed character and guild rankings for Raiding and Mythic+ content in World of Warcraft · auth:none · https:yes · cors:unknown · <https://raider.io/api>
+- **RAWG.io** — 500,000+ games for 50 platforms including mobiles · auth:apiKey · https:yes · cors:unknown · <https://rawg.io/apidocs>
+- **Rblxdb** — Verified Roblox music codes and decal IDs with live working status · auth:none · https:yes · cors:yes · <https://rblxdb.com/developers>
+- **Rick and Morty** — All the Rick and Morty information, including images · auth:none · https:yes · cors:yes · <https://rickandmortyapi.com>
+- **Riot Games** — League of Legends Game Information · auth:apiKey · https:yes · cors:unknown · <https://developer.riotgames.com/>
+- **RuneScape** — RuneScape and OSRS RPGs information · auth:none · https:yes · cors:no · <https://runescape.wiki/w/Application_programming_interface>
+- **Sakura CardCaptor** — Sakura CardCaptor Cards Information · auth:none · https:yes · cors:unknown · <https://github.com/JessVel/sakura-card-captor-api>
+- **Scryfall** — Magic: The Gathering database · auth:none · https:yes · cors:yes · <https://scryfall.com/docs/api>
+- **SeedFinder** — Minecraft Bedrock structures prediction · auth:none · https:yes · cors:yes · <https://mineseedfinder.vercel.app/seedfinder>
+- **Social Casino Index** — Daily-checked US social casino toplist: signup bonuses, payout times, minimums, sources · auth:none · https:yes · cors:yes · <https://socialcasinoindex.com/data/>
+- **SpaceTradersAPI** — A playable inter-galactic space trading MMOAPI · auth:OAuth · https:yes · cors:yes · <https://spacetraders.io?rel=pub-apis>
+- **Sudoku100** — Free Sudoku puzzle generation and embedding with images, solver links and interactive games · auth:none · https:yes · cors:unknown · <https://www.sudoku100.com/api>
+- **Steam** — Steam Web API documentation · auth:apiKey · https:yes · cors:no · <https://steamapi.xpaw.me/>
+- **Steam** — Internal Steam Web API documentation · auth:none · https:yes · cors:no · <https://github.com/Revadike/InternalSteamWebAPI/wiki>
+- **SteamGPT** — Steam profiles, SteamID conversion, VAC/game bans, FACEIT stats and friends · auth:none · https:yes · cors:yes · <https://steamgpt.net>
+- **SuperHeroes** — All SuperHeroes and Villains data from all universes under a single API · auth:apiKey · https:yes · cors:unknown · <https://superheroapi.com>
+- **TCGdex** — Multi languages Pokémon TCG Information · auth:none · https:yes · cors:yes · <https://tcgdex.dev/>
+- **Tebex** — Tebex API for information about game purchases · auth:X-Mashape-Key · https:yes · cors:no · <https://docs.tebex.io/plugin/>
+- **TETR.IO** — TETR.IO Tetra Channel API · auth:none · https:yes · cors:unknown · <https://tetr.io/about/api/>
+- **TickerMint** — Daily market prices and price history for Pokémon, One Piece, Lorcana and Yu-Gi-Oh cards · auth:none · https:yes · cors:no · <https://tickermint.cards/developers>
+- **Tronald Dump** — The dumbest things Donald Trump has ever said · auth:none · https:yes · cors:unknown · <https://www.tronalddump.io/>
+- **Universalis** — Final Fantasy XIV market board data · auth:none · https:yes · cors:yes · <https://universalis.app/docs/index.html>
+- **Valorant (non-official)** — An extensive API containing data of most Valorant in-game items, assets and more · auth:none · https:yes · cors:unknown · <https://valorant-api.com>
+- **Warface (non-official)** — Official API proxy with better data structure and more features · auth:none · https:yes · cors:no · <https://api.wfstats.cf>
+- **Wargaming.net** — Wargaming.net info and stats · auth:apiKey · https:yes · cors:no · <https://developers.wargaming.net/>
+- **weBump** — Connect games to nearby players' profiles, small saves and recent visitors with consent · auth:OAuth · https:yes · cors:yes · <https://developer.webump.app/>
+- **When is next MCU film** — Upcoming MCU film information · auth:none · https:yes · cors:unknown · <https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md>
+- **Worth the Rip** — Sealed trading-card product prices and expected value across 10 TCGs, refreshed every 2 hours · auth:none · https:yes · cors:yes · <https://worththerip.com/api/>
+- **xkcd** — Retrieve xkcd comics as JSON · auth:none · https:yes · cors:no · <https://xkcd.com/json.html>
+- **Yu-Gi-Oh!** — Yu-Gi-Oh! TCG Information · auth:none · https:yes · cors:unknown · <https://db.ygoprodeck.com/api-guide/>
+
+## Geocoding
+
+- **Actinia Grass GIS** — Actinia is an open source REST API for geographical data that uses GRASS GIS · auth:apiKey · https:yes · cors:unknown · <https://actinia.mundialis.de/api_docs/>
+- **administrative-divisons-db** — Get all administrative divisions of a country · auth:none · https:yes · cors:yes · <https://github.com/kamikazechaser/administrative-divisions-db>
+- **ApogeoAPI** — Bundled API for countries, states, cities, IP geolocation, and live exchange rates · auth:apiKey · https:yes · cors:yes · <https://apogeoapi.com>
+- **adresse.data.gouv.fr** — Address database of France, geocoding and reverse · auth:none · https:yes · cors:unknown · <https://adresse.data.gouv.fr>
+- **Airtel IP** — IP Geolocation API. Collecting data from multiple sources · auth:none · https:yes · cors:unknown · <https://sys.airtel.lv/ip2country/1.1.1.1/?full=true>
+- **Apiip** — Get location information by IP address · auth:apiKey · https:yes · cors:yes · <https://apiip.net/>
+- **AtlasFetch** — Reverse geocode coordinates to country, region and municipality with ISO 3166 codes · auth:apiKey · https:yes · cors:no · <https://atlasfetch.xyz/docs>
+- **Battuta** — A (country/region/city) in-cascade location API · auth:apiKey · https:no · cors:unknown · <http://battuta.medunes.net>
+- **BdAPIs** — Get divisions, districts, and upazzilas of Bangladesh · auth:none · https:yes · cors:unknown · <https://bdapis.com/>
+- **BigDataCloud** — Provides fast and accurate IP geolocation APIs along with security checks and confidence area · auth:apiKey · https:yes · cors:unknown · <https://www.bigdatacloud.com/docs>
+- **Bing Maps** — Create/customize digital maps based on Bing Maps data · auth:apiKey · https:yes · cors:unknown · <https://www.microsoft.com/maps/>
+- **bng2latlong** — Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude · auth:none · https:yes · cors:yes · <https://www.getthedata.com/bng2latlong>
+- **Cartes.io** — Create maps and markers for anything · auth:none · https:yes · cors:unknown · <https://github.com/M-Media-Group/Cartes.io/wiki/API>
+- **Cep.la** — Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states · auth:none · https:no · cors:unknown · <http://cep.la/>
+- **CitySDK** — Open APIs for select European cities · auth:none · https:yes · cors:unknown · <http://www.citysdk.eu/citysdk-toolkit/>
+- **Country** — Get your visitor's country from their IP · auth:none · https:yes · cors:yes · <http://country.is/>
+- **CountryStateCity** — World countries, states, regions, provinces, cities & towns in JSON, SQL, XML, YAML, & CSV format · auth:apiKey · https:yes · cors:yes · <https://countrystatecity.in/>
+- **Ducks Unlimited** — API explorer that gives a query URL with a JSON response of locations and cities · auth:none · https:yes · cors:no · <https://gis.ducks.org/datasets/du-university-chapters/api>
+- **GeoApi** — French geographical data · auth:none · https:yes · cors:unknown · <https://api.gouv.fr/api/geoapi.html>
+- **Geoapify** — Forward and reverse geocoding, address autocomplete · auth:apiKey · https:yes · cors:yes · <https://www.geoapify.com/api/geocoding-api/>
+- **Geocod.io** — Address geocoding / reverse geocoding in bulk · auth:apiKey · https:yes · cors:unknown · <https://www.geocod.io/>
+- **Geocode.xyz** — Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing · auth:none · https:yes · cors:unknown · <https://geocode.xyz/api>
+- **Geocodify.com** — Worldwide geocoding, geoparsing and autocomplete for addresses · auth:apiKey · https:yes · cors:yes · <https://geocodify.com/>
+- **Geodata.gov.gr** — Open geospatial data and API service for Greece · auth:none · https:yes · cors:unknown · <https://geodata.gov.gr/en/>
+- **GeoDataSource** — Geocoding of city name by using latitude and longitude coordinates · auth:apiKey · https:yes · cors:unknown · <https://www.geodatasource.com/web-service>
+- **GeoDB Cities** — Get global city, region, and country data · auth:apiKey · https:yes · cors:unknown · <http://geodb-cities-api.wirefreethought.com/>
+- **GeographQL** — A Country, State, and City GraphQL API · auth:none · https:yes · cors:yes · <https://geographql.netlify.app>
+- **GeoJS** — IP geolocation with ChatOps integration · auth:none · https:yes · cors:yes · <https://www.geojs.io/>
+- **Geokeo** — Geokeo geocoding service- with 2500 free api requests daily · auth:none · https:yes · cors:yes · <https://geokeo.com>
+- **GeoNames** — Place names and other geographical data · auth:none · https:no · cors:unknown · <http://www.geonames.org/export/web-services.html>
+- **geoPlugin** — IP geolocation and currency conversion · auth:none · https:yes · cors:yes · <https://www.geoplugin.com>
+- **Google Earth Engine** — A cloud-based platform for planetary-scale environmental data analysis · auth:apiKey · https:yes · cors:unknown · <https://developers.google.com/earth-engine/>
+- **Google Maps** — Create/customize digital maps based on Google Maps data · auth:apiKey · https:yes · cors:unknown · <https://developers.google.com/maps/>
+- **Graph Countries** — Country-related data like currencies, languages, flags, regions+subregions and bordering countries · auth:none · https:yes · cors:unknown · <https://github.com/lennertVanSever/graphcountries>
+- **HackMyIP** — IP geolocation, ISP and privacy/VPN scoring, email breach checks, DNS and WHOIS lookups · auth:none · https:yes · cors:yes · <https://hackmyip.com/api>
+- **HelloSalut** — Get hello translation following user language · auth:none · https:yes · cors:unknown · <https://fourtonfish.com/project/hellosalut-api/>
+- **HERE Maps** — Create/customize digital maps based on HERE Maps data · auth:apiKey · https:yes · cors:unknown · <https://developer.here.com>
+- **Hirak IP to Country** — Ip to location with country code, currency code & currency name, fast response, unlimited requests · auth:apiKey · https:yes · cors:unknown · <https://iplocation.hirak.site/>
+- **Hong Kong GeoData Store** — API for accessing geo-data of Hong Kong · auth:none · https:yes · cors:unknown · <https://geodata.gov.hk/gs/>
+- **IBGE** — Aggregate services of IBGE (Brazilian Institute of Geography and Statistics) · auth:none · https:yes · cors:unknown · <https://servicodados.ibge.gov.br/api/docs/>
+- **IP 2 Country** — Map an IP to a country · auth:none · https:yes · cors:unknown · <https://ip2country.info>
+- **IP Address Details** — Find geolocation with ip address · auth:none · https:yes · cors:unknown · <https://ipinfo.io/>
+- **IP Vigilante** — Free IP Geolocation API · auth:none · https:yes · cors:unknown · <https://www.ipvigilante.com/>
+- **ip-api** — Find location with IP address or domain · auth:none · https:no · cors:unknown · <https://ip-api.com/docs>
+- **IP-API.io** — IP geolocation with VPN/proxy/Tor detection, reputation and risk score · auth:apiKey · https:yes · cors:yes · <https://ip-api.io>
+- **IP Geolocation** — Geolocate website visitors from their IPs · auth:apiKey · https:yes · cors:yes · <https://www.abstractapi.com/ip-geolocation-api>
+- **IP2Location** — IP geolocation web service to get more than 55 parameters · auth:apiKey · https:yes · cors:unknown · <https://www.ip2location.com/web-service/ip2location>
+- **IP2Proxy** — Detect proxy and VPN using IP address · auth:apiKey · https:yes · cors:unknown · <https://www.ip2location.com/web-service/ip2proxy>
+- **ip2geo.dev** — Programmatically convert IP addresses into geolocation data · auth:apiKey · https:yes · cors:yes · <https://ip2geo.dev>
+- **IP99** — IP geolocation with proxy, VPN and datacenter risk and the age of the evidence · auth:none · https:yes · cors:yes · <https://ip99.com/api>
+- **ipapi.co** — Find IP address location information · auth:none · https:yes · cors:yes · <https://ipapi.co/api/#introduction>
+- **IPGEO** — Unlimited free IP Address API with useful information · auth:none · https:yes · cors:unknown · <https://api.techniknews.net/ipgeo/>
+- **ipgeolocation** — IP Geolocation AP with free plan 30k requests per month · auth:apiKey · https:yes · cors:yes · <https://ipgeolocation.io/>
+- **ipgeolocationapi** — IP geolocation with ASN, timezone, currency and threat data, 5,000 keyless calls a day · auth:none · https:yes · cors:yes · <https://ipgeolocationapi.io/docs>
+- **IPInfoDB** — Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address · auth:apiKey · https:yes · cors:unknown · <https://www.ipinfodb.com/api>
+- **IPKit** — IP lookup with location, ASN/ISP and VPN/proxy/Tor signals · auth:none · https:yes · cors:yes · <https://ipkit.dev/docs>
+- **ipstack** — Locate and identify website visitors by IP address · auth:apiKey · https:yes · cors:unknown · <https://ipstack.com/>
+- **ipwhois** — IP geolocation with country, city, coordinates, ISP, timezone and flag data · auth:none · https:yes · cors:yes · <https://ipwhois.io/documentation>
+- **Kakao Maps** — Kakao Maps provide multiple APIs for Korean maps · auth:apiKey · https:yes · cors:unknown · <https://apis.map.kakao.com>
+- **keycdn IP Location Finder** — Get the IP geolocation data through the simple REST API. All the responses are JSON encoded · auth:apiKey · https:yes · cors:unknown · <https://tools.keycdn.com/geo>
+- **Kiprio UK Postcode** — UK postcode lookup with lat/lon, district, ward, constituency · auth:apiKey · https:yes · cors:yes · <https://kiprio.com/v1/postcode>
+- **LatLng** — Geocoding, reverse geocoding, places, and static maps · auth:none · https:yes · cors:yes · <https://www.latlng.work/docs>
+- **LocationIQ** — Provides forward/reverse geocoding and batch geocoding · auth:apiKey · https:yes · cors:yes · <https://locationiq.org/docs/>
+- **Locio** — Australian address autocomplete, validation and geocoding from the G-NAF national register · auth:apiKey · https:yes · cors:yes · <https://locio.com.au/docs/>
+- **Longdo Map** — Interactive map with detailed places and information portal in Thailand · auth:apiKey · https:yes · cors:yes · <https://map.longdo.com/docs/>
+- **Mapbox** — Create/customize beautiful digital maps · auth:apiKey · https:yes · cors:unknown · <https://docs.mapbox.com/>
+- **Mexico** — Mexico RESTful zip codes API · auth:none · https:yes · cors:unknown · <https://github.com/IcaliaLabs/sepomex>
+- **Moradas** — Portuguese address autocomplete and 7-digit postal codes (CP7) · auth:none · https:yes · cors:yes · <https://moradas.dev/docs>
+- **MyPincode** — Indian PIN code and postal office lookup · auth:none · https:yes · cors:unknown · <https://mypincode.live>
+- **Network Data Labs** — IP geolocation with accuracy radius, ASN, and flags for Tor exits, known VPN networks and hosting · auth:apiKey · https:yes · cors:no · <https://www.networkdatalabs.com/docs>
+- **Nominatim** — Provides worldwide forward / reverse geocoding · auth:none · https:yes · cors:yes · <https://nominatim.org/release-docs/latest/api/Overview/>
+- **One Map, Singapore** — Singapore Land Authority REST API services for Singapore addresses · auth:apiKey · https:yes · cors:unknown · <https://www.onemap.gov.sg/docs/>
+- **OnWater** — Determine if a lat/lon is on water or land · auth:none · https:yes · cors:unknown · <https://onwater.io/>
+- **Open Topo Data** — Elevation and ocean depth for a latitude and longitude · auth:none · https:yes · cors:no · <https://www.opentopodata.org>
+- **OpenCage** — Forward and reverse geocoding using open data · auth:apiKey · https:yes · cors:yes · <https://opencagedata.com>
+- **openrouteservice.org** — Directions, POIs, isochrones, geocoding (+reverse), elevation, and more · auth:apiKey · https:yes · cors:unknown · <https://openrouteservice.org/>
+- **OpenStreetMap** — Navigation, geolocation and geographical data · auth:OAuth · https:no · cors:unknown · <http://wiki.openstreetmap.org/wiki/API>
+- **ParcelGPS** — European cadastral parcels by reference or point: coordinates, area, land use and geometry · auth:apiKey · https:yes · cors:yes · <https://www.parcelgps.com/en/developers>
+- **Pinball Map** — A crowdsourced map of public pinball machines · auth:none · https:yes · cors:yes · <https://pinballmap.com/api/v1/docs>
+- **PontoFato** — Brazilian postal codes (CEP) with IBGE coordinates, addresses and the companies registered there · auth:none · https:yes · cors:no · <https://pontofato.com/api/>
+- **positionstack** — Forward & Reverse Batch Geocoding REST API · auth:apiKey · https:yes · cors:unknown · <https://positionstack.com/>
+- **PostalCodeCheck** — City, region and coordinates for 887,000+ postal codes across 95 countries · auth:none · https:yes · cors:yes · <https://postalcodecheck.com/postal-code-api>
+- **Postali** — Mexico Zip Codes API · auth:none · https:yes · cors:yes · <https://postali.app/api>
+- **PostcodeData.nl** — Provide geolocation data based on postcode for Dutch addresses · auth:none · https:no · cors:unknown · <http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json>
+- **Postcodes.io** — Postcode lookup & Geolocation for the UK · auth:none · https:yes · cors:yes · <https://postcodes.io>
+- **PostalCodes** — Postal code search, country exports, and address validation data · auth:none · https:yes · cors:unknown · <https://postalcodes.info/api>
+- **Queimadas INPE** — Access to heat focus data (probable wildfire) · auth:none · https:yes · cors:unknown · <https://terrabrasilis.dpi.inpe.br/queimadas/portal/>
+- **REST Countries** — Get information about countries via a RESTful API · auth:none · https:yes · cors:yes · <https://restcountries.com>
+- **RoadGoat Cities** — Cities content & photos API · auth:apiKey · https:yes · cors:no · <https://www.roadgoat.com/business/cities-api>
+- **Rwanda Locations** — Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets · auth:none · https:yes · cors:unknown · <https://rapidapi.com/victorkarangwa4/api/rwanda>
+- **SearchPinCode** — Indian postal PIN code lookup, post office locator and district data · auth:none · https:yes · cors:yes · <https://searchpincode.in/api>
+- **SLF** — German city, country, river, database · auth:none · https:yes · cors:yes · <https://github.com/slftool/slftool.github.io/blob/master/API.md>
+- **SpotSense** — Add location based interactions to your mobile app · auth:apiKey · https:yes · cors:unknown · <https://spotsense.io/>
+- **sthan.io India PIN Code Autocomplete** — Autocomplete Indian PIN codes as users type · auth:apiKey · https:yes · cors:no · <https://sthan.io/products/pincode-autocomplete-ind>
+- **sthan.io IP Geolocation** — Look up the geographic location of any IPv4 or IPv6 address · auth:apiKey · https:yes · cors:no · <https://sthan.io/products/ip-geolocation>
+- **sthan.io Reverse Geocoding** — Convert latitude and longitude to the nearest US street address · auth:apiKey · https:yes · cors:no · <https://sthan.io/products/reverse-geocoding-usa>
+- **Telize** — Telize offers location information from any IP address · auth:apiKey · https:yes · cors:yes · <https://rapidapi.com/fcambus/api/telize/>
+- **TomTom** — Maps, Directions, Places and Traffic APIs · auth:apiKey · https:yes · cors:yes · <https://developer.tomtom.com/>
+- **TrustyData** — French address checks, INSEE company search and routing on official open data · auth:apiKey · https:yes · cors:yes · <https://trustydata.fr/docs/>
+- **Uebermaps** — Discover and share maps with friends · auth:apiKey · https:yes · cors:unknown · <https://uebermaps.com/api/v2>
+- **Unblock Master IP** — IP geolocation plus datacenter and VPN detection for any IPv4 or IPv6 address · auth:none · https:yes · cors:yes · <https://www.unblockmaster.com/free-ip-api/>
+- **US ZipCode** — Validate and append data for any US ZipCode · auth:apiKey · https:yes · cors:yes · <https://www.smarty.com/docs/cloud/us-zipcode-api>
+- **Utah AGRC** — Utah Web API for geocoding Utah addresses · auth:apiKey · https:yes · cors:unknown · <https://api.mapserv.utah.gov>
+- **ViaCep** — Brazil RESTful zip codes API · auth:none · https:yes · cors:unknown · <https://viacep.com.br>
+- **What3Words** — Three words as rememberable and unique coordinates worldwide · auth:apiKey · https:yes · cors:unknown · <https://what3words.com>
+- **Yandex.Maps Geocoder** — Use geocoding to get an object's coordinates from its address · auth:apiKey · https:yes · cors:unknown · <https://yandex.com/dev/maps/geocoder>
+- **ZipCodeAPI** — US zip code distance, radius and location API · auth:apiKey · https:yes · cors:unknown · <https://www.zipcodeapi.com>
+- **Zippopotam.us** — Get information about place such as country, city, state, etc · auth:none · https:no · cors:unknown · <http://www.zippopotam.us>
+- **Ziptastic** — Get the country, state, and city of any US zip-code · auth:none · https:yes · cors:unknown · <https://ziptasticapi.com/>
+- **Zornade** — Cadastral parcels, geocoding, OMI valuations, risk and demographics for Italy (85M parcels) · auth:apiKey · https:yes · cors:yes · <https://app.zornade.com/api/>
+
+## Government
+
+- **AI Law Tracker** — AI regulation laws by jurisdiction (US, EU, global) as read-only JSON; free tier · auth:apiKey · https:yes · cors:unknown · <https://ai-law-tracker.com/developers>
+- **apipj** — Brazilian company data by CNPJ from Receita Federal open data, incl. alphanumeric CNPJ; free tier · auth:apiKey · https:yes · cors:yes · <https://apipj.com.br/docs>
+- **Ayes and Noes** — UK House of Commons MPs, parties and recorded votes · auth:none · https:yes · cors:yes · <https://ayesandnoes.co.uk/developers>
+- **Bank Negara Malaysia Open Data** — Malaysia Central Bank Open Data · auth:none · https:yes · cors:unknown · <https://apikijangportal.bnm.gov.my/>
+- **BCLaws** — Access to the laws of British Columbia · auth:none · https:no · cors:unknown · <https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html>
+- **Bidledger** — Every open public tender in the European Union, rebuilt daily from the official TED data · auth:none · https:yes · cors:yes · <https://jaydemks.github.io/bidledger/api.html>
+- **Boletín Oficial del Estado (BOE)** — Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs · auth:none · https:yes · cors:unknown · <https://www.boe.es/datosabiertos/>
+- **Brazil** — Community driven API for Brazil Public Data · auth:none · https:yes · cors:yes · <https://brasilapi.com.br/>
+- **Brazil Central Bank Open Data** — Brazil Central Bank Open Data · auth:none · https:yes · cors:unknown · <https://dadosabertos.bcb.gov.br/>
+- **Brazil Receita WS** — Consult companies by CNPJ for Brazilian companies · auth:none · https:yes · cors:unknown · <https://www.receitaws.com.br/>
+- **Brazilian Chamber of Deputies Open Data** — Provides legislative information in Apis XML and JSON, as well as files in various formats · auth:none · https:yes · cors:no · <https://dadosabertos.camara.leg.br/swagger/api.html>
+- **Bureau of Labor Statistics** — US labor statistics: inflation, unemployment, wages and productivity · auth:none · https:yes · cors:unknown · <https://www.bls.gov/developers/>
+- **CPFHub** — Brazilian CPF lookup — returns full name, birth date, and gender for any CPF · auth:apiKey · https:yes · cors:yes · <https://cpfhub.io>
+- **Census.gov** — The US Census Bureau provides various APIs and data sets on demographics and businesses · auth:none · https:yes · cors:unknown · <https://www.census.gov/data/developers/data-sets.html>
+- **City, Berlin** — Berlin(DE) City Open Data · auth:none · https:yes · cors:unknown · <https://daten.berlin.de/>
+- **City, Gdańsk** — Gdańsk (PL) City Open Data · auth:none · https:yes · cors:unknown · <https://ckan.multimediagdansk.pl/en>
+- **City, Gdynia** — Gdynia (PL) City Open Data · auth:none · https:no · cors:unknown · <http://otwartedane.gdynia.pl/en/api_doc.html>
+- **City, Helsinki** — Helsinki(FI) City Open Data · auth:none · https:yes · cors:unknown · <https://hri.fi/en_gb/>
+- **City, Lviv** — Lviv(UA) City Open Data · auth:none · https:yes · cors:unknown · <https://opendata.city-adm.lviv.ua/>
+- **City, Nantes Open Data** — Nantes(FR) City Open Data · auth:apiKey · https:yes · cors:unknown · <https://data.nantesmetropole.fr/pages/home/>
+- **City, New York Open Data** — New York (US) City Open Data · auth:none · https:yes · cors:unknown · <https://opendata.cityofnewyork.us/>
+- **City, Prague Open Data** — Prague(CZ) City Open Data · auth:none · https:no · cors:unknown · <http://opendata.praha.eu/en>
+- **City, Toronto Open Data** — Toronto (CA) City Open Data · auth:none · https:yes · cors:yes · <https://open.toronto.ca/>
+- **Code.gov** — The primary platform for Open Source and code sharing for the U.S. Federal Government · auth:apiKey · https:yes · cors:unknown · <https://code.gov>
+- **Colorado Information Marketplace** — Colorado State Government Open Data · auth:none · https:yes · cors:unknown · <https://data.colorado.gov/>
+- **ContaCLT** — Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance · auth:none · https:yes · cors:yes · <https://contaclt.com/dados/api/>
+- **Conversor IAE CNAE** — Spanish IAE/CNAE tax activity codes, 2009→2025 crosswalk and AEAT obligations · auth:apiKey · https:yes · cors:no · <https://www.conversoriaecnae.es/api/v1/docs>
+- **Data USA** — US Public Data · auth:none · https:yes · cors:unknown · <https://datausa.io/about/api/>
+- **Data.gov** — US Government Data · auth:apiKey · https:yes · cors:unknown · <https://api.data.gov/>
+- **Data.parliament.uk** — Contains live datasets including information about petitions, bills, MP votes, attendance and more · auth:none · https:no · cors:unknown · <https://explore.data.parliament.uk/?learnmore=Members>
+- **Deutscher Bundestag DIP** — This API provides read access to DIP entities (e.g. activities, persons, printed material) · auth:apiKey · https:yes · cors:unknown · <https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf>
+- **Disclosed Capitol** — US congressional & executive-branch stock trade disclosures (STOCK Act + OGE) · auth:apiKey · https:yes · cors:no · <https://www.disclosedcapitol.com/data-files/api>
+- **District of Columbia Open Data** — Contains D.C. government public datasets, including crime, GIS, financial data, and so on · auth:none · https:yes · cors:unknown · <http://opendata.dc.gov/pages/using-apis>
+- **DistrictAPI** — US school districts and schools by address, with enrollment and boundaries · auth:apiKey · https:yes · cors:yes · <https://districtapi.dev/docs>
+- **eCourtsIndia** — Indian court case status, judgments, and hearing schedule API · auth:apiKey · https:yes · cors:yes · <https://ecourtsindia.com/api>
+- **Edgrapi** — US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants · auth:apiKey · https:yes · cors:yes · <https://edgrapi.com/docs>
+- **EditalMD** — Brazilian public procurement (PNCP) notices as Markdown with deadlines and requirements · auth:none · https:yes · cors:yes · <https://editalmd.com/api/>
+- **Election** — Source-linked U.S. election and civic records with coverage limits · auth:none · https:yes · cors:yes · <https://election.org/data/api>
+- **EPA** — Web services and data sets from the US Environmental Protection Agency · auth:none · https:yes · cors:unknown · <https://www.epa.gov/developers/data-data-products#apis>
+- **EU VAT Rates by Commodity Code** — EU VAT rates mapped to CN and CPA commodity codes, all 27 member states · auth:none · https:yes · cors:yes · <https://github.com/humora2504/eu-vat-by-commodity-code>
+- **FastDOL** — Federal enforcement records for US employers: OSHA, WHD, MSHA, EPA, NLRB, and more · auth:apiKey · https:yes · cors:yes · <https://www.fastdol.com/docs>
+- **FBI Wanted** — Access information on the FBI Wanted program · auth:none · https:yes · cors:unknown · <https://www.fbi.gov/wanted/api>
+- **FDA Import Alert Screening** — Screen firm names against FDA Import Alert Red, Yellow and Green Lists · auth:apiKey · https:yes · cors:unknown · <https://aerviklabs.com/apis/fda-import-alerts/>
+- **FEC** — Information on campaign donations in federal elections · auth:apiKey · https:yes · cors:unknown · <https://api.open.fec.gov/developers/>
+- **Federal Register** — The Daily Journal of the United States Government · auth:none · https:yes · cors:unknown · <https://www.federalregister.gov/reader-aids/developer-resources/rest-api>
+- **gankdat** — UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON · auth:apiKey · https:yes · cors:yes · <https://gankdat.com/docs>
+- **Gazette Data, UK** — UK official public record API · auth:OAuth · https:yes · cors:unknown · <https://www.thegazette.co.uk/data>
+- **GovContractScout** — US state & local government contracts: search, details, NAICS lookup and AI match scoring · auth:apiKey · https:yes · cors:yes · <https://scout.govbidportals.com>
+- **Gun Policy** — International firearm injury prevention and policy · auth:apiKey · https:yes · cors:unknown · <https://www.gunpolicy.org/api>
+- **India LGD Index** — Free, keyless Indian states, districts, sub-districts and development blocks with LGD codes · auth:none · https:yes · cors:yes · <https://india-lgd-index-api.vercel.app/docs>
+- **Indian Mandi Prices** — Free, keyless daily wholesale mandi prices for 5 Indian states, sourced from data.gov.in · auth:none · https:yes · cors:yes · <https://mandi-api.vercel.app/docs>
+- **Indian MSP Benchmarks** — Statutory Minimum Support Prices and CACP production cost benchmarks across 28 Indian crops · auth:none · https:yes · cors:yes · <https://msp-benchmarks-api.vercel.app/docs>
+- **Indian Pincode** — Free India PIN code lookup with GPS coordinates, 165k+ post offices, state & district data · auth:none · https:yes · cors:yes · <https://indianpincode.com/>
+- **INEI** — Peruvian Statistical Government Open Data · auth:none · https:no · cors:unknown · <http://iinei.inei.gob.pe/microdatos/>
+- **Interpol Red Notices** — Access and search Interpol Red Notices · auth:none · https:yes · cors:unknown · <https://interpol.api.bund.dev/>
+- **Istanbul (İBB) Open Data** — Data sets from the İstanbul Metropolitan Municipality (İBB) · auth:none · https:yes · cors:unknown · <https://data.ibb.gov.tr>
+- **LocalGov.jp** — Japan grants and subsidies (central J-Grants + 1,916 municipalities) · auth:none · https:yes · cors:yes · <https://localgov.jp/>
+- **MORVS** — Source-linked US regulatory and public records: SEC filings, enforcement actions, recalls · auth:none · https:yes · cors:yes · <https://morvs.ai/api/>
+- **National Park Service, US** — Data from the US National Park Service · auth:apiKey · https:yes · cors:yes · <https://www.nps.gov/subjects/developer/>
+- **Neotimo DGFiP Mirror** — French DGFiP registry of certified e-invoicing platforms (Plateformes Agréées), searchable by SIRET · auth:none · https:yes · cors:unknown · <https://neotimo.com/annuaire-dgfip>
+- **Open Government, ACT** — Australian Capital Territory Open Data · auth:none · https:yes · cors:unknown · <https://www.data.act.gov.au/>
+- **Open Government, Argentina** — Argentina Government Open Data · auth:none · https:yes · cors:unknown · <https://datos.gob.ar/>
+- **Open Government, Australia** — Australian Government Open Data · auth:none · https:yes · cors:unknown · <https://www.data.gov.au/>
+- **Open Government, Austria** — Austria Government Open Data · auth:none · https:yes · cors:unknown · <https://www.data.gv.at/>
+- **Open Government, Belgium** — Belgium Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.be/>
+- **Open Government, Canada** — Canadian Government Open Data · auth:none · https:no · cors:unknown · <http://open.canada.ca/en>
+- **Open Government, Colombia** — Colombia Government Open Data · auth:none · https:no · cors:unknown · <https://www.dane.gov.co/>
+- **Open Government, Cyprus** — Cyprus Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.cy/?language=en>
+- **Open Government, Czech Republic** — Czech Republic Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.cz/english/>
+- **Open Government, Denmark** — Denmark Government Open Data · auth:none · https:yes · cors:unknown · <https://www.opendata.dk/>
+- **Open Government, Estonia** — Estonia Government Open Data · auth:apiKey · https:yes · cors:unknown · <https://avaandmed.eesti.ee/instructions/opendata-dataset-api>
+- **Open Government, Finland** — Finland Government Open Data · auth:none · https:yes · cors:unknown · <https://www.avoindata.fi/en>
+- **Open Government, France** — French Government Open Data · auth:apiKey · https:yes · cors:unknown · <https://www.data.gouv.fr/>
+- **Open Government, Germany** — Germany Government Open Data · auth:none · https:yes · cors:unknown · <https://www.govdata.de/daten/-/details/govdata-metadatenkatalog>
+- **Open Government, Greece** — Greece Government Open Data · auth:OAuth · https:yes · cors:unknown · <https://data.gov.gr/>
+- **Open Government, India** — Indian Government Open Data · auth:apiKey · https:yes · cors:unknown · <https://data.gov.in/>
+- **Open Government, Indonesia** — Indonesian Government Open Data · auth:none · https:yes · cors:unknown · <https://data.go.id/>
+- **Open Government, Ireland** — Ireland Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.ie/pages/developers>
+- **Open Government, Italy** — Italy Government Open Data · auth:none · https:yes · cors:unknown · <https://www.dati.gov.it/>
+- **Open Government, Korea** — Korea Government Open Data · auth:apiKey · https:yes · cors:unknown · <https://www.data.go.kr/>
+- **Open Government, Lithuania** — Lithuania Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.lt/public/api/1>
+- **Open Government, Luxembourg** — Luxembourgish Government Open Data · auth:apiKey · https:yes · cors:unknown · <https://data.public.lu>
+- **Open Government, Mexico** — Mexican Statistical Government Open Data · auth:none · https:yes · cors:unknown · <https://www.inegi.org.mx/datos/>
+- **Open Government, Mexico** — Mexico Government Open Data · auth:none · https:yes · cors:unknown · <https://datos.gob.mx/>
+- **Open Government, Netherlands** — Netherlands Government Open Data · auth:none · https:yes · cors:unknown · <https://data.overheid.nl/en/ondersteuning/data-publiceren/api>
+- **Open Government, New South Wales** — New South Wales Government Open Data · auth:apiKey · https:yes · cors:unknown · <https://api.nsw.gov.au/>
+- **Open Government, New Zealand** — New Zealand Government Open Data · auth:none · https:yes · cors:unknown · <https://www.data.govt.nz/>
+- **Open Government, Norway** — Norwegian Government Open Data · auth:none · https:yes · cors:yes · <https://data.norge.no/dataservices>
+- **Open Government, Peru** — Peru Government Open Data · auth:none · https:yes · cors:unknown · <https://www.datosabiertos.gob.pe/>
+- **Open Government, Poland** — Poland Government Open Data · auth:none · https:yes · cors:yes · <https://dane.gov.pl/en>
+- **Open Government, Portugal** — Portugal Government Open Data · auth:none · https:yes · cors:yes · <https://dados.gov.pt/en/recursos/desenvolvimento/referencia-api>
+- **Open Government, Queensland Government** — Queensland Government Open Data · auth:none · https:yes · cors:unknown · <https://www.data.qld.gov.au/>
+- **Open Government, Romania** — Romania Government Open Data · auth:none · https:no · cors:unknown · <http://data.gov.ro/>
+- **Open Government, Saudi Arabia** — Saudi Arabia Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.sa>
+- **Open Government, Singapore** — Singapore Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.sg/>
+- **Open Government, Slovakia** — Slovakia Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.sk/en/>
+- **Open Government, Slovenia** — Slovenia Government Open Data · auth:none · https:yes · cors:no · <https://podatki.gov.si/>
+- **Open Government, South Australian Government** — South Australian Government Open Data · auth:none · https:yes · cors:unknown · <https://data.sa.gov.au/>
+- **Open Government, Spain** — Spain Government Open Data · auth:none · https:yes · cors:unknown · <https://datos.gob.es/en>
+- **Open Government, Sweden** — Sweden Government Open Data · auth:none · https:yes · cors:unknown · <https://www.dataportal.se/en/dataservice/91_29789/api-for-the-statistical-database>
+- **Open Government, Switzerland** — Switzerland Government Open Data · auth:none · https:yes · cors:unknown · <https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html>
+- **Open Government, Taiwan** — Taiwan Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.tw/>
+- **Open Government, Thailand** — Thailand Government Open Data · auth:apiKey · https:yes · cors:unknown · <https://data.go.th/>
+- **Open Government, UK** — UK Government Open Data · auth:none · https:yes · cors:unknown · <https://data.gov.uk/>
+- **Open Government, USA** — United States Government Open Data · auth:none · https:yes · cors:unknown · <https://www.data.gov/>
+- **Open Government, Victoria State Government** — Victoria State Government Open Data · auth:none · https:yes · cors:unknown · <https://www.data.vic.gov.au/>
+- **Open Government, West Australia** — West Australia Open Data · auth:none · https:yes · cors:unknown · <https://data.wa.gov.au/>
+- **OpenMercantil** — Spanish company public data and BORME event timelines · auth:none · https:yes · cors:yes · <https://openmercantil.es/api/documentacion>
+- **OpenRegistry** — Real-time queries to 80+ national company registries (UK, FR, DE, IT, ES, KR and more) · auth:OAuth · https:yes · cors:unknown · <https://openregistry.sophymarine.com>
+- **OpenStates** — US state legislature bills and lawmakers · auth:apiKey · https:yes · cors:unknown · <https://openstates.org/api/>
+- **PRC Exam Schedule** — Unofficial Philippine Professional Regulation Commission's examination schedule · auth:none · https:yes · cors:yes · <https://api.whenisthenextboardexam.com/docs/>
+- **Radar CNPJ** — Brazilian companies (CNPJ) lookup and search, with a market check by area and monitoring · auth:none · https:yes · cors:no · <https://radar-cnpj.com/api/>
+- **Regulations.gov** — US federal rulemaking comments and dockets · auth:apiKey · https:yes · cors:unknown · <https://open.gsa.gov/api/regulationsgov/>
+- **Represent by Open North** — Find Canadian Government Representatives · auth:none · https:yes · cors:unknown · <https://represent.opennorth.ca/>
+- **Right to Disconnect** — Right-to-disconnect employment law by EU country: binding status, statute, and sanctions · auth:none · https:yes · cors:yes · <https://righttodisconnect.jdries.nl/api/>
+- **Spatial India** — District-level data for India: Census, NFHS-5, NCRB, RBI and more, reconciled onto one map · auth:none · https:yes · cors:yes · <https://api.spatialindia.com>
+- **SukuuData** — Ghana's schools, 2026 SHS placement register and CSSPS choice validation · auth:apiKey · https:yes · cors:yes · <https://sukuudata.com/quickstart>
+- **Tollmint** — Advertising, subscription, AI-disclosure and accessibility rules across the US, EU and UK · auth:none · https:yes · cors:yes · <https://api.tollmint.com>
+- **Travel Risk** — Government travel advisories, disaster and conflict alerts and country risk scores · auth:apiKey · https:yes · cors:yes · <https://travelriskapi.com/docs>
+- **UK Companies House** — UK Companies House Data from the UK government · auth:OAuth · https:yes · cors:unknown · <https://developer.company-information.service.gov.uk/>
+- **UK Legislation Changes** — Point-in-time amendment history for UK law · auth:none · https:yes · cors:yes · <https://uk-legal-changes.pages.dev/docs>
+- **UK Public Tenders by Trade** — Live open UK public sector tenders by trade from Find a Tender and Contracts Finder (OGL v3.0) · auth:none · https:yes · cors:yes · <https://tools.gptshopltd.com/api/uk-tenders/>
+- **USAspending.gov** — US federal spending data · auth:none · https:yes · cors:unknown · <https://api.usaspending.gov/>
+- **Veridion** — US congressional stock-trade disclosures and the President's OGE reports, linked to each filing · auth:none · https:yes · cors:yes · <https://www.veridionmarkets.com/data-api/docs>
+- **Vett** — Screen names & companies against OFAC, PEP, watchlists & recalls · auth:none · https:yes · cors:yes · <https://wimberly.solutions/api/free-sanctions-check/>
+- **VotePredictor** — US election forecasts, congressional voting records and forecaster accuracy ratings · auth:none · https:yes · cors:yes · <https://votepredictor.com/developers>
+
+## Health
+
+- **CMS.gov** — Access to the data from the CMS - medicare.gov · auth:apiKey · https:yes · cors:unknown · <https://data.cms.gov/provider-data/>
+- **Coronavirus** — HTTP API for Latest Covid-19 Data · auth:none · https:yes · cors:unknown · <https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme>
+- **Coronavirus in the UK** — UK Government coronavirus data, including deaths and cases by region · auth:none · https:yes · cors:unknown · <https://coronavirus.data.gov.uk/details/developers-guide>
+- **Covid Tracking Project** — Covid-19  data for the US · auth:none · https:yes · cors:no · <https://covidtracking.com/data/api/version-2>
+- **Covid-19** — Covid 19 spread, infection and recovery · auth:none · https:yes · cors:yes · <https://covid19api.com/>
+- **Covid-19** — Covid 19 cases, deaths and recovery per country · auth:none · https:yes · cors:yes · <https://github.com/M-Media-Group/Covid-19-API>
+- **Covid-19 Datenhub** — Maps, datasets, applications and more in the context of COVID-19 · auth:none · https:yes · cors:unknown · <https://npgeo-corona-npgeo-de.hub.arcgis.com>
+- **Covid-19 Government Response** — Government measures tracker to fight against the Covid-19 pandemic · auth:none · https:yes · cors:yes · <https://covidtracker.bsg.ox.ac.uk>
+- **Covid-19 India** — Covid 19 statistics state and district wise about cases, vaccinations, recovery within India · auth:none · https:yes · cors:unknown · <https://data.covid19india.org/>
+- **Covid-19 JHU CSSE** — Open-source API for exploring Covid19 cases based on JHU CSSE · auth:none · https:yes · cors:yes · <https://nuttaphat.com/covid19-api/>
+- **Covid-19 Live Data** — Global and countrywise data of Covid 19 daily Summary, confirmed cases, recovered and deaths · auth:none · https:yes · cors:yes · <https://github.com/mathdroid/covid-19-api>
+- **Covid-19 Philippines** — Unofficial Covid-19 Web API for Philippines from data collected by DOH · auth:none · https:yes · cors:yes · <https://github.com/Simperfy/Covid-19-API-Philippines-DOH>
+- **COVID-19 Tracker Canada** — Details on Covid-19 cases across Canada · auth:none · https:yes · cors:unknown · <https://api.covid19tracker.ca/docs/1.0/overview>
+- **COVID-19 Tracker Sri Lanka** — Provides situation of the COVID-19 patients reported in Sri Lanka · auth:none · https:yes · cors:unknown · <https://www.hpb.health.gov.lk/en/api-documentation>
+- **COVID-ID** — Indonesian government Covid data per province · auth:none · https:yes · cors:yes · <https://data.covid19.go.id/public/api/prov.json>
+- **Cure Cancer With AI** — Oncology research, clinical trials, FDA approvals, news, and MAMMAL predictions · auth:apiKey · https:yes · cors:no · <https://www.curecancerwithai.com/developers>
+- **DailyMed** — FDA drug labeling and package insert information · auth:none · https:yes · cors:unknown · <https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm>
+- **Dataflow Kit COVID-19** — COVID-19 live statistics into sites per hour · auth:none · https:yes · cors:unknown · <https://covid-19.dataflowkit.com>
+- **DeepDNA** — Cited gene, variant and CPIC drug-gene lookups for developers and AI agents · auth:none · https:yes · cors:yes · <https://deepdna.ai/docs/>
+- **Edamam** — Food and nutrition data API with recipe search · auth:apiKey · https:yes · cors:unknown · <https://developer.edamam.com/>
+- **ERstat** — Live Canadian emergency room closures and service disruptions, by province · auth:apiKey · https:yes · cors:yes · <https://erstat.ca/developers>
+- **FDA Recalls** — Latest FDA food, drug and product recall notices as JSON with keyword search · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-fda-product-food-recalls>
+- **FindSaunaPlunge** — US cold plunge and sauna venues with dated, source-quoted temperatures and prices · auth:none · https:yes · cors:yes · <https://findsaunaplunge.com/api/>
+- **FoodData Central** — National Nutrient Database for Standard Reference · auth:apiKey · https:yes · cors:unknown · <https://fdc.nal.usda.gov/>
+- **Healthcare.gov** — Educational content about the US Health Insurance Marketplace · auth:none · https:yes · cors:unknown · <https://www.healthcare.gov/developers/>
+- **Humanitarian Data Exchange** — Humanitarian Data Exchange (HDX) is open platform for sharing data across crises and organisations · auth:none · https:yes · cors:unknown · <https://data.humdata.org/>
+- **Infermedica** — NLP based symptom checker and patient triage API for health diagnosis from text · auth:apiKey · https:yes · cors:yes · <https://developer.infermedica.com/docs/>
+- **LAPIS** — SARS-CoV-2 genomic sequences from public sources · auth:none · https:yes · cors:yes · <https://cov-spectrum.ethz.ch/public>
+- **Lexigram** — NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology · auth:apiKey · https:yes · cors:unknown · <https://docs.lexigram.io/>
+- **Longevity World Cup** — Public biological age competition data with biomarkers and rankings · auth:none · https:yes · cors:yes · <https://longevityworldcup.com/api/data/athletes>
+- **Makeup** — Makeup Information · auth:none · https:no · cors:unknown · <http://makeup-api.herokuapp.com/>
+- **MedlinePlus Genetics** — Genetic conditions, genes, chromosomes and mtDNA data · auth:none · https:yes · cors:unknown · <https://medlineplus.gov/about/developers/geneticsdatafilesapi/>
+- **MyVaccination** — Vaccination data for Malaysia · auth:none · https:yes · cors:unknown · <https://documenter.getpostman.com/view/16605343/Tzm8GG7u>
+- **NHS Health A-Z** — NHS conditions, medicines and guidance · auth:apiKey · https:yes · cors:unknown · <https://digital.nhs.uk/developer/api-catalogue/health-a-to-z>
+- **NPPES** — National Plan & Provider Enumeration System, info on healthcare providers registered in US · auth:none · https:yes · cors:unknown · <https://npiregistry.cms.hhs.gov/registry/help-api>
+- **Nutritionix** — Worlds largest verified nutrition database · auth:apiKey · https:yes · cors:unknown · <https://developer.nutritionix.com/>
+- **Open Data NHS Scotland** — Medical reference data and statistics by Public Health Scotland · auth:none · https:yes · cors:unknown · <https://www.opendata.nhs.scot>
+- **Open Disease** — API for Current cases and more stuff about COVID-19 and Influenza · auth:none · https:yes · cors:yes · <https://disease.sh/>
+- **Open Targets** — Gene-disease-drug target associations · auth:none · https:yes · cors:yes · <https://platform-docs.opentargets.org/>
+- **openFDA** — Public FDA data about drugs, devices and foods · auth:apiKey · https:yes · cors:unknown · <https://open.fda.gov>
+- **Orion Health** — Medical platform which allows the development of applications for different healthcare scenarios · auth:OAuth · https:yes · cors:unknown · <https://developer.orionhealth.io/>
+- **Quarantine** — Coronavirus API with free COVID-19 live updates · auth:none · https:yes · cors:yes · <https://quarantine.country/coronavirus/api/>
+- **RxNorm** — Normalized drug names, RxCUIs and NDC codes · auth:none · https:yes · cors:yes · <https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html>
+- **Stanza DSCSA Verifier** — Verify FDA DSCSA and EU FMD pharmaceutical serialization barcodes · auth:apiKey · https:yes · cors:no · <https://stanzaapi.com/tools/pharma-dscsa>
+- **Stanza UDI Decoder** — Decode and validate FDA GUDID and EU MDR medical device UDI barcodes · auth:apiKey · https:yes · cors:no · <https://stanzaapi.com/tools/udi-decoder>
+- **THC Open Mindfulness Resources** — Free mindfulness resources and research metadata · auth:none · https:yes · cors:yes · <https://api.theholisticcare.com/docs>
+- **Urgences Québec** — Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada · auth:none · https:yes · cors:yes · <https://sante.handled.tools/api>
+
+## Jobs
+
+- **AI Dev Jobs** — AI/ML engineering job aggregator with REST, RSS, and MCP endpoints · auth:none · https:yes · cors:yes · <https://aidevboard.com/openapi.yaml>
+- **AI Trainer Work** — Open AI training jobs (RLHF, data annotation, expert evaluation) from 20+ platforms, with pay · auth:none · https:yes · cors:yes · <https://aitrainer.work/open-data#api>
+- **Adzuna** — Job board aggregator · auth:apiKey · https:yes · cors:unknown · <https://developer.adzuna.com/overview>
+- **Allowly Hiring Evidence** — Deterministic hiring policy decisions and signed evidence records · auth:apiKey · https:yes · cors:no · <https://allowly.ai/docs/solutions/hiring/api/>
+- **Arbeitnow** — API for Job board aggregator in Europe / Remote · auth:none · https:yes · cors:yes · <https://documenter.getpostman.com/view/18545278/UVJbJdKh>
+- **Arbeitsamt** — API for the "Arbeitsamt", which is a german Job board aggregator · auth:OAuth · https:yes · cors:unknown · <https://jobsuche.api.bund.dev/>
+- **Artificial Intelligence Jobs** — Live AI/ML job listings from 260+ companies' own career pages, with salary, location, remote and seniority filters · auth:none · https:yes · cors:yes · <https://artificialintelligencejobs.co/developers>
+- **Careerjet** — Job search engine · auth:apiKey · https:no · cors:unknown · <https://www.careerjet.com/partners/api/>
+- **CuratorSearch** — Museum and gallery jobs from 400+ institutions' own careers pages, with advertised salaries · auth:none · https:yes · cors:yes · <https://curatorsearch.com/developers>
+- **Dabloons** — Bounty board where AI agents post and work tasks like PR reviews, bug repros and install checks · auth:apiKey · https:yes · cors:no · <https://dabloons.net/llms.txt>
+- **DevITjobs UK** — Jobs with GraphQL · auth:none · https:yes · cors:yes · <https://devitjobs.uk/job_feed.xml>
+- **Findwork** — Job board · auth:apiKey · https:yes · cors:unknown · <https://findwork.dev/developers/>
+- **freehire** — Open-source search engine aggregating tech jobs from company ATS boards · auth:none · https:yes · cors:no · <https://freehire.dev/docs/api>
+- **GraphQL Jobs** — Jobs with GraphQL · auth:none · https:yes · cors:yes · <https://graphql.jobs/docs/api/>
+- **HeroHunt People Search** — Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing · auth:apiKey · https:yes · cors:yes · <https://www.herohunt.ai/people-search-api>
+- **HireLayer** — Parse resumes and job descriptions, normalize skills, match and rank candidates · auth:apiKey · https:yes · cors:yes · <https://hirelayer.co/api-docs>
+- **Jobs2Careers** — Job aggregator · auth:apiKey · https:yes · cors:unknown · <https://docs.talroo.com/api/search>
+- **JobsPipe** — Live job postings from 30+ ATS feeds and job boards in one normalized JSON schema · auth:apiKey · https:yes · cors:yes · <https://docs.jobspipe.dev>
+- **Jobven** — Job postings tracked as roles open and close, with webhooks on changes, from employer career pages · auth:apiKey · https:yes · cors:yes · <https://jobven.com/docs/getting-started>
+- **Jooble** — Job search engine · auth:apiKey · https:yes · cors:unknown · <https://jooble.org/api/about>
+- **Juju** — Job search engine · auth:apiKey · https:no · cors:unknown · <http://www.juju.com/publisher/spec/>
+- **JobDataLake** — 1M+ enriched job listings from 20,000+ companies with salary, skills, seniority · auth:apiKey · https:yes · cors:yes · <https://www.jobdatalake.com/docs>
+- **Level** — Job listings rated by AI level, from Little AI to Builds AI; REST, RSS and MCP · auth:none · https:yes · cors:yes · <https://jobsbylevel.com/developers>
+- **Open Skills** — Job titles, skills and related jobs data · auth:none · https:no · cors:unknown · <https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview>
+- **Present of AI** — AI company profiles, open AI jobs and dated AI news, REST and MCP · auth:none · https:yes · cors:yes · <https://presentofai.com/developers>
+- **RankFabrik Jobs** — Aggregated job postings search, deduplicated on identifier, with coverage per segment · auth:apiKey · https:yes · cors:unknown · <https://rankfabrik.com/produits/emplois>
+- **Reed** — Job board aggregator · auth:apiKey · https:yes · cors:unknown · <https://www.reed.co.uk/developers>
+- **RemoteOK** — Remote job board for digital nomads · auth:none · https:yes · cors:yes · <https://remoteok.com/api>
+- **Techmap** — Job postings from 185 sources in 250 countries and territories, with an archive since 2020 · auth:apiKey · https:yes · cors:yes · <https://api.techmap.io/jobs-api>
+- **TechRole Index** — Russian IT profession, vacancy publication and salary aggregates · auth:none · https:yes · cors:yes · <https://techrole.ru/open-data-daily>
+- **The Muse** — Job board and company profiles · auth:apiKey · https:yes · cors:unknown · <https://www.themuse.com/developers/api/v2>
+- **Upwork** — Freelance job board and management system · auth:OAuth · https:yes · cors:unknown · <https://developers.upwork.com/>
+- **USAJOBS** — US government job board · auth:apiKey · https:yes · cors:unknown · <https://developer.usajobs.gov/>
+- **Vibeworker** — Upwork job listings with client data and AI fit scores, plus webhooks and RSS · auth:apiKey · https:yes · cors:no · <https://tryvibeworker.com/docs>
+- **WhatJobs** — Job search engine · auth:apiKey · https:yes · cors:unknown · <https://www.whatjobs.com/affiliates>
+- **Worklittle** — Job search, over 4 million jobs · auth:apiKey · https:yes · cors:yes · <https://docs.worklittle.com>
+- **ZipRecruiter** — Job search app and website · auth:apiKey · https:yes · cors:unknown · <https://www.ziprecruiter.com/publishers>
+
+## Machine Learning
+
+- **AI Economics Tools** — Token cost, LLM energy, agent-hour and Proof-Adjusted Autonomy calculators by Michał Piszczek · auth:none · https:yes · cors:yes · <https://piszczek.pl/tools/api>
+- **AI For Thai** — Free Various Thai AI API · auth:apiKey · https:yes · cors:yes · <https://aiforthai.in.th/index.php>
+- **AnswerLine** — ChatGPT, Gemini, Copilot, AI Mode and Google Search/News results as structured JSON · auth:apiKey · https:yes · cors:unknown · <https://answerline.dev/docs>
+- **Audexum** — Speech-to-text in 25 languages and text-to-speech with 43 voices in 32 languages · auth:apiKey · https:yes · cors:yes · <https://audexum.com/docs>
+- **BRAINIALL** — PT-BR and Spanish audio transcription with diarization and SRT/VTT · auth:apiKey · https:yes · cors:yes · <https://github.com/fasuizu-br/brainiall-transcription-skill>
+- **Clarifai** — Computer Vision · auth:OAuth · https:yes · cors:unknown · <https://docs.clarifai.com/api-guide/api-overview>
+- **Cohere** — NLP API for text generation, embeddings, classification and summarization with a free trial tier · auth:apiKey · https:yes · cors:yes · <https://docs.cohere.com/reference/about>
+- **Cloudmersive** — Image captioning, face recognition, NSFW classification · auth:apiKey · https:yes · cors:yes · <https://www.cloudmersive.com/image-recognition-and-processing-api>
+- **DeepAI** — Provides AI-powered APIs for text generation, image processing, and more · auth:apiKey · https:yes · cors:yes · <https://deepai.org/>
+- **Deepcode** — AI for code review · auth:none · https:yes · cors:unknown · <https://www.deepcode.ai>
+- **Dialogflow** — Natural Language Processing · auth:apiKey · https:yes · cors:unknown · <https://cloud.google.com/dialogflow/docs/>
+- **DreamThreads** — Parse dreams into structured entities, emotions, agency, threat, and outcomes · auth:none · https:yes · cors:yes · <https://mydreamthreads.xyz/dream-interpretation-api>
+- **EXUDE-API** — Used for the primary ways for filtering the stopping, stemming words from the text data · auth:none · https:yes · cors:yes · <http://uttesh.com/exude-api/>
+- **GEN** — Creative AI video engineer for ads, AI UGC and microdramas; free editor and social publishing · auth:apiKey · https:yes · cors:yes · <https://gen.pro/docs#ai-agents>
+- **GoldBean** — OCR, Translation, NLP & ERNIE LLM via Baidu AI (free tier available) · auth:apiKey · https:yes · cors:unknown · <https://goldbean-api.xyz/docs>
+- **Google Gemini** — Multimodal generative AI for text, vision, and code generation · auth:apiKey · https:yes · cors:unknown · <https://ai.google.dev/gemini-api/docs>
+- **Groq** — Fast AI inference API with free tier, supports Llama, Mixtral, Gemma models · auth:apiKey · https:yes · cors:yes · <https://console.groq.com/docs/quickstart>
+- **Hirak FaceAPI** — Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits · auth:apiKey · https:yes · cors:unknown · <https://faceapi.hirak.site/>
+- **Hugging Face** — AI model hub with inference API for NLP, computer vision, and audio · auth:apiKey · https:yes · cors:yes · <https://huggingface.co>
+- **Imagga** — Image Recognition Solutions like Tagging, Visual Search, NSFW moderation · auth:apiKey · https:yes · cors:unknown · <https://imagga.com/>
+- **Inferdo** — Computer Vision services like Facial detection, Image labeling, NSFW classification · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/user/inferdo>
+- **Irisnet** — Realtime content moderation API that blocks or blurs unwanted images in real-time · auth:apiKey · https:yes · cors:yes · <https://irisnet.de/api/>
+- **Jina AI** — Free AI API for embeddings, reranking, and text processing · auth:apiKey · https:yes · cors:yes · <https://jina.ai>
+- **Keen IO** — Data Analytics · auth:apiKey · https:yes · cors:unknown · <https://keen.io/>
+- **Lacuna** — Public board where AI agents post problems as seeks and agents who solved them offer help · auth:none · https:yes · cors:unknown · <https://lacuna.mergeinc.workers.dev/agents.md>
+- **Laya Decision Gateway** — Sub-35ms AI gateway for prompt injection defense, support ticket triage & content moderation · auth:apiKey · https:yes · cors:yes · <https://laya.harshad.eu.org>
+- **Machinetutors** — AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP · auth:apiKey · https:yes · cors:yes · <https://machinetutors.com/api>
+- **MediaCraft AI** — Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC). · auth:apiKey · https:yes · cors:yes · <https://mediacraft-x402-api.onrender.com>
+- **MessengerX.io** — A FREE API for developers to build and monetize personalized ML based chat apps · auth:apiKey · https:yes · cors:yes · <https://messengerx.rtfd.io>
+- **Mistral AI** — High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier · auth:apiKey · https:yes · cors:yes · <https://docs.mistral.ai/api/>
+- **Modelfax** — LLM pricing, context windows and deprecation dates, schema-validated and updated daily · auth:none · https:yes · cors:yes · <https://bytebrujo.github.io/modelfax/>
+- **NLP Cloud** — NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more · auth:apiKey · https:yes · cors:unknown · <https://nlpcloud.io>
+- **Nonobench** — Open-source benchmark of how well LLMs solve nonogram puzzles · auth:none · https:yes · cors:yes · <https://www.nonobench.com/how-it-works>
+- **Not Human Search** — AI tool discovery with agentic scoring for 8,600+ tools and MCP servers · auth:none · https:yes · cors:yes · <https://nothumansearch.ai/openapi.yaml>
+- **onomeo** — OpenAI-compatible, about 30 free LLMs, 30 calls per 5 hours, optional pay-as-you-go, public beta · auth:apiKey · https:yes · cors:no · <https://onomeo.com/docs>
+- **OpenRouter** — Unified API for 300+ LLMs from OpenAI, Anthropic, Meta, Mistral and more, with a free tier · auth:apiKey · https:yes · cors:yes · <https://openrouter.ai/docs/quick-start>
+- **OpenVisionAPI** — Open source computer vision API based on open source models · auth:none · https:yes · cors:yes · <https://openvisionapi.com>
+- **Perspective** — NLP API to return probability that if text is toxic, obscene, insulting or threatening · auth:apiKey · https:yes · cors:unknown · <https://perspectiveapi.com>
+- **QuelLLM** — Open-weight language model catalogue with memory requirements and installation metadata · auth:none · https:yes · cors:yes · <https://quelllm.fr/api/>
+- **Requesty** — OpenAI compatible LLM router for 600+ models, with a free tier for free models · auth:apiKey · https:yes · cors:yes · <https://docs.requesty.ai>
+- **Replicate** — Run open-source AI models in the cloud including image generation, LLMs and audio models · auth:apiKey · https:yes · cors:yes · <https://replicate.com/docs/reference/http>
+- **Roboflow Universe** — Pre-trained computer vision models · auth:apiKey · https:yes · cors:yes · <https://universe.roboflow.com>
+- **SafeReel** — NSFW detection for images and full-length videos by URL, free tier · auth:apiKey · https:yes · cors:yes · <https://safereel.ai/docs>
+- **SkyBiometry** — Face Detection, Face Recognition and Face Grouping · auth:apiKey · https:yes · cors:unknown · <https://skybiometry.com/documentation/>
+- **Speak AI** — Transcribe and analyze audio and video in 100+ languages · auth:apiKey · https:yes · cors:unknown · <https://docs.speakai.co>
+- **Statlyte** — Live pricing, context windows and model ids for major LLM APIs · auth:none · https:yes · cors:yes · <https://statlyte.com/api>
+- **Tanvo** — Image, video and song generation on 30 AI models (Nano Banana, Kling, Veo, Suno), with a free tier · auth:apiKey · https:yes · cors:yes · <https://tanvo.ai/developers/api>
+- **TensorFeed** — Real-time AI news, model pricing, service status, and agent activity feeds · auth:none · https:yes · cors:yes · <https://tensorfeed.ai/developers>
+- **Together AI** — Fast inference API for open-source LLMs including Llama, Qwen, DeepSeek with a free tier · auth:apiKey · https:yes · cors:yes · <https://docs.together.ai/docs/quickstart>
+- **Time Door** — A time series analysis API · auth:apiKey · https:yes · cors:yes · <https://timedoor.io>
+- **TokenRoute** — One OpenAI-compatible endpoint for hundreds of LLMs, with a free tier and per-token pricing · auth:apiKey · https:yes · cors:yes · <https://tokenroute.app/docs/quickstart>
+- **Unplugg** — Forecasting API for timeseries data · auth:apiKey · https:yes · cors:unknown · <https://unplu.gg/test_api.html>
+- **Voxell Forge** — OpenAI-compatible text embeddings API, free-forever model with no credit card required · auth:apiKey · https:yes · cors:no · <https://voxell.ai/docs/#forge>
+- **WolframAlpha** — Provides specific answers to questions using data and algorithms · auth:apiKey · https:yes · cors:unknown · <https://products.wolframalpha.com/api/>
+
+## Music
+
+- **7digital** — Api of Music store 7digital · auth:OAuth · https:yes · cors:unknown · <https://docs.7digital.com/reference>
+- **AI Mastering** — Automated Music Mastering · auth:apiKey · https:yes · cors:yes · <https://aimastering.com/api_docs/>
+- **Audiomack** — Api of the streaming music hub Audiomack · auth:OAuth · https:yes · cors:unknown · <https://www.audiomack.com/data-api/docs>
+- **Bandcamp** — API of Music store Bandcamp · auth:OAuth · https:yes · cors:unknown · <https://bandcamp.com/developer>
+- **Bandsintown** — Music Events · auth:none · https:yes · cors:unknown · <https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0>
+- **Deezer** — Music · auth:OAuth · https:yes · cors:unknown · <https://developers.deezer.com/api>
+- **Discogs** — Music · auth:OAuth · https:yes · cors:unknown · <https://www.discogs.com/developers/>
+- **Freesound** — Music Samples · auth:apiKey · https:yes · cors:unknown · <https://freesound.org/docs/api/>
+- **Gaana** — API to retrieve song information from Gaana · auth:none · https:yes · cors:unknown · <https://github.com/cyberboysumanjay/GaanaAPI>
+- **Genius** — Crowdsourced lyrics and music knowledge · auth:OAuth · https:yes · cors:unknown · <https://docs.genius.com/>
+- **Genrenator** — Music genre generator · auth:none · https:yes · cors:unknown · <https://binaryjazz.us/genrenator-api/>
+- **iTunes Search** — Software products · auth:none · https:yes · cors:unknown · <https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/>
+- **Jamendo** — Music · auth:OAuth · https:yes · cors:unknown · <https://developer.jamendo.com/v3.0/docs>
+- **JioSaavn** — API to retrieve song information, album meta data and many more from JioSaavn · auth:none · https:yes · cors:unknown · <https://github.com/cyberboysumanjay/JioSaavnAPI>
+- **KKBOX** — Get music libraries, playlists, charts, and perform out of KKBOX's platform · auth:OAuth · https:yes · cors:unknown · <https://developer.kkbox.com>
+- **KSoft.Si Lyrics** — API to get lyrics for songs · auth:apiKey · https:yes · cors:unknown · <https://docs.ksoft.si/api/lyrics-api>
+- **LastFm** — Music · auth:apiKey · https:yes · cors:unknown · <https://www.last.fm/api>
+- **Lyrics.ovh** — Simple API to retrieve the lyrics of a song · auth:none · https:yes · cors:unknown · <https://lyricsovh.docs.apiary.io>
+- **Mixcloud** — Music · auth:OAuth · https:yes · cors:yes · <https://www.mixcloud.com/developers/>
+- **MusicBrainz** — Music · auth:none · https:yes · cors:unknown · <https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2>
+- **Musixmatch** — Music · auth:apiKey · https:yes · cors:unknown · <https://developer.musixmatch.com/>
+- **Napster** — Music · auth:apiKey · https:yes · cors:yes · <https://developer.napster.com/api/v2.2>
+- **Openwhyd** — Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...) · auth:none · https:yes · cors:no · <https://openwhyd.github.io/openwhyd/API>
+- **Phishin** — A web-based archive of legal live audio recordings of the improvisational rock band Phish · auth:apiKey · https:yes · cors:no · <https://phish.in/api-docs>
+- **Radio Browser** — List of internet radio stations · auth:none · https:yes · cors:yes · <https://api.radio-browser.info/>
+- **Songkick** — Music Events · auth:apiKey · https:yes · cors:unknown · <https://www.songkick.com/developer/>
+- **Songlink / Odesli** — Get all the services on which a song is available · auth:apiKey · https:yes · cors:yes · <https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741>
+- **Songsterr** — Provides guitar, bass and drums tabs and chords · auth:none · https:yes · cors:unknown · <https://www.songsterr.com/>
+- **SoundCloud** — With SoundCloud API you can build applications that will give more power to control your content · auth:OAuth · https:yes · cors:unknown · <https://developers.soundcloud.com/docs/api/guide>
+- **Spotify** — View Spotify music catalog, manage users' libraries, get recommendations and more · auth:OAuth · https:yes · cors:unknown · <https://beta.developer.spotify.com/documentation/web-api/>
+- **StemConsole** — Split songs into vocals, drums, bass and other stems with AI · auth:apiKey · https:yes · cors:yes · <https://stemconsole.ai/developers/>
+- **Sunor** — AI music generation API via Suno, with pay-as-you-go credits · auth:apiKey · https:yes · cors:unknown · <https://docs.sunor.cc>
+- **TasteDive** — Similar artist API (also works for movies and TV shows) · auth:apiKey · https:yes · cors:unknown · <https://tastedive.com/read/api>
+- **TheAudioDB** — Music · auth:apiKey · https:yes · cors:unknown · <https://www.theaudiodb.com/>
+- **Vagalume** — Crowdsourced lyrics and music knowledge · auth:apiKey · https:yes · cors:unknown · <https://api.vagalume.com.br/docs/>
+- **Verome** — Music API for searching, streaming and exploring music data from YouTube Music, YouTube, and Last.fm · auth:none · https:yes · cors:unknown · <https://github.com/Kirazul/Verome-API>
+
+## News
+
+- **Associated Press** — Search for news and metadata from Associated Press · auth:apiKey · https:yes · cors:unknown · <https://developer.ap.org/>
+- **Chronicling America** — Provides access to millions of pages of historic US newspapers from the Library of Congress · auth:none · https:no · cors:unknown · <http://chroniclingamerica.loc.gov/about/api/>
+- **Currents** — Real-time and historical global news with multilingual support · auth:apiKey · https:yes · cors:yes · <https://currentsapi.services/>
+- **daily.dev** — Developer news feeds, posts, bookmarks, tags and search from daily.dev · auth:apiKey · https:yes · cors:no · <https://docs.daily.dev/public-api/>
+- **DataCube AI** — Daily curated AI industry news, funding rounds and trends in 8 languages · auth:none · https:yes · cors:no · <https://www.datacubeai.space/en/tools/ai-news-api>
+- **Feedbin** — RSS reader · auth:OAuth · https:yes · cors:unknown · <https://github.com/feedbin/feedbin-api>
+- **Florida Man** — Static JSON dataset of 10,000+ Florida Man headlines by date · auth:none · https:yes · cors:yes · <https://github.com/juliayxhuang/florida-man-api#readme>
+- **GNews** — Search for news from various sources · auth:apiKey · https:yes · cors:yes · <https://gnews.io/>
+- **Graphs for Coronavirus** — Each Country separately and Worldwide Graphs for Coronavirus. Daily updates · auth:none · https:yes · cors:yes · <https://corona.dnsforfamily.com/api.txt>
+- **Inshorts News** — Provides news from inshorts · auth:none · https:yes · cors:unknown · <https://github.com/cyberboysumanjay/Inshorts-News-API>
+- **MarketAux** — Live stock market news with tagged tickers + sentiment and stats JSON API · auth:apiKey · https:yes · cors:yes · <https://www.marketaux.com/>
+- **New York Times** — The New York Times Developer Network · auth:apiKey · https:yes · cors:unknown · <https://developer.nytimes.com/>
+- **News** — Headlines currently published on a range of news sources and blogs · auth:apiKey · https:yes · cors:unknown · <https://newsapi.org/>
+- **NewsData** — News data API for live-breaking news and headlines from reputed  news sources · auth:apiKey · https:yes · cors:unknown · <https://newsdata.io/docs>
+- **Newsflash** — Deduplicated news events from 260+ sources with corroboration/confidence scores for AI agents · auth:apiKey · https:yes · cors:no · <https://newsflash.sh/docs>
+- **NewsMesh** — Premium news data from thousands of sources · auth:apiKey · https:yes · cors:no · <https://newsmesh.co/docs>
+- **NewsX** — Get or Search Latest Breaking News with ML Powered Summaries 🤖 · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/>
+- **Noozra** — Free news headlines from 200+ curated RSS sources · auth:none · https:yes · cors:yes · <https://noozra.com/api>
+- **NPR One** — Personalized news listening experience from NPR · auth:OAuth · https:yes · cors:unknown · <http://dev.npr.org/api/>
+- **Scoopkit** — AI-industry news deduplicated into structured events with a versioned category taxonomy · auth:apiKey · https:yes · cors:yes · <https://scoopkit.dev>
+- **Spaceflight News** — Spaceflight related news 🚀 · auth:none · https:yes · cors:yes · <https://spaceflightnewsapi.net>
+- **The Guardian** — Access all the content the Guardian creates, categorised by tags and section · auth:apiKey · https:yes · cors:unknown · <http://open-platform.theguardian.com/>
+- **The Old Reader** — RSS reader · auth:apiKey · https:yes · cors:unknown · <https://github.com/theoldreader/api>
+- **TheNews** — Aggregated headlines, top story and live news JSON API · auth:apiKey · https:yes · cors:yes · <https://www.thenewsapi.com/>
+- **Trove** — Search through the National Library of Australia collection of 1000s of digitised newspapers · auth:apiKey · https:yes · cors:unknown · <https://trove.nla.gov.au/about/create-something/using-api>
+
+## Open Data
+
+- **221** — Senegal reference data: public holidays, mobile operators, banks, communes, legal forms · auth:none · https:yes · cors:yes · <https://221.orvlabs.com/documentation>
+- **49 Gallery Historical Data** — Normalized historical records and 25 daily-updated reference series · auth:none · https:yes · cors:yes · <https://api.181649.com/docs>
+- **AcreLens** — Land suitability scoring API for any US property: off-grid, rural, recreational, investment · auth:apiKey · https:yes · cors:unknown · <https://www.acrelens.com>
+- **API Setu** — An Indian Government platform that provides a lot of APIS for KYC, business, education & employment · auth:none · https:yes · cors:yes · <https://www.apisetu.gov.in/>
+- **APIllow** — Zillow property data: 50+ fields per listing by address, URL, ZPID or ZIP, with sold data and comps · auth:apiKey · https:yes · cors:yes · <https://apillow.co/docs.html>
+- **Archive.org** — The Internet Archive · auth:none · https:yes · cors:no · <https://archive.readme.io/docs>
+- **Auregistre** — French company history from the official gazette (BODACC) since 2008, with insolvency counts · auth:none · https:yes · cors:yes · <https://auregistre.fr/api>
+- **Band Atlas** — Cellular IoT bands, 2G/3G sunsets and device compatibility for 46 countries · auth:none · https:yes · cors:yes · <https://www.aiotrf.com/en/ai/band-atlas/developers/>
+- **Big Data Explained** — Cloud data warehouse list prices, read daily from AWS and Azure pricing APIs, with price history · auth:none · https:yes · cors:yes · <https://bigdataexplained.com/data>
+- **Black History Facts** — Contribute or search one of the largest black history fact databases on the web · auth:apiKey · https:yes · cors:yes · <https://www.blackhistoryapi.io/docs>
+- **BotsArchive** — JSON formatted details about Telegram Bots available in database · auth:none · https:yes · cors:unknown · <https://botsarchive.com/docs.html>
+- **BTU Graph** — Source-reviewed energy company knowledge graph and directory exports · auth:none · https:yes · cors:yes · <https://btugraph.com/data/>
+- **Callook.info** — United States ham radio callsigns · auth:none · https:yes · cors:unknown · <https://callook.info>
+- **CARTO** — Location Information Prediction · auth:apiKey · https:yes · cors:unknown · <https://carto.com/>
+- **CityAlert** — Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds · auth:none · https:yes · cors:no · <https://cityalert.live/developers>
+- **CollegeCalcAI** — US college admission chance estimates and admissions data for 1,100+ colleges · auth:none · https:yes · cors:yes · <https://collegecalcai.com/developers>
+- **CollegeScoreCard.ed.gov** — Data on higher education institutions in the United States · auth:none · https:yes · cors:unknown · <https://collegescorecard.ed.gov/data/>
+- **CoworkingView** — Coworking spaces and offices in 63 European and Gulf cities with operator-published prices · auth:none · https:yes · cors:no · <https://coworkingview.com/en/api>
+- **CuttingToolsAI** — Cross-brand carbide insert grade equivalents by ISO application class · auth:none · https:yes · cors:yes · <https://cuttingtoolsai.eu/api>
+- **DevLifeCheck** — Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers · auth:none · https:yes · cors:no · <https://devlifecheck.com/developers>
+- **Edgepedia** — Search and read Edgepedia, a free and growing encyclopedia with citations · auth:none · https:yes · cors:yes · <https://www.edgechat.ai/developers>
+- **Enigma Public** — Broadest collection of public data · auth:apiKey · https:yes · cors:yes · <https://developers.enigma.com/docs>
+- **EOSL** — Hardware end-of-sale and end-of-service-life dates by part number, source-linked · auth:none · https:yes · cors:yes · <https://eosl.ai/api/>
+- **French Address Search** — Address search via the French Government · auth:none · https:yes · cors:unknown · <https://geo.api.gouv.fr/adresse>
+- **GENESIS** — Federal Statistical Office Germany · auth:OAuth · https:yes · cors:unknown · <https://www.destatis.de/EN/Service/OpenData/api-webservice.html>
+- **HousingFeed** — US rental listings from property managers' own websites, verified weekly · auth:none · https:yes · cors:yes · <https://housingfeed.com/docs>
+- **InfraNode** — Unified German city open data: weather, air quality, EV chargers, transit, demographics · auth:apiKey · https:yes · cors:unknown · <https://infranode.dev>
+- **i6eal Open AI Data** — Open datasets on AI policy, regulation and public-sector adoption in Germany and the EU · auth:none · https:yes · cors:yes · <https://i6eal.de/en/tools/data/>
+- **Joshua Project** — People groups of the world with the fewest followers of Christ · auth:apiKey · https:yes · cors:unknown · <https://api.joshuaproject.net/>
+- **K-Data Gate** — Korean market data: K-beauty/K-food products, Naver trends, stocks, real estate, weather · auth:apiKey · https:yes · cors:unknown · <https://kdata-gate.vercel.app/docs>
+- **Kaggle** — Create and interact with Datasets, Notebooks, and connect with Kaggle · auth:apiKey · https:yes · cors:unknown · <https://www.kaggle.com/docs/api>
+- **Kvartiry-Phuket** — Russian-language Phuket real estate guides, asking prices, condo assessment rates, weather, beaches · auth:none · https:yes · cors:yes · <https://kvartiry-phuket.com/otkrytye-dannye/#english>
+- **LinkPreview** — Get JSON formatted summary with title, description and preview image for any requested URL · auth:apiKey · https:yes · cors:yes · <https://www.linkpreview.net>
+- **LottoLens PH** — Fixed Philippine PCSO historical results and normal draw schedules · auth:none · https:yes · cors:yes · <https://remo65588-boop.github.io/lottolens-ph-public-data/api/>
+- **Lowy Asia Power Index** — Get measure resources and influence to rank the relative power of states in Asia · auth:none · https:yes · cors:unknown · <https://github.com/0x0is1/lowy-index-api-docs>
+- **Microburbs** — Australian property and suburb data: valuations, sales, rents, schools, demographics, risk, zoning · auth:apiKey · https:yes · cors:no · <https://www.microburbs.com.au/developers/api-docs>
+- **Microlink.io** — Extract structured data from any website · auth:none · https:yes · cors:yes · <https://microlink.io>
+- **Monitly** — Official statistics from Eurostat, World Bank, OECD, IMF and WHO for 150+ countries · auth:apiKey · https:yes · cors:yes · <https://monit.ly/api-docs>
+- **MostExpensiveWatches** — Documented luxury watch auction records, live listings, valuations and price indices · auth:none · https:yes · cors:yes · <https://mostexpensivewatches.net/api>
+- **ModelPartFinder Error Codes** — Lookup appliance and equipment error codes by brand and code, with recommended replacement parts · auth:none · https:yes · cors:yes · <https://modelpartfinder.com/docs/api>
+- **Nasdaq Data Link** — Stock market data · auth:apiKey · https:yes · cors:unknown · <https://data.nasdaq.com/>
+- **Nobel Prize** — Open data about nobel prizes and events · auth:none · https:yes · cors:yes · <https://www.nobelprize.org/about/developer-zone-2/>
+- **Onyx Bazaar** — Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API · auth:none · https:yes · cors:unknown · <https://onyx-actions.onrender.com/bazaar>
+- **Open Data Minneapolis** — Spatial (GIS) and non-spatial city data for Minneapolis · auth:none · https:yes · cors:no · <https://opendata.minneapolismn.gov/>
+- **Open Scholarships** — Free, openly-licensed directory of US scholarships and student aid from official sources · auth:none · https:yes · cors:yes · <https://scholarships.grudged.io>
+- **openAFRICA** — Large datasets repository of African open data · auth:none · https:yes · cors:unknown · <https://africaopendata.org/>
+- **OpenCorporates** — Data on corporate entities and directors in many countries · auth:apiKey · https:yes · cors:unknown · <http://api.opencorporates.com/documentation/API-Reference>
+- **OpenSanctions** — Data on international sanctions, crime and politically exposed persons · auth:none · https:yes · cors:yes · <https://www.opensanctions.org/docs/api/>
+- **Pan Africa Data** — Macroeconomic and subnational income distribution data for all 54 African countries · auth:apiKey · https:yes · cors:unknown · <https://panafricadata.com>
+- **PayCrunch** — US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0 · auth:none · https:yes · cors:yes · <https://paycrunch.co/api.html>
+- **PeakMetrics** — News articles and public datasets · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news>
+- **ProductGuru** — Consumer product-safety recall notices from 11 government registers, looked up by barcode (EAN/GTIN) · auth:none · https:yes · cors:yes · <https://myproduct.guru/lookup/>
+- **PublicDataHub** — US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance · auth:none · https:yes · cors:yes · <https://publicdatahub.org/api>
+- **Recreation Information Database** — Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) · auth:apiKey · https:yes · cors:unknown · <https://ridb.recreation.gov/>
+- **Registrum** — UK company data: profiles, directors, PSC, iXBRL-parsed financials, ECCTA status · auth:apiKey · https:yes · cors:no · <https://api.registrum.co.uk/docs>
+- **Scoop.it** — Content Curation Service · auth:apiKey · https:no · cors:unknown · <http://www.scoop.it/dev>
+- **SlashYear** — Dated historical events as JSON, each quoted from a cited Wikipedia revision · auth:none · https:yes · cors:yes · <https://slashyear.com/api>
+- **Socrata** — Access to Open Data from Governments, Non-profits and NGOs around the world · auth:OAuth · https:yes · cors:yes · <https://dev.socrata.com/>
+- **StackRates** — VPS and cloud server prices from 46 providers, read daily from their own pricing pages and APIs · auth:none · https:yes · cors:yes · <https://stackrates.ai/ask/>
+- **Statistics of the World** — Economic data for 218 countries — GDP, population, inflation, and 440+ indicators from IMF and World Bank · auth:none · https:yes · cors:yes · <https://statisticsoftheworld.com/api-docs>
+- **StatOrigin** — Industry statistics, each traced to its primary source with a verbatim quote, CC BY 4.0 · auth:none · https:yes · cors:yes · <https://statorigin.org/docs/api>
+- **Teleport** — Quality of Life Data · auth:none · https:yes · cors:unknown · <https://developers.teleport.org/>
+- **TerraScoutX** — US property records by address: parcel, owner, appraised value, tax, flood zone and nearby schools · auth:apiKey · https:yes · cors:yes · <https://terrascoutx.com/developers/>
+- **The Deploy Log** — 1,000+ AI deployments, each linked to the publisher's own page, JSON and CSV, CC BY 4.0 · auth:none · https:yes · cors:yes · <https://github.com/dotcomjack/the-deploy-log>
+- **Tickerz** — Daily indexes of real-world activity from public data, each reading timestamped in Bitcoin · auth:none · https:yes · cors:yes · <https://tickerz.com/docs>
+- **Tilth** — Free daily UK fertiliser price index across nine grades, CC BY 4.0 licensed · auth:none · https:yes · cors:yes · <https://www.tilth.uk/data>
+- **Umeå Open Data** — Open data of the city Umeå in northen Sweden · auth:none · https:yes · cors:yes · <https://opendata.umea.se/api/>
+- **Universities List** — University names, countries and domains · auth:none · https:yes · cors:unknown · <https://github.com/Hipo/university-domains-list>
+- **University of Oslo** — Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway) · auth:none · https:yes · cors:unknown · <https://data.uio.no/>
+- **UPC database** — More than 1.5 million barcode numbers from all around the world · auth:apiKey · https:yes · cors:unknown · <https://upcdatabase.org/api>
+- **Urban Observatory** — The largest set of publicly available real time urban data in the UK · auth:none · https:no · cors:no · <https://urbanobservatory.ac.uk>
+- **Verified Handles** — Official social media handles and identifiers of 155,000+ notable people and organisations · auth:none · https:yes · cors:yes · <https://verifiedhandles.org/developers>
+- **Voidly** — Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries · auth:none · https:yes · cors:no · <https://voidly.ai/api-docs>
+- **Vuntum** — Sourced, dated facts on consumer robots and physical AI, licensed CC BY 4.0 · auth:none · https:yes · cors:yes · <https://vuntum.com/en/api-mcp>
+- **w14n** — Brazilian company profiles by CNPJ, CNAE establishment counts and municipality coordinates · auth:none · https:yes · cors:yes · <https://api.w14n.dev/v1>
+- **Warnely** — Composite travel-safety scores for 180 countries (FCDO + US State + GPI + WGI + live incident wire), OpenAPI 3.1 spec, CC BY 4.0 · auth:none · https:yes · cors:yes · <https://warnely.com/developers>
+- **Wikidata** — Collaboratively edited knowledge base operated by the Wikimedia Foundation · auth:OAuth · https:yes · cors:unknown · <https://www.wikidata.org/w/api.php?action=help>
+- **Wikipedia** — Mediawiki Encyclopedia · auth:none · https:yes · cors:unknown · <https://www.mediawiki.org/wiki/API:Main_page>
+- **Yelp** — Find Local Business · auth:OAuth · https:yes · cors:unknown · <https://www.yelp.com/developers/documentation/v3>
+
+## Open Source Projects
+
+- **Countly** — Countly web analytics · auth:none · https:no · cors:unknown · <https://api.count.ly/>
+- **Creative Commons Catalog** — Search among openly licensed and public domain works · auth:OAuth · https:yes · cors:yes · <https://api.creativecommons.engineering/>
+- **Datamuse** — Word-finding query engine · auth:none · https:yes · cors:unknown · <https://www.datamuse.com/api/>
+- **Drupal.org** — Drupal.org · auth:none · https:yes · cors:unknown · <https://www.drupal.org/drupalorg/docs/api>
+- **Evil Insult Generator** — Evil Insults · auth:none · https:yes · cors:yes · <https://evilinsult.com/api>
+- **GitHub Contribution Chart Generator** — Create an image of your GitHub contributions · auth:none · https:yes · cors:yes · <https://github-contributions.vercel.app>
+- **GitHub ReadMe Stats** — Add dynamically generated statistics to your GitHub profile ReadMe · auth:none · https:yes · cors:yes · <https://github.com/anuraghazra/github-readme-stats>
+- **Libraries.io** — Metadata, dependencies and release history for open-source packages across 30+ managers · auth:apiKey · https:yes · cors:yes · <https://libraries.io/api>
+- **Metabase** — An open source Business Intelligence server to share data and analytics inside your company · auth:none · https:yes · cors:yes · <https://www.metabase.com/>
+- **Neuronto ARD Registry** — Search index of MCP servers, agents and APIs, with the tools each server actually exposes · auth:none · https:yes · cors:yes · <https://neuronto.com/api-docs>
+- **Shields** — Concise, consistent, and legible badges in SVG and raster format · auth:none · https:yes · cors:unknown · <https://shields.io/>
+
+## Patent
+
+- **EPO** — European patent search system api · auth:OAuth · https:yes · cors:unknown · <https://developers.epo.org/>
+- **PatentsView** — API is intended to explore and visualize trends/patterns across the US innovation landscape · auth:none · https:yes · cors:unknown · <https://patentsview.org/apis/purpose>
+- **TIPO** — Taiwan patent search system api · auth:apiKey · https:yes · cors:unknown · <https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00>
+- **USPTO** — USA patent api services · auth:none · https:yes · cors:unknown · <https://www.uspto.gov/learning-and-resources/open-data-and-mobility>
+
+## Personality
+
+- **Advice Slip** — Generate random advice slips · auth:none · https:yes · cors:unknown · <http://api.adviceslip.com/>
+- **Astro Agents** — Deterministic Western and Vedic astrology: natal charts, transits, kundli, dashas, panchang · auth:none · https:yes · cors:yes · <https://astro-agent.dev/llms.txt>
+- **AstroWay** — Astrology, natal charts, Human Design, Vedic and horoscopes on the Swiss Ephemeris · auth:apiKey · https:yes · cors:yes · <https://api.astroway.info/docs/>
+- **Biriyani As A Service** — Biriyani images placeholder · auth:none · https:yes · cors:no · <https://biriyani.anoram.com/>
+- **Dev.to** — Access Forem articles, users and other resources via API · auth:apiKey · https:yes · cors:unknown · <https://developers.forem.com/api>
+- **Dictum** — API to get access to the collection of the most inspiring expressions of mankind · auth:none · https:yes · cors:unknown · <https://github.com/fisenkodv/dictum>
+- **FavQs.com** — FavQs allows you to collect, discover and share your favorite quotes · auth:apiKey · https:yes · cors:unknown · <https://favqs.com/api>
+- **FOAAS** — Fuck Off As A Service · auth:none · https:no · cors:unknown · <http://www.foaas.com/>
+- **Forismatic** — Inspirational Quotes · auth:none · https:no · cors:unknown · <http://forismatic.com/en/api/>
+- **icanhazdadjoke** — The largest selection of dad jokes on the internet · auth:none · https:yes · cors:unknown · <https://icanhazdadjoke.com/api>
+- **Inspiration** — Motivational and Inspirational quotes · auth:none · https:yes · cors:yes · <https://inspiration.goprogram.ai/docs/>
+- **kanye.rest** — REST API for random Kanye West quotes · auth:none · https:yes · cors:yes · <https://kanye.rest>
+- **kimiquotes** — Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen · auth:none · https:yes · cors:yes · <https://kimiquotes.herokuapp.com/doc>
+- **Medium** — Community of readers and writers offering unique perspectives on ideas · auth:OAuth · https:yes · cors:unknown · <https://github.com/Medium/medium-api-docs>
+- **Personality.fyi** — Free MBTI personality types and OEJTS test scoring · auth:none · https:yes · cors:yes · <https://personality.fyi/api>
+- **PositiveQuotation** — Source-verified public-domain English proverbs with provenance · auth:none · https:yes · cors:yes · <https://positivequotation.com/developers/public-domain-quotes-api>
+- **Programming Quotes** — Programming Quotes API for open source projects · auth:none · https:yes · cors:unknown · <https://github.com/skolakoda/programming-quotes-api>
+- **Quotable Quotes** — Quotable is a free, open source quotations API · auth:none · https:yes · cors:unknown · <https://github.com/lukePeavey/quotable>
+- **Quote Garden** — REST API for more than 5000 famous quotes · auth:none · https:yes · cors:unknown · <https://pprathameshmore.github.io/QuoteGarden/>
+- **quoteclear** — Ever-growing list of James Clear quotes from the 3-2-1 Newsletter · auth:none · https:yes · cors:yes · <https://quoteclear.web.app/>
+- **Quotes on Design** — Inspirational Quotes · auth:none · https:yes · cors:unknown · <https://quotesondesign.com/api/>
+- **Stoicism Quote** — Quotes about Stoicism · auth:none · https:yes · cors:unknown · <https://github.com/tlcheah2/stoic-quote-lambda-public-api>
+- **They Said So Quotes** — Quotes Trusted by many fortune brands around the world · auth:none · https:yes · cors:unknown · <https://theysaidso.com/api/>
+- **Traitify** — Assess, collect and analyze Personality · auth:none · https:yes · cors:unknown · <https://app.traitify.com/developer>
+- **Udemy(instructor)** — API for instructors on Udemy · auth:apiKey · https:yes · cors:unknown · <https://www.udemy.com/developers/instructor/>
+- **Vadivelu HTTP Codes** — On demand HTTP Codes with images · auth:none · https:yes · cors:no · <https://vadivelu.anoram.com/>
+- **Zen Quotes** — Large collection of Zen quotes for inspiration · auth:none · https:yes · cors:yes · <https://zenquotes.io/>
+
+## Phone
+
+- **Numlookup** — Phone number validation and carrier lookup API with global coverage · auth:apiKey · https:yes · cors:unknown · <https://numlookupapi.com>
+- **Cloudmersive Validate** — Validate international phone numbers · auth:apiKey · https:yes · cors:yes · <https://cloudmersive.com/phone-number-validation-API>
+- **Phone Specification** — Rest Api for Phone specifications · auth:none · https:yes · cors:yes · <https://github.com/azharimm/phone-specs-api>
+- **Phone Validation** — Validate phone numbers globally · auth:apiKey · https:yes · cors:yes · <https://www.abstractapi.com/phone-validation-api>
+- **PlaceCall** — AI agent places phone calls to US businesses and returns the outcome, transcript and recording · auth:apiKey · https:yes · cors:no · <https://api.voygr.tech/docs>
+- **Veriphone** — Phone number validation & carrier lookup · auth:apiKey · https:yes · cors:yes · <https://veriphone.io>
+- **VeriRoute Intel** — CNAM caller ID, carrier/LRN lookup and spam scoring for North American phone numbers · auth:apiKey · https:yes · cors:unknown · <https://verirouteintel.com>
+
+## Photography
+
+- **APITemplate.io** — Dynamically generate images and PDFs from templates with a simple API · auth:apiKey · https:yes · cors:yes · <https://apitemplate.io>
+- **CheetahO** — Photo optimization and resize · auth:apiKey · https:yes · cors:unknown · <https://cheetaho.com/docs/getting-started/>
+- **CompressGIF** — Compress GIF files or HTTPS URLs with asynchronous jobs and target-size controls · auth:apiKey · https:yes · cors:unknown · <https://compressgif.net/docs>
+- **Compresso** — Visually lossless image compression for PNG, JPEG and WebP · auth:apiKey · https:yes · cors:no · <https://compresso.space/developers>
+- **Dagpi** — Image manipulation and processing · auth:apiKey · https:yes · cors:unknown · <https://dagpi.xyz>
+- **Duply** — Generate, Edit, Scale and Manage Images and Videos Smarter & Faster · auth:apiKey · https:yes · cors:yes · <https://duply.co/docs#getting-started-api>
+- **DynaPictures** — Generate Hundreds of Personalized Images in Minutes · auth:apiKey · https:yes · cors:yes · <https://dynapictures.com/docs/>
+- **Flickr** — Flickr Services · auth:OAuth · https:yes · cors:unknown · <https://www.flickr.com/services/api/>
+- **Getty Images** — Build applications using the world's most powerful imagery · auth:OAuth · https:yes · cors:unknown · <http://developers.gettyimages.com/en/>
+- **Gfycat** — Jiffier GIFs · auth:OAuth · https:yes · cors:unknown · <https://developers.gfycat.com/api/>
+- **Giphy** — Get all your gifs · auth:apiKey · https:yes · cors:unknown · <https://developers.giphy.com/docs/>
+- **Google Photos** — Integrate Google Photos with your apps or devices · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/photos>
+- **Image Upload** — Image Optimization · auth:apiKey · https:yes · cors:unknown · <https://apilayer.com/marketplace/image_upload-api>
+- **Imgur** — Images · auth:OAuth · https:yes · cors:unknown · <https://apidocs.imgur.com/>
+- **Imsea** — Free image search · auth:none · https:yes · cors:unknown · <https://imsea.herokuapp.com/>
+- **Kavel** — Generate and edit images with AI, no key or account required · auth:none · https:yes · cors:no · <https://kavel.readthedocs.io/>
+- **Lightdrift** — Search 1.85M openly licensed images by text or image, with license and attribution per result · auth:apiKey · https:yes · cors:no · <https://docs.lightdrift.ai>
+- **localscreenshot** — Screenshot or PDF rendering of any public page, from 227 countries · auth:apiKey · https:yes · cors:yes · <https://localscreenshot.com>
+- **Lorem Picsum** — Images from Unsplash · auth:none · https:yes · cors:unknown · <https://picsum.photos/>
+- **NexWall** — Curated 4K portrait phone wallpapers across 50+ categories · auth:apiKey · https:yes · cors:yes · <https://nexwall.kodnextech.com/wallpaper-api/docs>
+- **ObjectCut** — Image Background removal · auth:apiKey · https:yes · cors:yes · <https://objectcut.com/>
+- **Pexafy** — Semantic image search across 9+ free stock photo sources with a unified JSON schema · auth:apiKey · https:yes · cors:yes · <https://docs.pexafy.com>
+- **Pexels** — Free Stock Photos and Videos · auth:apiKey · https:yes · cors:yes · <https://www.pexels.com/api/>
+- **PhotoRoom** — Remove background from images · auth:apiKey · https:yes · cors:unknown · <https://www.photoroom.com/api/>
+- **Pixabay** — Photography · auth:apiKey · https:yes · cors:unknown · <https://pixabay.com/sk/service/about/api/>
+- **PlaceKeanu** — Resizable Keanu Reeves placeholder images with grayscale and young Keanu options · auth:none · https:yes · cors:unknown · <https://placekeanu.com/>
+- **Readme typing SVG** — Customizable typing and deleting text SVG · auth:none · https:yes · cors:unknown · <https://github.com/DenverCoder1/readme-typing-svg>
+- **Remove.bg** — Image Background removal · auth:apiKey · https:yes · cors:unknown · <https://www.remove.bg/api>
+- **ReSmush.it** — Photo optimization · auth:none · https:no · cors:unknown · <https://resmush.it/api>
+- **Screenshot Studio** — Capture web pages as images through a public HTTP API · auth:none · https:yes · cors:no · <https://www.screenshot-studio.com/docs>
+- **shutterstock** — Stock Photos and Videos · auth:OAuth · https:yes · cors:unknown · <https://api-reference.shutterstock.com/>
+- **Sirv** — Image management solutions like optimization, manipulation, hosting · auth:apiKey · https:yes · cors:unknown · <https://apidocs.sirv.com/>
+- **snapWONDERS** — Photo and video forensic analysis, steganography and media format conversion · auth:apiKey · https:yes · cors:yes · <https://snapwonders.com/developers>
+- **Tinify.dev** — Image compression, resize and crop API with usage metadata · auth:apiKey · https:yes · cors:no · <https://tinify.dev/developers>
+- **Unsplash** — Photography · auth:OAuth · https:yes · cors:unknown · <https://unsplash.com/developers>
+- **Wallhaven** — Wallpapers · auth:apiKey · https:yes · cors:unknown · <https://wallhaven.cc/help/api>
+- **Webdam** — Images · auth:OAuth · https:yes · cors:unknown · <https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API>
+
+## Programming
+
+- **Codeforces** — Get access to Codeforces data · auth:apiKey · https:yes · cors:unknown · <https://codeforces.com/apiHelp>
+- **Hackerearth** — For compiling and running code in several languages · auth:apiKey · https:yes · cors:unknown · <https://www.hackerearth.com/docs/wiki/developers/v4/>
+- **Judge0 CE** — Online code execution system · auth:apiKey · https:yes · cors:unknown · <https://ce.judge0.com/>
+- **KONTESTS** — For upcoming and ongoing competitive coding contests · auth:none · https:yes · cors:unknown · <https://kontests.net/api>
+- **Mintlify** — For programmatically generating documentation for code · auth:apiKey · https:yes · cors:yes · <https://docs.mintlify.com>
+
+## Science & Math
+
+- **arcsecond.io** — Multiple astronomy data sources · auth:none · https:yes · cors:unknown · <https://api.arcsecond.io/>
+- **arXiv** — Curated research-sharing platform: physics, mathematics, quantitative finance, and economics · auth:none · https:yes · cors:unknown · <https://info.arxiv.org/help/api/user-manual.html>
+- **Botlero** — Sourced, quoted specs for humanoid robots · auth:none · https:yes · cors:yes · <https://botlero.com/api/robots>
+- **Chempirical** — Chemical compounds with physical data, reactions and substructure search · auth:none · https:yes · cors:yes · <https://chempirical.com/api/>
+- **CodeCogs** — Render LaTeX equations in PNG, GIF, SVG, EMF, PDF, JSON, or download formats with styling options · auth:none · https:yes · cors:unknown · <https://editor.codecogs.com/docs/4-LaTeX_rendering.php>
+- **CORE** — Access the world's Open Access research papers · auth:apiKey · https:yes · cors:unknown · <https://core.ac.uk/services#api>
+- **CycleCalcs** — Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons · auth:none · https:yes · cors:yes · <https://www.cyclecalcs.com/api.html>
+- **DataCite** — Search and retrieve DOI metadata for research datasets and publications · auth:none · https:yes · cors:yes · <https://support.datacite.org/docs/rest-api>
+- **ENA** — Nucleotide sequences, genomes and raw reads archive · auth:none · https:yes · cors:yes · <https://www.ebi.ac.uk/ena/browser/api/swagger-ui/index.html>
+- **Europe PMC** — Life-science literature search with abstracts, citations and full-text links · auth:none · https:yes · cors:yes · <https://europepmc.org/RestfulWebService>
+- **GBIF** — Global Biodiversity Information Facility · auth:none · https:yes · cors:yes · <https://www.gbif.org/developer/summary>
+- **iDigBio** — Access millions of museum specimens from organizations around the world · auth:none · https:yes · cors:unknown · <https://github.com/idigbio/idigbio-search-api/wiki>
+- **iNaturalist** — Citizen-science wildlife observations with species identification and mapping · auth:none · https:yes · cors:yes · <https://api.inaturalist.org/v1/docs/>
+- **inspirehep.net** — High Energy Physics info. system · auth:none · https:yes · cors:unknown · <https://github.com/inspirehep/rest-api-doc>
+- **isEven (humor)** — Check if a number is even · auth:none · https:yes · cors:unknown · <https://isevenapi.xyz/>
+- **ISRO** — ISRO Space Crafts Information · auth:none · https:yes · cors:no · <https://isro.vercel.app>
+- **ITIS** — Integrated Taxonomic Information System · auth:none · https:yes · cors:unknown · <https://www.itis.gov/ws_description.html>
+- **KEGG** — Genes, pathways, compounds and reactions · auth:none · https:yes · cors:unknown · <https://www.kegg.jp/kegg/rest/keggapi.html>
+- **Launch Library 2** — Spaceflight launches and events database · auth:none · https:yes · cors:yes · <https://thespacedevs.com/llapi>
+- **Macrostrat** — Geologic maps, rock columns and stratigraphy data · auth:none · https:yes · cors:yes · <https://macrostrat.org/api>
+- **Materials Platform for Data Science** — Curated experimental data for materials science · auth:apiKey · https:yes · cors:no · <https://mpds.io>
+- **MathJS** — Evaluate math expressions via GET or POST as JSON · auth:none · https:yes · cors:yes · <https://api.mathjs.org/>
+- **Minor Planet Center** — Asterank.com Information · auth:none · https:no · cors:unknown · <http://www.asterank.com/mpc>
+- **MyGene.info** — Gene annotation queries and ID lookup · auth:none · https:yes · cors:yes · <https://docs.mygene.info/>
+- **NASA** — NASA data, including imagery · auth:none · https:yes · cors:no · <https://api.nasa.gov>
+- **NASA InSight** — Mars weather data from InSight lander · auth:apiKey · https:yes · cors:yes · <https://api.nasa.gov/>
+- **NASA ADS** — NASA Astrophysics Data System · auth:OAuth · https:yes · cors:yes · <https://ui.adsabs.harvard.edu/help/api/api-docs.html>
+- **NCBI E-utilities** — Biomedical literature, sequences and gene databases · auth:none · https:yes · cors:yes · <https://www.ncbi.nlm.nih.gov/books/NBK25501/>
+- **Newton** — Symbolic and Arithmetic Math Calculator · auth:none · https:yes · cors:no · <https://newton.vercel.app>
+- **Noctua** — REST API used to access NoctuaSky features · auth:none · https:yes · cors:unknown · <https://api.noctuasky.com/api/v1/swaggerdoc/>
+- **Numbers** — Number of the day, random number, number facts and anything else you want to do with numbers · auth:apiKey · https:yes · cors:no · <https://math.tools/api/numbers/>
+- **OBIS** — Global marine species occurrence and distribution data · auth:none · https:yes · cors:yes · <https://manual.obis.org/access>
+- **Ocean Facts** — Facts pertaining to the physical science of Oceanography · auth:none · https:yes · cors:unknown · <https://oceanfacts.herokuapp.com/>
+- **Oliver's mTOR Atlas** — Curated mTOR research: studies by evidence type, pathway claims, open questions · auth:none · https:yes · cors:yes · <https://mtor-atlas.org/api/>
+- **Open Notify** — ISS astronauts, current location, etc · auth:none · https:no · cors:no · <http://open-notify.org/Open-Notify-API/>
+- **Open Science Framework** — Repository and archive for study designs, research materials, data, manuscripts, etc · auth:none · https:yes · cors:unknown · <https://developer.osf.io>
+- **OpenAlex** — Open catalog of scholarly works, authors, institutions, sources, and concepts · auth:none · https:yes · cors:yes · <https://docs.openalex.org/>
+- **Open Ephemeris** — Sub-arcsecond planetary positions, natal charts, transits, and Human Design from NASA JPL DE440 · auth:apiKey · https:yes · cors:no · <https://openephemeris.com/docs>
+- **OrbitalWiki** — Catalog of 16,000+ satellites merging CelesTrak, GCAT, Wikidata; free tier included · auth:apiKey · https:yes · cors:yes · <https://orbitalwiki.com/developers>
+- **Purple Air** — Real Time Air Quality Monitoring · auth:none · https:yes · cors:unknown · <https://www2.purpleair.com/>
+- **RCSB PDB** — 3D structures of proteins and nucleic acids · auth:none · https:yes · cors:yes · <https://data.rcsb.org/>
+- **Remote Calc** — Decodes base64 encoding and parses it to return a solution to the calculation in JSON · auth:none · https:yes · cors:yes · <https://github.com/elizabethadegbaju/remotecalc>
+- **SatNOGS** — Satellite observations from open ground stations · auth:none · https:yes · cors:unknown · <https://docs.satnogs.org/projects/satnogs-network/en/stable/api.html>
+- **Semantic Scholar** — Academic search engine for papers, authors, and citations · auth:none · https:yes · cors:unknown · <https://api.semanticscholar.org/>
+- **SHARE** — A free, open, dataset about research and scholarly activities · auth:none · https:yes · cors:no · <https://share.osf.io/api/v2/>
+- **Solar System OpenData** — Data and facts on solar system bodies and planets · auth:none · https:yes · cors:yes · <https://api.le-systeme-solaire.net>
+- **SpaceX** — Company, vehicle, launchpad and launch data · auth:none · https:yes · cors:no · <https://github.com/r-spacex/SpaceX-API>
+- **SpaceX** — GraphQL, Company, Ships, launchpad and launch data · auth:none · https:yes · cors:unknown · <https://api.spacex.land/graphql/>
+- **Sunrise and Sunset** — Sunset and sunrise times for a given latitude and longitude · auth:none · https:yes · cors:no · <https://sunrise-sunset.org/api>
+- **Tallytopia** — Calculators for finance, health, math, space and sports with step-by-step results · auth:none · https:yes · cors:yes · <https://tallytopia.com/api-docs>
+- **Times Adder** — With this API you can add each of the times introduced in the array sended · auth:none · https:yes · cors:no · <https://github.com/FranP-code/API-Times-Adder>
+- **TLE** — Satellite information · auth:none · https:yes · cors:no · <https://tle.ivanstanojevic.me/#/docs>
+- **Unpaywall** — Open-access status and legal full-text links for scholarly articles · auth:none · https:yes · cors:yes · <https://unpaywall.org/products/api>
+- **USGS Earthquake Hazards Program** — Earthquakes data real-time · auth:none · https:yes · cors:no · <https://earthquake.usgs.gov/fdsnws/event/1/>
+- **USGS Water Services** — Water quality and level info for rivers and lakes · auth:none · https:yes · cors:no · <https://waterservices.usgs.gov/>
+- **VedIntel™ AstroAPI** — Vedic astrology computation — birth charts, dashas, panchang, AI narratives · auth:apiKey · https:yes · cors:yes · <https://vedintelastroapi.com/docs>
+- **World Bank** — World Data · auth:none · https:yes · cors:no · <https://datahelpdesk.worldbank.org/knowledgebase/topics/125589>
+- **WoRMS** — Marine species taxonomy, synonyms and distributions · auth:none · https:yes · cors:no · <https://www.marinespecies.org/rest/>
+- **xMath** — Random mathematical expressions · auth:none · https:yes · cors:yes · <https://x-math.herokuapp.com/>
+
+## Security
+
+- **Agent Verifier** — Self-check for AI agents: verifies Web Bot Auth signatures and shows how a request looks · auth:none · https:yes · cors:no · <https://packet.guru/agents/reference>
+- **Application Environment Verification** — Android library and API to verify the safety of user devices, detect rooted devices and other risks · auth:apiKey · https:yes · cors:yes · <https://github.com/fingerprintjs/aev>
+- **BinaryEdge** — Provide access to BinaryEdge 40fy scanning platform · auth:apiKey · https:yes · cors:yes · <https://docs.binaryedge.io/api-v2.html>
+- **BitWarden** — Best open-source password manager · auth:OAuth · https:yes · cors:unknown · <https://bitwarden.com/help/api/>
+- **Botd** — Botd is a browser library for JavaScript bot detection · auth:apiKey · https:yes · cors:yes · <https://github.com/fingerprintjs/botd>
+- **Bugcrowd** — Bugcrowd API for interacting and tracking the reported issues programmatically · auth:apiKey · https:yes · cors:unknown · <https://docs.bugcrowd.com/api/getting-started/>
+- **Censys** — Search engine for Internet connected host and devices · auth:apiKey · https:yes · cors:no · <https://search.censys.io/api>
+- **CISA Known Exploited Vulnerabilities** — CISA KEV catalog of actively exploited CVEs as JSON, filterable by vendor, with CWE and due dates · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-cisa-cybersecurity-vulnerabilities-kev>
+- **Classify** — Encrypting & decrypting text messages · auth:none · https:yes · cors:yes · <https://classify-web.herokuapp.com/#/api>
+- **Complete Criminal Checks** — Provides data of offenders from all U.S. States and Pureto Rico · auth:apiKey · https:yes · cors:yes · <https://completecriminalchecks.com/Developers>
+- **CompliAPI** — Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions lists · auth:apiKey · https:yes · cors:yes · <https://docs.compliapi.com>
+- **CRXcavator** — Chrome extension risk scoring · auth:apiKey · https:yes · cors:unknown · <https://crxcavator.io/apidocs>
+- **CSR.plus** — Generate certificate signing requests and private keys without OpenSSL · auth:none · https:yes · cors:yes · <https://csr.plus/docs/api>
+- **dead-drop** — Ephemeral zero-knowledge encrypted data sharing · auth:none · https:yes · cors:yes · <https://api.dead-drop.xyz/api/v1/docs>
+- **Dehash.lt** — Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512 · auth:none · https:yes · cors:unknown · <https://github.com/Dehash-lt/api>
+- **Domain Intelligence** — DNS, WHOIS/RDAP, SSL, subdomain enumeration, and email security in one parallel call · auth:apiKey · https:yes · cors:no · <https://oti-labs.com/domain-intelligence-api>
+- **EmailRep** — Email address threat and risk prediction · auth:none · https:yes · cors:unknown · <https://docs.emailrep.io/>
+- **Escape** — An API for escaping different kind of queries · auth:none · https:yes · cors:no · <https://github.com/polarspetroll/EscapeAPI>
+- **FilterLists** — Lists of filters for adblockers and firewalls · auth:none · https:yes · cors:unknown · <https://filterlists.com>
+- **FingerprintJS Pro** — Fraud detection API offering highly accurate browser fingerprinting · auth:apiKey · https:yes · cors:yes · <https://dev.fingerprintjs.com/docs>
+- **FOFA** — Search engine for Internet connected assets and devices · auth:apiKey · https:yes · cors:unknown · <https://en.fofa.info/api>
+- **FraudLabs Pro** — Screen order information using AI to detect frauds · auth:apiKey · https:yes · cors:unknown · <https://www.fraudlabspro.com/developer/api/screen-order>
+- **FullHunt** — Searchable attack surface database of the entire internet · auth:apiKey · https:yes · cors:unknown · <https://api-docs.fullhunt.io/#introduction>
+- **GitGuardian** — Scan files for secrets (API Keys, database credentials) · auth:apiKey · https:yes · cors:no · <https://api.gitguardian.com/doc>
+- **GreyNoise** — Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data · auth:apiKey · https:yes · cors:unknown · <https://docs.greynoise.io/reference/getcommunityip>
+- **HackerOne** — The industry’s first hacker API that helps increase productivity towards creative bug bounty hunting · auth:apiKey · https:yes · cors:unknown · <https://api.hackerone.com/>
+- **Hashable** — A REST API to access high level cryptographic functions and methods · auth:none · https:yes · cors:yes · <https://hashable.space/pages/api/>
+- **Hybrid Analysis** — File and URL malware analysis powered by Falcon Sandbox · auth:apiKey · https:yes · cors:unknown · <https://www.hybrid-analysis.com/docs/api/v2>
+- **HaveIBeenPwned** — Passwords which have previously been exposed in data breaches · auth:apiKey · https:yes · cors:unknown · <https://haveibeenpwned.com/API/v3>
+- **Intelligence X** — Perform OSINT via Intelligence X · auth:apiKey · https:yes · cors:unknown · <https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf>
+- **IPGuardian** — Check IP addresses against 140+ public threat intelligence blocklists · auth:none · https:yes · cors:yes · <https://ipguardian.net/docs>
+- **IPLogs** — Free VPN, proxy, Tor and datacenter IP detection. 13 sources, active probing · auth:none · https:yes · cors:yes · <https://iplogs.com/docs>
+- **IPScanner** — IP network class (residential, mobile, hosting, VPN, residential proxy, Tor) with a confidence score · auth:apiKey · https:yes · cors:yes · <https://ipscanner.io/api-documentation>
+- **isMalicious** — Reputation of IPs, domains, URLs and file hashes from aggregated threat feeds, plus CVE lookups · auth:apiKey · https:yes · cors:no · <https://ismalicious.com/api-docs>
+- **LoginRadius** — Managed User Authentication Service · auth:apiKey · https:yes · cors:yes · <https://www.loginradius.com/docs/>
+- **Maskbreak** — Detect VPNs, proxies, Tor, bots and antidetect browsers at signup, login and checkout · auth:apiKey · https:yes · cors:yes · <https://maskbreak.com/api>
+- **Microsoft Security Response Center (MSRC)** — Programmatic interfaces to engage with the Microsoft Security Response Center (MSRC) · auth:none · https:yes · cors:unknown · <https://msrc.microsoft.com/report/developer>
+- **Mozilla http scanner** — Mozilla observatory http scanner · auth:none · https:yes · cors:unknown · <https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md>
+- **Mozilla tls scanner** — Mozilla observatory tls scanner · auth:none · https:yes · cors:unknown · <https://github.com/mozilla/tls-observatory#api-endpoints>
+- **National Vulnerability Database** — U.S. National Vulnerability Database · auth:none · https:yes · cors:unknown · <https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog>
+- **Neetix Liveliness** — Face liveness, presentation-attack detection and 1:1 face match for identity verification · auth:apiKey · https:yes · cors:no · <https://liveliness.neetix.in/api-reference>
+- **OSV** — Open source vulnerability database and distributed triage infrastructure · auth:none · https:yes · cors:yes · <https://google.github.io/osv.dev/api/>
+- **Passwordinator** — Generate random passwords of varying complexities · auth:none · https:yes · cors:yes · <https://github.com/fawazsullia/password-generator/>
+- **PhishStats** — Phishing database · auth:none · https:yes · cors:unknown · <https://phishstats.info/>
+- **Presend** — Security and developer utility API -- malware, vulnerability, and domain checks, no signup · auth:none · https:yes · cors:yes · <https://presend.pages.dev/api>
+- **Privacy.com** — Generate merchant-specific and one-time use credit card numbers that link back to your bank · auth:apiKey · https:yes · cors:unknown · <https://privacy.com/developer/docs>
+- **Pulsedive** — Scan, search and collect threat intelligence data in real-time · auth:apiKey · https:yes · cors:unknown · <https://pulsedive.com/api/>
+- **Sealed Rose** — AI media forensics and synthetic content verification for video, audio, image, and text · auth:apiKey · https:yes · cors:yes · <https://sealedrose.com/verify-video>
+- **SecurityTrails** — Domain and IP related information such as current and historical WHOIS and DNS records · auth:apiKey · https:yes · cors:unknown · <https://securitytrails.com/corp/apidocs>
+- **Shodan** — Search engine for Internet connected devices · auth:apiKey · https:yes · cors:unknown · <https://developer.shodan.io/>
+- **Spyse** — Access data on all Internet assets and build powerful attack surface management applications · auth:apiKey · https:yes · cors:unknown · <https://spyse-dev.readme.io/reference/quick-start>
+- **SSL Domain Health Check** — SSL certificate validity, domain WHOIS status, and DNS record checks for any domain · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/goktugbk/api/ssl-domain-health-check>
+- **SSL Labs** — Deep SSL/TLS server analysis with A+ to F grading · auth:none · https:yes · cors:unknown · <https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v3.md>
+- **Tanod** — Pay-per-call scans of smart contracts, addresses and MCP/skill packages; small free daily tier · auth:none · https:yes · cors:no · <https://tanod.dev/>
+- **Threat Jammer** — Risk scoring service from curated threat intelligence data · auth:apiKey · https:yes · cors:unknown · <https://threatjammer.com/docs/index>
+- **ThreatCluster** — Threat intelligence: incident clusters, validated IOCs, CVEs, ransomware leak-site victims · auth:apiKey · https:yes · cors:no · <https://threatcluster.io/api/public/v1/docs>
+- **UK Police** — UK Police data · auth:none · https:yes · cors:unknown · <https://data.police.uk/docs/>
+- **URLhaus** — Database of malicious URLs used for malware distribution · auth:none · https:yes · cors:unknown · <https://urlhaus.abuse.ch/api/>
+- **Virushee** — Virushee file/data scanning · auth:none · https:yes · cors:yes · <https://api.virushee.com/>
+- **VPNDetection** — Check whether an IPv4 or IPv6 address belongs to VPN infrastructure, no key needed · auth:none · https:yes · cors:yes · <https://docs.vpndetection.io/api>
+- **VulDB** — VulDB API allows to initiate queries for one or more items along with transactional bots · auth:apiKey · https:yes · cors:unknown · <https://vuldb.com/?doc.api>
+
+## Shopping
+
+- **ARC** — Open data on whether AI shopping agents can reach checkout at specific online stores · auth:none · https:yes · cors:yes · <https://www.arcreport.ai/developers>
+- **Best Buy** — Products, Buying Options, Categories, Recommendations, Stores and Commerce · auth:apiKey · https:yes · cors:unknown · <https://bestbuyapis.github.io/api-documentation/#overview>
+- **BirkinBagStock** — Independent Hermès resale index: inventory, market prices, auction calendar and results · auth:none · https:yes · cors:yes · <https://birkinbagstock.com/.well-known/openapi.json>
+- **BuyWhere** — Real-time product catalog API for AI agents across merchants in 7 countries (SG, MY, TH, VN, PH, ID, US) · auth:apiKey · https:yes · cors:unknown · <https://buywhere.ai>
+- **CartScout** — Price, stock, variants and GTIN from Shopify, WooCommerce, Walmart and eBay product pages · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/veselinveselinov06/api/cartscout-api>
+- **Digi-Key** — Retrieve price and inventory of electronic components as well as place orders · auth:OAuth · https:yes · cors:unknown · <https://www.digikey.com/en/resources/api-solutions>
+- **Descripio Amazon Reviews** — Amazon product reviews for 12 marketplaces · auth:apiKey · https:yes · cors:unknown · <https://docs.descripio.com>
+- **Dummy Products** — An api to fetch dummy e-commerce products JSON data with placeholder images · auth:apiKey · https:yes · cors:yes · <https://dummyproducts-api.herokuapp.com/>
+- **eBay** — Sell and Buy on eBay · auth:OAuth · https:yes · cors:unknown · <https://developer.ebay.com/>
+- **Etsy** — Manage shop and interact with listings · auth:OAuth · https:yes · cors:unknown · <https://www.etsy.com/developers/documentation/getting_started/api_basics>
+- **Flipkart Marketplace** — Product listing management, Order Fulfilment in the Flipkart Marketplace · auth:OAuth · https:yes · cors:yes · <https://seller.flipkart.com/api-docs/FMSAPI.html>
+- **Lazada** — Retrieve product ratings and seller performance metrics · auth:apiKey · https:yes · cors:unknown · <https://open.lazada.com/doc/doc.htm>
+- **Marketplace Fee Data** — Seller fee schedules for 21 e-commerce marketplaces and payment processors as JSON · auth:none · https:yes · cors:yes · <https://www.sellerscalc.com/data>
+- **Mercadolibre** — Manage sales, ads, products, services and Shops · auth:apiKey · https:yes · cors:unknown · <https://developers.mercadolibre.cl/es_ar/api-docs-es>
+- **Nuvinty** — UK luxury list prices, price history, increases and partner pre-owned asking prices · auth:none · https:yes · cors:yes · <https://nuvinty.com/api-docs>
+- **Octopart** — Electronic part data for manufacturing, design, and sourcing · auth:apiKey · https:yes · cors:unknown · <https://octopart.com/api/v4/reference>
+- **OLX Poland** — Integrate with local sites by posting, managing adverts and communicating with OLX users · auth:apiKey · https:yes · cors:unknown · <https://developer.olx.pl/api/doc#section/>
+- **OneFindMe** — Search AliExpress in any language: price, rating and orders for the delivery country · auth:none · https:yes · cors:yes · <https://onefindme.com/mcp>
+- **OpenTiendas** — Official e-commerce API and webhooks · auth:apiKey · https:yes · cors:unknown · <https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml>
+- **Pangolinfo Amazon Data** — Amazon product, review, search and Best Sellers data across 20+ marketplaces · auth:apiKey · https:yes · cors:unknown · <https://docs.pangolinfo.com>
+- **Profitvana** — Seller fees for 31 marketplaces and payment processors, verified monthly · auth:none · https:yes · cors:yes · <https://www.profitvana.com/developers>
+- **Rappi** — Manage orders from Rappi's app · auth:OAuth · https:yes · cors:unknown · <https://dev-portal.rappi.com/>
+- **Shopee** — Shopee's official API for integration of various services from Shopee · auth:apiKey · https:yes · cors:unknown · <https://open.shopee.com/documents?version=1>
+- **SoldStack** — Sold resale listings from Poshmark with median price, days to sell and net payout after fees · auth:apiKey · https:yes · cors:no · <https://soldstack.fly.dev/docs>
+- **Sparepilot** — Spare parts catalog, OEM cross-references & price comparison for garden power equipment · auth:apiKey · https:yes · cors:unknown · <https://sparepilot.com/developers>
+- **Swanum Comps** — Sold resale prices from Vinted (7 European countries) and eBay US, with median and price range · auth:apiKey · https:yes · cors:no · <https://swanum.com/comps/docs>
+- **Tokopedia** — Tokopedia's Official API for integration of various services from Tokopedia · auth:OAuth · https:yes · cors:unknown · <https://developer.tokopedia.com/openapi/guide/#/>
+- **WooCommerce** — WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format · auth:apiKey · https:yes · cors:yes · <https://woocommerce.github.io/woocommerce-rest-api-docs/>
+
+## Social
+
+- **4chan** — Simple image-based bulletin board dedicated to a variety of topics · auth:none · https:yes · cors:yes · <https://github.com/4chan/4chan-API>
+- **API Direct** — Real-time social media data from X, LinkedIn, Reddit, YouTube, Instagram, TikTok, Facebook and news · auth:apiKey · https:yes · cors:yes · <https://apidirect.io/docs>
+- **Ayrshare** — Social media APIs to post, get analytics, and manage multiple users social media accounts · auth:apiKey · https:yes · cors:yes · <https://www.ayrshare.com>
+- **Blogger** — The Blogger APIs allows client applications to view and update Blogger content · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/blogger/>
+- **Bluesky** — Decentralized social networking via the AT protocol · auth:none · https:yes · cors:yes · <https://docs.bsky.app/>
+- **Cisco Spark** — Team Collaboration Software · auth:OAuth · https:yes · cors:unknown · <https://developer.ciscospark.com>
+- **Dangerous Discord Database** — Database of malicious Discord accounts · auth:apiKey · https:yes · cors:unknown · <https://discord.riverside.rocks/docs/index.php>
+- **Discord** — Make bots for Discord, integrate Discord onto an external platform · auth:OAuth · https:yes · cors:unknown · <https://discord.com/developers/docs/intro>
+- **Disqus** — Communicate with Disqus data · auth:OAuth · https:yes · cors:unknown · <https://disqus.com/api/docs/auth/>
+- **Doge-Meme** — Top meme posts from r/dogecoin which include 'Meme' flair · auth:none · https:yes · cors:yes · <https://api.doge-meme.lol/docs>
+- **Facebook** — Facebook Login, Share on FB, Social Plugins, Analytics and more · auth:OAuth · https:yes · cors:unknown · <https://developers.facebook.com/>
+- **FastSocial Instagram Data** — Public Instagram data: profiles, posts, reels, stories, comments and a daily top-accounts ranking · auth:apiKey · https:yes · cors:yes · <https://fastsocial.co/instagram-api/docs>
+- **Foursquare** — Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) · auth:OAuth · https:yes · cors:unknown · <https://developer.foursquare.com/>
+- **Fuck Off as a Service** — Asks someone to fuck off · auth:none · https:yes · cors:unknown · <https://www.foaas.com>
+- **Full Contact** — Get Social Media profiles and contact Information · auth:OAuth · https:yes · cors:unknown · <https://docs.fullcontact.com/>
+- **GramScraper** — Instagram and TikTok data API with 91 endpoints for profiles, posts, stories, reels, and comments · auth:apiKey · https:yes · cors:yes · <https://gramscraper.com>
+- **GetXAPI** — Read Twitter / X data and post tweets, likes, retweets, follows, DMs via REST · auth:apiKey · https:yes · cors:unknown · <https://www.getxapi.com/>
+- **HackerNews** — Social news for CS and entrepreneurship · auth:none · https:yes · cors:unknown · <https://github.com/HackerNews/API>
+- **Hashnode** — A blogging platform built for developers · auth:none · https:yes · cors:unknown · <https://hashnode.com>
+- **InsightSocial** — Public profiles, posts, comments and followers from 25 social platforms, free tier · auth:apiKey · https:yes · cors:yes · <https://www.insightsocial.app/docs>
+- **Instagram** — Instagram Login, Share on Instagram, Social Plugins and more · auth:OAuth · https:yes · cors:unknown · <https://www.instagram.com/developer/>
+- **Kakao** — Kakao Login, Share on KakaoTalk, Social Plugins and more · auth:OAuth · https:yes · cors:unknown · <https://developers.kakao.com/>
+- **Lanyard** — Retrieve your presence on Discord through an HTTP REST API or WebSocket · auth:none · https:yes · cors:yes · <https://github.com/Phineas/lanyard>
+- **Line** — Line Login, Share on Line, Social Plugins and more · auth:OAuth · https:yes · cors:unknown · <https://developers.line.biz/>
+- **LinkedIn** — The foundation of all digital integrations with LinkedIn · auth:OAuth · https:yes · cors:unknown · <https://docs.microsoft.com/en-us/linkedin/?context=linkedin/context>
+- **Meetup.com** — Data about Meetups from Meetup.com · auth:apiKey · https:yes · cors:unknown · <https://www.meetup.com/api/guide>
+- **Microsoft Graph** — Access the data and intelligence in Microsoft 365, Windows 10, and Enterprise Mobility · auth:OAuth · https:yes · cors:unknown · <https://docs.microsoft.com/en-us/graph/api/overview>
+- **NAVER** — NAVER Login, Share on NAVER, Social Plugins and more · auth:OAuth · https:yes · cors:unknown · <https://developers.naver.com/main/>
+- **Open Collective** — Get Open Collective data · auth:none · https:yes · cors:unknown · <https://docs.opencollective.com/help/developers/api>
+- **Pinterest** — The world's catalog of ideas · auth:OAuth · https:yes · cors:unknown · <https://developers.pinterest.com/>
+- **PostLake** — One API to publish, schedule, and read analytics across every major social network · auth:apiKey · https:yes · cors:no · <https://postlake.dev/docs/>
+- **Postproxy** — Publish posts, comments, DMs, and more · auth:apiKey · https:yes · cors:no · <https://postproxy.dev/getting-started/quickstart/>
+- **Product Hunt** — The best new products in tech · auth:OAuth · https:yes · cors:unknown · <https://api.producthunt.com/v2/docs>
+- **Publora** — Publish and schedule posts to ten social networks from one endpoint · auth:apiKey · https:yes · cors:no · <https://docs.publora.com>
+- **Reddit** — Homepage of the internet · auth:OAuth · https:yes · cors:unknown · <https://www.reddit.com/dev/api>
+- **RedditAPIs** — Reddit data API: subreddit listings, post/comment/community/user search, comment trees, top posts · auth:apiKey · https:yes · cors:unknown · <https://www.redditapis.com/>
+- **Revolt** — Revolt open source Discord alternative · auth:apiKey · https:yes · cors:unknown · <https://developers.revolt.chat/>
+- **Saidit** — Open Source Reddit Clone · auth:OAuth · https:yes · cors:unknown · <https://www.saidit.net/dev/api>
+- **Slack** — Team Instant Messaging · auth:OAuth · https:yes · cors:unknown · <https://api.slack.com/>
+- **SocialCrawl** — Social and commerce data from 50+ platforms in one JSON schema · auth:apiKey · https:yes · cors:yes · <https://www.socialcrawl.dev/docs>
+- **SocialSwarm** — Turn articles into ready-to-post X thread drafts with different hooks · auth:apiKey · https:yes · cors:no · <https://social-swarm-main-aa77a19.zuplo.site>
+- **SwarmMemo** — Public bulletin board where AI agents and humans read, post and reply, no account or key needed · auth:none · https:yes · cors:yes · <https://swarmmemo.com/protocol.md>
+- **TamTam** — Bot API to interact with TamTam · auth:apiKey · https:yes · cors:unknown · <https://dev.tamtam.chat/>
+- **Telegram Bot** — Simplified HTTP version of the MTProto API for bots · auth:apiKey · https:yes · cors:unknown · <https://core.telegram.org/bots/api>
+- **Telegram MTProto** — Read and write Telegram data · auth:OAuth · https:yes · cors:unknown · <https://core.telegram.org/api#getting-started>
+- **Telegraph** — Create attractive blogs easily, to share · auth:apiKey · https:yes · cors:unknown · <https://telegra.ph/api>
+- **TikTok** — Fetches user info and user's video posts on TikTok platform · auth:OAuth · https:yes · cors:unknown · <https://developers.tiktok.com/doc/login-kit-web>
+- **Trash Nothing** — A freecycling community with thousands of free items posted every day · auth:OAuth · https:yes · cors:yes · <https://trashnothing.com/developer>
+- **TrendsMCP** — Live keyword trend data from Google, TikTok, YouTube, Amazon and Reddit · auth:apiKey · https:yes · cors:unknown · <https://www.trendsmcp.ai/docs>
+- **Tumblr** — Read and write Tumblr Data · auth:OAuth · https:yes · cors:unknown · <https://www.tumblr.com/docs/en/api/v2>
+- **TweetAPI** — Public Twitter data for posts, profiles, followers, search, lists and communities · auth:apiKey · https:yes · cors:no · <https://tweetapi.com/docs>
+- **Twitch** — Game Streaming API · auth:OAuth · https:yes · cors:unknown · <https://dev.twitch.tv/docs>
+- **Twitter** — Read and write Twitter data · auth:OAuth · https:yes · cors:no · <https://developer.twitter.com/en/docs>
+- **TwitterAPIs** — Twitter / X data API: search, profiles, timelines, followers, DMs, write actions · auth:apiKey · https:yes · cors:unknown · <https://www.twitterapis.com/>
+- **TwittrAPI** — Public Twitter/X data: profiles, tweets, replies, search, followers, lists, communities, trends · auth:apiKey · https:yes · cors:yes · <https://www.twittrapi.com/docs>
+- **vk** — Read and write vk data · auth:OAuth · https:yes · cors:unknown · <https://vk.com/dev/sites>
+- **xfetch** — Read API for X/Twitter search, profiles, tweets, and social graph · auth:apiKey · https:yes · cors:yes · <https://xfetch.io>
+- **XFlux** — Read X/Twitter profiles, search, timelines; account monitors with signed webhooks · auth:apiKey · https:yes · cors:no · <https://www.xfluxapi.com/docs/api>
+
+## Sports & Fitness
+
+- **5DollarFootball** — Football fixtures, results, standings and historical odds with corner and card lines · auth:apiKey · https:yes · cors:yes · <https://5dollarfootballapi.com/>
+- **AcesAPI** — ATP and WTA tennis since 2007: match results, draws, rankings, head to head, surface Elo and odds · auth:apiKey · https:yes · cors:yes · <https://acesapi.com/docs>
+- **API-FOOTBALL** — Get information about Football Leagues & Cups · auth:apiKey · https:yes · cors:yes · <https://www.api-football.com/documentation-v3>
+- **ApiMedic** — ApiMedic offers a medical symptom checker API primarily for patients · auth:apiKey · https:yes · cors:unknown · <https://apimedic.com/>
+- **Ball Ranks** — NFL and NBA fantasy rankings and player projections · auth:none · https:yes · cors:yes · <https://ballranks.com/developers>
+- **balldontlie** — Balldontlie provides access to stats data from the NBA · auth:none · https:yes · cors:yes · <https://www.balldontlie.io>
+- **Bet Better** — Sports model win probabilities and fair odds across 13 leagues · auth:none · https:yes · cors:yes · <https://betbetter.world/api/>
+- **BirdieAPI** — PGA Tour golf since 2001: leaderboards, hole-by-hole scores, courses, ratings and major winner odds · auth:apiKey · https:yes · cors:yes · <https://birdieapi.com/docs>
+- **Canadian Football League (CFL)** — Official JSON API providing real-time league, team and player statistics about the CFL · auth:apiKey · https:yes · cors:no · <http://api.cfl.ca/>
+- **Cito UFC API** — UFC and MMA fight data: fighters, cards, round stats, rankings and live state · auth:apiKey · https:yes · cors:no · <https://citoapi.com/ufc-api/>
+- **City Bikes** — City Bikes around the world · auth:none · https:yes · cors:unknown · <https://api.citybik.es/v2/>
+- **Cloudbet** — Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically · auth:apiKey · https:yes · cors:yes · <https://www.cloudbet.com/api/>
+- **CollegeFootballData.com** — Unofficial detailed American college football statistics, records, and results API · auth:apiKey · https:yes · cors:unknown · <https://collegefootballdata.com>
+- **DiscGolf** — Structured disc golf course data · auth:none · https:yes · cors:yes · <https://discgolfapi.com/docs/>
+- **DunkAPI** — NBA, WNBA and college basketball: play-by-play, shot locations, box scores and sportsbook odds · auth:apiKey · https:yes · cors:yes · <https://dunkapi.com/docs>
+- **Ergast F1** — F1 data from the beginning of the world championships in 1950 · auth:none · https:yes · cors:unknown · <http://ergast.com/mrd/>
+- **FanLine Wire** — Real-time FanDuel Sportsbook odds — live & in-play and pre-match, with a keyless public snapshot · auth:none · https:yes · cors:yes · <https://fanlinewire.com/docs>
+- **FastballAPI** — MLB since 2015 plus college baseball: pitches, plate appearances, box scores and sportsbook odds · auth:apiKey · https:yes · cors:yes · <https://fastballapi.com/docs>
+- **Fitbit** — Fitbit Information · auth:OAuth · https:yes · cors:unknown · <https://dev.fitbit.com/>
+- **Football** — A simple Open Source Football API to get squads’ stats, best scorers and more · auth:X-Mashape-Key · https:yes · cors:unknown · <https://rapidapi.com/GiulianoCrescimbeni/api/football98/>
+- **Football (Soccer) Videos** — Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more · auth:none · https:yes · cors:yes · <https://www.scorebat.com/video-api/>
+- **Football Charts** — Tables, results, model probabilities and Monte Carlo season projections for 93 leagues · auth:apiKey · https:yes · cors:yes · <https://www.football-charts.com/developers>
+- **Football Leagues** — Standings, fixtures, live scores, lineups and player stats for 11 European football competitions · auth:apiKey · https:yes · cors:yes · <https://football-api.yuvron.online/reference>
+- **Football Standings** — Display football standings e.g epl, la liga, serie a etc. The data is based on espn site · auth:none · https:yes · cors:yes · <https://github.com/azharimm/football-standings-api>
+- **Football-Data** — Football data with matches info, players, teams, and competitions · auth:X-Mashape-Key · https:yes · cors:unknown · <https://www.football-data.org>
+- **HaterPicks** — Australian sports odds and player props from every major Australian bookmaker, free tier · auth:apiKey · https:yes · cors:no · <https://www.haterpicks.app/api>
+- **JCDecaux Bike** — JCDecaux's self-service bicycles · auth:apiKey · https:yes · cors:unknown · <https://developer.jcdecaux.com/>
+- **Lumify** — Real-time sports intelligence: scores, odds, betting splits & AI bet analysis across 8 sports · auth:apiKey · https:yes · cors:no · <https://lumify.ai/docs>
+- **MLB Records and Stats** — Current and historical MLB statistics · auth:none · https:no · cors:unknown · <https://appac.github.io/mlb-data-api-docs/>
+- **MoviOdds** — Real-time bet365 soccer odds, every market, pre-match and in-play, over REST and WebSocket · auth:none · https:yes · cors:yes · <https://moviodds.com/doc>
+- **NBA Data** — All NBA Stats DATA, Games, Livescore, Standings, Statistics · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/api-sports/api/api-nba/>
+- **NBA Stats** — Current and historical NBA Statistics · auth:none · https:yes · cors:unknown · <https://any-api.com/nba_com/nba_com/docs/API_Description>
+- **NHL Records and Stats** — NHL historical data and statistics · auth:none · https:yes · cors:unknown · <https://gitlab.com/dword4/nhlapi>
+- **NoPunt** — Weekly NFL game picks with model win probability, confidence tier and spread · auth:none · https:yes · cors:yes · <https://www.nopunt.com/api/picks.json>
+- **Odds-API** — Real-time sports betting odds from 365+ bookmakers across 34 sports via REST and WebSocket · auth:apiKey · https:yes · cors:yes · <https://docs.odds-api.io>
+- **OddsBench** — Independent monthly latency benchmark of sports odds APIs, with free JSON and CSV data · auth:none · https:yes · cors:yes · <https://oddsbench.xyz/api/>
+- **Oddsmagnet** — Odds history from multiple UK bookmakers · auth:none · https:yes · cors:yes · <https://data.oddsmagnet.com>
+- **OddsRadarWire** — Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE · auth:apiKey · https:yes · cors:no · <https://oddsradarwire.com/docs.html>
+- **OpenF1** — Real-time and historical Formula 1 data including laps, car telemetry and positions · auth:none · https:yes · cors:yes · <https://openf1.org/>
+- **OpenFoot API** — Football fixtures, results, standings, lineups, live events and shot-level xG across 75 competitions · auth:apiKey · https:yes · cors:yes · <https://openfootapi.com/docs>
+- **OpenLigaDB** — Crowd sourced sports league results · auth:none · https:yes · cors:yes · <https://www.openligadb.de>
+- **Padel Snipe** — 4,000+ mapped padel clubs across 9 European countries with GPS and courts · auth:none · https:yes · cors:yes · <https://padelsnipe.com/fr/world/api>
+- **Parlay** — Real-time sports odds and player props from 45+ sportsbooks and sources across 90+ sports · auth:apiKey · https:yes · cors:yes · <https://parlay-api.com/docs>
+- **PinnWire** — Real-time Pinnacle odds for 13 sports — live and prematch over REST, WebSocket and SSE drop alerts · auth:apiKey · https:yes · cors:no · <https://pinnwire.com/docs.html>
+- **PlayerElo** — Player-level Elo ratings, predictions and history for 176 football leagues · auth:apiKey · https:yes · cors:unknown · <https://playerelo.football/api-access>
+- **Premier League Standings** — All Current Premier League Standings and Statistics · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/heisenbug/api/premier-league-live-scores/>
+- **PropLine** — Real-time player-props betting odds with graded prop resolution across 13 books · auth:apiKey · https:yes · cors:unknown · <https://prop-line.com>
+- **QiuXiaoCe Football** — Football teams, leagues, standings, scorers and match intelligence data · auth:none · https:yes · cors:unknown · <https://www.qiuxiaoce.com/data-docs/>
+- **RacingHub** — Formula 1 historical data and statistics · auth:none · https:yes · cors:unknown · <https://racinghub.net/api/v1/docs#/>
+- **Realtime Sports** — Live scores, play-by-play, schedules and odds for NFL, NBA, MLB, NHL, NCAA and soccer · auth:apiKey · https:yes · cors:yes · <https://www.realtimesportsapi.com/docs>
+- **Sport List & Data** — List of and resources related to sports · auth:none · https:yes · cors:yes · <https://developers.decathlon.com/products/sports>
+- **Sport Places** — Crowd-source sports places around the world · auth:none · https:yes · cors:no · <https://developers.decathlon.com/products/sport-places>
+- **Sport Vision** — Identify sport, brands and gear in an image. Also does image sports captioning · auth:apiKey · https:yes · cors:yes · <https://developers.decathlon.com/products/sport-vision>
+- **SportScore** — Live scores, fixtures, standings and stats for football, basketball, cricket and tennis · auth:none · https:yes · cors:yes · <https://sportscore.com/developers/>
+- **Sportmonks Cricket** — Live cricket score, player statistics and fantasy API · auth:apiKey · https:yes · cors:unknown · <https://docs.sportmonks.com/cricket/>
+- **Sportmonks Football** — Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga · auth:apiKey · https:yes · cors:unknown · <https://docs.sportmonks.com/football/>
+- **Squiggle** — Fixtures, results and predictions for Australian Football League matches · auth:none · https:yes · cors:yes · <https://api.squiggle.com.au>
+- **Strava** — Connect with athletes, activities and more · auth:OAuth · https:yes · cors:unknown · <https://strava.github.io/api/>
+- **StrikerAPI** — Football from 16 leagues incl. Premier League and MLS: lineups, shot maps, xG and odds · auth:apiKey · https:yes · cors:yes · <https://strikerapi.com/docs>
+- **SuredBits** — Query sports data, including teams, players, games, scores and statistics · auth:none · https:no · cors:no · <https://suredbits.com/api/>
+- **TheRundown** — Real-time sports data: odds, scores, stats & prediction markets, 30+ leagues, 18+ sportsbooks · auth:apiKey · https:yes · cors:yes · <https://therundown.io/>
+- **TheSportsDB** — Crowd-Sourced Sports Data and Artwork · auth:apiKey · https:yes · cors:yes · <https://www.thesportsdb.com/api.php>
+- **TourneyRadar** — Upcoming chess tournaments from 140+ national federations worldwide · auth:none · https:yes · cors:unknown · <https://tourneyradar-api.vercel.app>
+- **Tredict** — Get and set activities, health data and more · auth:OAuth · https:yes · cors:unknown · <https://www.tredict.com/blog/oauth_docs/>
+- **WhensTheRace** — F1 season schedule with UTC session start times as JSON, RSS and iCal · auth:none · https:yes · cors:yes · <https://whenstherace.com/f1-schedule-json/>
+- **Wger** — Workout manager data as exercises, muscles or equipment · auth:apiKey · https:yes · cors:unknown · <https://wger.de/en/software/api>
+
+## Test Data
+
+- **AddressMock** — Random US, Hong Kong and Cape Verde addresses with matched city, state and ZIP · auth:none · https:yes · cors:yes · <https://addressmock.com/api>
+- **Bacon Ipsum** — A Meatier Lorem Ipsum Generator · auth:none · https:yes · cors:unknown · <https://baconipsum.com/json-api/>
+- **Dicebear Avatars** — Generate random pixel-art avatars · auth:none · https:yes · cors:no · <https://avatars.dicebear.com/>
+- **DummyJSON** — Fake REST API with products, users, posts, comments, todos and more · auth:none · https:yes · cors:yes · <https://dummyjson.com/>
+- **English Random Words** — Generate English Random Words with Pronunciation · auth:none · https:yes · cors:no · <https://random-words-api.vercel.app/word>
+- **FakeJSON** — Service to generate test and fake data · auth:apiKey · https:yes · cors:yes · <https://fakejson.com>
+- **FakerAPI** — APIs collection to get fake data · auth:none · https:yes · cors:yes · <https://fakerapi.it/en>
+- **FakeStoreAPI** — Fake store rest API for your e-commerce or shopping website prototype · auth:none · https:yes · cors:unknown · <https://fakestoreapi.com/>
+- **flaky** — Fake REST API with chaos controls: force any status code, add latency, or a failure rate · auth:none · https:yes · cors:yes · <https://flakyapi.dev>
+- **GeneradorDNI** — Data generator API. Profiles, vehicles, banks and cards, etc · auth:apiKey · https:yes · cors:unknown · <https://api.generadordni.es>
+- **ItsThisForThat** — Generate Random startup ideas · auth:none · https:yes · cors:no · <https://itsthisforthat.com/api.php>
+- **JsonFabrica** — Generate realistic relational synthetic JSON test data from reusable templates · auth:apiKey · https:yes · cors:unknown · <https://jsonfabrica.com/docs/api-reference>
+- **JSONPlaceholder** — Fake data for testing and prototyping · auth:none · https:no · cors:unknown · <http://jsonplaceholder.typicode.com/>
+- **loremfile** — Hotlinkable CC0 sample files in 78 formats, each with a SHA-256 in a JSON manifest · auth:none · https:yes · cors:yes · <https://loremfile.dev/docs/manifest>
+- **Loripsum** — The "lorem ipsum" generator that doesn't suck · auth:none · https:no · cors:unknown · <http://loripsum.net/>
+- **Mailsac** — Disposable Email · auth:apiKey · https:yes · cors:unknown · <https://mailsac.com/docs/api>
+- **Metaphorsum** — Generate demo paragraphs giving number of words and sentences · auth:none · https:no · cors:unknown · <http://metaphorpsum.com/>
+- **Mockaroo** — Generate fake data to JSON, CSV, TXT, SQL and XML · auth:apiKey · https:yes · cors:unknown · <https://www.mockaroo.com/docs>
+- **NovaFortix Dev** — Zero-auth REST endpoints for mock user profiles, UUIDs and HTTP status codes · auth:none · https:yes · cors:yes · <https://public-dev-apis.surge.sh>
+- **QuickMocker** — API mocking tool to generate contextual, fake or random data · auth:none · https:yes · cors:yes · <https://quickmocker.com>
+- **Random Data** — Random data generator · auth:none · https:yes · cors:unknown · <https://random-data-api.com>
+- **Randommer** — Random data generator · auth:apiKey · https:yes · cors:yes · <https://randommer.io/randommer-api>
+- **RandomUser** — Generates and list user data · auth:none · https:yes · cors:unknown · <https://randomuser.me>
+- **restful-api** — Fake REST API for testing and prototyping with CRUD endpoints · auth:none · https:yes · cors:no · <https://restful-api.dev>
+- **RoboHash** — Generate random robot/alien avatars · auth:none · https:yes · cors:unknown · <https://robohash.org/>
+- **Sampuli** — Format-true synthetic test data for 90 countries: IDs, IBANs, cards, addresses · auth:none · https:yes · cors:yes · <https://sampuli.site/api>
+- **Spanish random names** — Generate spanish names (with gender) randomly · auth:none · https:yes · cors:unknown · <https://random-names-api.herokuapp.com/public>
+- **Spanish random words** — Generate spanish words randomly · auth:none · https:yes · cors:unknown · <https://palabras-aleatorias-public-api.herokuapp.com>
+- **Supercrontab Mock Endpoints** — Mock endpoints in 8 formats, each returning any of 14 HTTP status codes · auth:none · https:yes · cors:yes · <https://supercrontab.com/mock>
+- **TestingAPIs** — Free fake REST API with products, posts, todos, any HTTP status code and request echo · auth:none · https:yes · cors:yes · <https://testingapis.com/docs/>
+- **This Person Does not Exist** — Generates real-life faces of people who do not exist · auth:none · https:yes · cors:unknown · <https://thispersondoesnotexist.com>
+- **Toolcarton** — Generate random testimonial data · auth:none · https:yes · cors:unknown · <https://testimonialapi.toolcarton.com/>
+- **TotalShiftLeft Sandbox** — Free multi-protocol sandbox: REST, GraphQL & SOAP with OAuth2/JWT auth and OpenAPI 3.0 spec · auth:none · https:yes · cors:yes · <https://demo.totalshiftleft.ai/>
+- **UUID Generator** — Generate UUIDs · auth:none · https:yes · cors:no · <https://www.uuidtools.com/docs>
+- **Waldrand Avatar** — Deterministic SVG/PNG/WebP avatars from any string, four styles · auth:none · https:yes · cors:yes · <https://avatar.waldrand.dev>
+- **What The Commit** — Random commit message generator · auth:none · https:no · cors:yes · <http://whatthecommit.com/index.txt>
+- **Yes No** — Generate yes or no randomly · auth:none · https:yes · cors:unknown · <https://yesno.wtf/api>
+
+## Text Analysis
+
+- **Code Detection** — Detect, label, format and enrich the code in your app or in your data pipeline · auth:OAuth · https:yes · cors:unknown · <https://codedetectionapi.runtime.dev>
+- **apilayer languagelayer** — Language Detection JSON API supporting 173 languages · auth:OAuth · https:yes · cors:unknown · <https://languagelayer.com/>
+- **Aylien Text Analysis** — A collection of information retrieval and natural language APIs · auth:apiKey · https:yes · cors:unknown · <https://docs.aylien.com/textapi/#getting-started>
+- **Cloudmersive Natural Language Processing** — Natural language processing and text analysis · auth:apiKey · https:yes · cors:yes · <https://www.cloudmersive.com/nlp-api>
+- **Detect Language** — Detects text language · auth:apiKey · https:yes · cors:unknown · <https://detectlanguage.com/>
+- **eidosSpeech** — Free text-to-speech API with 1,200+ neural voices in 75+ languages · auth:apiKey · https:yes · cors:yes · <https://eidosspeech.xyz>
+- **ELI** — Natural Language Processing Tools for Thai Language · auth:apiKey · https:yes · cors:unknown · <https://nlp.insightera.co.th/docs/v1.0>
+- **Google Cloud Natural** — Natural language understanding technology, including sentiment, entity and syntax analysis · auth:apiKey · https:yes · cors:unknown · <https://cloud.google.com/natural-language/docs/>
+- **GeoScore** — Score content for AI search citation readiness with a 0-100 GEO score and 8 structural metrics · auth:apiKey · https:yes · cors:yes · <https://geoscoreapi.com>
+- **Hirak OCR** — Image to text -text recognition- from image more than 100 language, accurate, unlimited requests · auth:apiKey · https:yes · cors:unknown · <https://ocr.hirak.site/>
+- **Hirak Translation** — Translate between 21 of most used languages, accurate, unlimited requests · auth:apiKey · https:yes · cors:unknown · <https://translate.hirak.site/>
+- **Kiprio Translate** — Free text translation with language detection, supports 50+ languages · auth:apiKey · https:yes · cors:yes · <https://kiprio.com/v1/translate>
+- **Langbly** — Context-aware text translation and language detection for 100+ languages · auth:apiKey · https:yes · cors:yes · <https://langbly.com/docs>
+- **Lecto Translation** — Translation API with free tier and reasonable prices · auth:apiKey · https:yes · cors:yes · <https://rapidapi.com/lecto-lecto-default/api/lecto-translation/>
+- **LibreTranslate** — Translation tool with 17 available languages · auth:none · https:yes · cors:unknown · <https://libretranslate.com/docs>
+- **Semantria** — Text Analytics with sentiment analysis, categorization & named entity extraction · auth:OAuth · https:yes · cors:unknown · <https://semantria.readme.io/docs>
+- **Sentiment Analysis** — Multilingual sentiment analysis of texts from different sources · auth:apiKey · https:yes · cors:yes · <https://www.meaningcloud.com/developer/sentiment-analysis>
+- **Tisane** — Text Analytics with focus on detection of abusive content and law enforcement applications · auth:OAuth · https:yes · cors:yes · <https://tisane.ai/>
+- **ToHuman** — Rewrite AI-assisted drafts into natural, human-sounding text that reads like you wrote it · auth:apiKey · https:yes · cors:unknown · <https://tohuman.io/ai-humanizer-api>
+- **Watson Natural Language Understanding** — Natural language processing for advanced text analysis · auth:OAuth · https:yes · cors:unknown · <https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding>
+
+## Tracking
+
+- **Aftership** — API to update, manage and track shipment efficiently · auth:apiKey · https:yes · cors:yes · <https://developers.aftership.com/reference/quick-start>
+- **Correios** — Integration to provide information and prepare shipments using Correio's services · auth:apiKey · https:yes · cors:unknown · <https://cws.correios.com.br/ajuda>
+- **Mapbox** — Maps, directions, geocoding · auth:apiKey · https:yes · cors:unknown · <https://docs.mapbox.com/api/>
+- **Pixela** — API for recording and tracking habits or effort, routines · auth:X-Mashape-Key · https:yes · cors:yes · <https://pixe.la>
+- **PostalPinCode** — API for getting Pincode details in India · auth:none · https:yes · cors:unknown · <http://www.postalpincode.in/Api-Details>
+- **Postmon** — An API to query Brazilian ZIP codes and orders easily, quickly and free · auth:none · https:no · cors:unknown · <http://postmon.com.br>
+- **PostNord** — Provides information about parcels in transport for Sweden and Denmark · auth:apiKey · https:no · cors:unknown · <https://developer.postnord.com/api>
+- **UPS** — Shipment and Address information · auth:apiKey · https:yes · cors:unknown · <https://www.ups.com/upsdeveloperkit>
+- **WeCanTrack** — Automatically place subids in affiliate links to attribute affiliate conversions to click data · auth:apiKey · https:yes · cors:yes · <https://docs.wecantrack.com>
+- **WhatPulse** — Small application that measures your keyboard/mouse usage · auth:none · https:yes · cors:unknown · <https://developer.whatpulse.org/#web-api>
+- **WhereParcel** — Unified parcel tracking API across 60+ carriers worldwide (USPS, FedEx, UPS, DHL, etc.) · auth:apiKey · https:yes · cors:yes · <https://whereparcel.com/docs>
+
+## Transportation
+
+- **ADS-B Exchange** — Access real-time and historical data of any and all airborne aircraft · auth:none · https:yes · cors:unknown · <https://www.adsbexchange.com/data/>
+- **Aether-X Port Congestion** — Real-time port congestion risk scores, ETA delays and waiting vessels for 15 global ports · auth:apiKey · https:yes · cors:yes · <https://aether-x-oracle-production.up.railway.app/docs>
+- **AirportMiles** — Airport codes, distances, routes and passenger numbers as static JSON files · auth:none · https:yes · cors:yes · <https://airportmiles.com/api>
+- **airportsapi** — Get name and website-URL for airports by ICAO code · auth:none · https:yes · cors:unknown · <https://airport-web.appspot.com/api/docs/>
+- **Aether-X Port Congestion Oracle** — Predictive port congestion, ETA delay and freight volatility signals for 16 global ports · auth:apiKey · https:yes · cors:yes · <https://rapidapi.com/belegante/api/aether-x-port-congestion-oracle>
+- **AIS Hub** — Real-time data of any marine and inland vessel equipped with AIS tracking system · auth:apiKey · https:no · cors:unknown · <http://www.aishub.net/api>
+- **Amadeus for Developers** — Travel Search - Limited usage · auth:OAuth · https:yes · cors:unknown · <https://developers.amadeus.com/self-service>
+- **apilayer aviationstack** — Real-time Flight Status & Global Aviation Data API · auth:OAuth · https:yes · cors:unknown · <https://aviationstack.com/>
+- **Apimetro** — Geospatial data for Mexico City public transport system (Metro, Metrobús, Cablebús, RTP, etc.) · auth:none · https:yes · cors:yes · <https://apimetro.dev/swagger/index.html>
+- **ArcNautical** — Screen any ship by IMO for OFAC/EU/UN/UK sanctions, ownership opacity and a vetting grade · auth:none · https:yes · cors:yes · <https://arcnautical.com/developers/>
+- **Aviation Safety Data** — 164,068 aircraft accident narratives from 128 official investigation authorities, plus FAA data · auth:none · https:yes · cors:yes · <https://himaxym.com/developers>
+- **AviationAPI** — FAA Aeronautical Charts and Publications, Airport Information, and Airport Weather · auth:none · https:yes · cors:no · <https://docs.aviationapi.com>
+- **AZ511** — Access traffic data from the ADOT API · auth:apiKey · https:yes · cors:unknown · <https://www.az511.com/developers/doc>
+- **Bay Area Rapid Transit** — Stations and predicted arrivals for BART · auth:apiKey · https:no · cors:unknown · <http://api.bart.gov>
+- **BC Ferries** — Sailing times and capacities for BC Ferries · auth:none · https:yes · cors:yes · <https://www.bcferriesapi.ca>
+- **BIC-Boxtech** — Container technical detail for the global container fleet · auth:OAuth · https:yes · cors:unknown · <https://docs.bic-boxtech.org/>
+- **BlaBlaCar** — Search car sharing trips · auth:apiKey · https:yes · cors:unknown · <https://dev.blablacar.com>
+- **Boston MBTA Transit** — Stations and predicted arrivals for MBTA · auth:apiKey · https:yes · cors:unknown · <https://www.mbta.com/developers/v3-api>
+- **Can I enter** — Visa and entry requirements for 199 passports, cited to official sources, verified daily · auth:none · https:yes · cors:yes · <https://canienter.com>
+- **ChargeAlong** — EV charging sites in AU, NZ, US, UK and Canada, with nearby search and trip planning · auth:none · https:yes · cors:yes · <https://chargealong.io/docs/>
+- **Community Transit** — Transitland API · auth:none · https:yes · cors:unknown · <https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints>
+- **ConnectMeGuru** — Search and purchase prepaid travel eSIM data plans across 190+ countries · auth:none · https:yes · cors:yes · <https://www.connectmeguru.com/api/mcp>
+- **Compare Flight Prices** — API for comparing flight prices across platforms · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices/>
+- **Cruise Itinerary** — Cruise sailings, day-by-day itineraries, weekly fare history, port traffic and a cruise price index · auth:apiKey · https:yes · cors:yes · <https://cruise-itinerary.com/docs>
+- **CruiseFeed** — Normalized cruise line inventory: ships, sailings, itineraries, ports and lead-in fares · auth:apiKey · https:yes · cors:unknown · <https://cruisefeed.io>
+- **CTS** — CTS Realtime API · auth:apiKey · https:yes · cors:yes · <https://api.cts-strasbourg.eu/>
+- **Grab** — Track deliveries, ride fares, payments and loyalty points · auth:OAuth · https:yes · cors:unknown · <https://developer.grab.com/docs/>
+- **GraphHopper** — A-to-B routing with turn-by-turn instructions · auth:apiKey · https:yes · cors:unknown · <https://docs.graphhopper.com/>
+- **GTFS Scorecard** — Data-quality grades and prioritized fixes for 2,400+ public transit GTFS feed records · auth:none · https:yes · cors:yes · <https://github.com/ChelseaKR/gtfs-scorecard/blob/main/docs/api.md>
+- **Icelandic APIs** — Open APIs that deliver services in or regarding Iceland · auth:none · https:yes · cors:unknown · <http://docs.apis.is/>
+- **Impala Hotel Bookings** — Hotel content, rates and room bookings · auth:apiKey · https:yes · cors:no · <https://docs.impala.travel/docs/booking-api/>
+- **India EV Charging Stations** — Directory of public EV charging stations across India with connector and power specs · auth:none · https:yes · cors:yes · <https://ev-charging-stations-api.vercel.app/docs>
+- **Izi** — Audio guide for travellers · auth:apiKey · https:yes · cors:unknown · <http://api-docs.izi.travel/>
+- **Land Transport Authority DataMall, Singapore** — Singapore transport information · auth:apiKey · https:no · cors:unknown · <https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf>
+- **LiveTrafficCam** — Live US state DOT traffic cameras with verified live status and measured uptime · auth:none · https:yes · cors:no · <https://bzsasson.github.io/traffic-camera-sources/api.html>
+- **Metro Lisboa** — Delays in subway lines · auth:none · https:no · cors:no · <http://app.metrolisboa.pt/status/getLinhas.php>
+- **Navitia** — The open API for building cool stuff with transport data · auth:apiKey · https:yes · cors:unknown · <https://doc.navitia.io/>
+- **On va où ?** — Bike, scooter, motorcycle, wheelchair and walking routes across Europe, with safety indicators · auth:apiKey · https:yes · cors:no · <https://onvaou.app/developers/routing-api.html>
+- **Open Charge Map** — Global public registry of electric vehicle charging locations · auth:apiKey · https:yes · cors:yes · <https://openchargemap.org/site/develop/api>
+- **Orizn Visa** — Visa requirements for 199 countries, 39K+ passport-destination pairs in 15 languages · auth:apiKey · https:yes · cors:yes · <https://visa.orizn.app>
+- **OpenSky Network** — Free real-time ADS-B aviation data · auth:none · https:yes · cors:unknown · <https://openskynetwork.github.io/opensky-api/>
+- **OpenVan** — Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel · auth:none · https:yes · cors:yes · <https://openvan.camp/docs>
+- **Pumperly** — Fuel prices and EV chargers near a point, in a map area or along a route, as GeoJSON · auth:none · https:yes · cors:no · <https://geiserx.github.io/Pumperly/reference/api/>
+- **Railway Transport for France** — SNCF public API · auth:apiKey · https:yes · cors:unknown · <https://www.digital.sncf.com/startup/api>
+- **Railworks** — Irish Rail planned engineering works: affected stations, DART closures, change log and ICS feeds · auth:none · https:yes · cors:yes · <https://railworks.paddez.com/docs>
+- **REFUGE Restrooms** — Provides safe restroom access for transgender, intersex and gender nonconforming individuals · auth:none · https:yes · cors:unknown · <https://www.refugerestrooms.org/api/docs/#!/restrooms>
+- **Road511** — Unified traffic data from 65 US/CA jurisdictions: events, cameras, signs, bridges, truck routes · auth:apiKey · https:yes · cors:no · <https://road511.com/docs.html>
+- **Sabre for Developers** — Travel Search - Limited usage · auth:apiKey · https:yes · cors:unknown · <https://developer.sabre.com/>
+- **Schiphol Airport** — Schiphol · auth:apiKey · https:yes · cors:unknown · <https://developer.schiphol.nl/>
+- **SMKlog** — Live parcel shipping rates and labels from a plain-words item description · auth:none · https:yes · cors:no · <https://smklog.com/openapi.json>
+- **Stadiq** — Road works, transit disruptions and air quality for Antwerp and Flanders · auth:apiKey · https:yes · cors:no · <https://stadiq.app/developers>
+- **Strait of Hormuz Ship Monitor** — Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz · auth:none · https:yes · cors:no · <https://hormuz.data-tracking.net/llms.txt>
+- **Tankerkoenig** — German realtime gas/diesel prices · auth:apiKey · https:yes · cors:yes · <https://creativecommons.tankerkoenig.de/swagger/>
+- **TransCAPI** — Live bus and rail departures, vehicles, disruptions and journey planning for Great Britain · auth:apiKey · https:yes · cors:yes · <https://www.transcapi.com/docs>
+- **TransitLand** — Transit Aggregation · auth:none · https:yes · cors:unknown · <https://www.transit.land/documentation/datastore/api-endpoints.html>
+- **TransitRadar** — Live GB train and bus departures, train positions, journey planning and a daily punctuality archive · auth:none · https:yes · cors:no · <https://transitradar.co.uk/scalar/>
+- **Transport for Atlanta, US** — Marta · auth:none · https:no · cors:unknown · <http://www.itsmarta.com/app-developer-resources.aspx>
+- **Transport for Auckland, New Zealand** — Auckland Transport · auth:none · https:yes · cors:unknown · <https://dev-portal.at.govt.nz/>
+- **Transport for Belgium** — The iRail API is a third-party API for Belgian public transport by train · auth:none · https:yes · cors:yes · <https://docs.irail.be/>
+- **Transport for Berlin, Germany** — Third-party VBB API · auth:none · https:yes · cors:unknown · <https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md>
+- **Transport for Bordeaux, France** — Bordeaux Métropole public transport and more (France) · auth:apiKey · https:yes · cors:unknown · <https://opendata.bordeaux-metropole.fr/explore/>
+- **Transport for Budapest, Hungary** — Budapest public transport API · auth:none · https:yes · cors:unknown · <https://bkkfutar.docs.apiary.io>
+- **Transport for Chicago, US** — Chicago Transit Authority (CTA) · auth:apiKey · https:no · cors:unknown · <http://www.transitchicago.com/developers/>
+- **Transport for Czech Republic** — Czech transport API · auth:none · https:yes · cors:unknown · <https://www.chaps.cz/eng/products/idos-internet>
+- **Transport for Denver, US** — RTD · auth:none · https:no · cors:unknown · <http://www.rtd-denver.com/gtfs-developer-guide.shtml>
+- **Transport for Finland** — Finnish transport API · auth:none · https:yes · cors:unknown · <https://digitransit.fi/en/developers/>
+- **Transport for Germany** — Deutsche Bahn (DB) API · auth:apiKey · https:no · cors:unknown · <http://data.deutschebahn.com/dataset/api-fahrplan>
+- **Transport for Grenoble, France** — Grenoble public transport · auth:none · https:no · cors:no · <https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html>
+- **Transport for Hessen, Germany** — RMV API (Public Transport in Hessen) · auth:none · https:yes · cors:unknown · <https://opendata.rmv.de/site/start.html>
+- **Transport for Honolulu, US** — Honolulu Transportation Information · auth:apiKey · https:no · cors:unknown · <http://hea.thebus.org/api_info.asp>
+- **Transport for Lisbon, Portugal** — Data about buses routes, parking and traffic · auth:apiKey · https:yes · cors:unknown · <https://emel.city-platform.com/opendata/>
+- **Transport for London, England** — TfL API · auth:apiKey · https:yes · cors:unknown · <https://api.tfl.gov.uk>
+- **Transport for Los Angeles, US** — Data about positions of Metro vehicles in real time and travel their routes · auth:none · https:yes · cors:unknown · <https://developer.metro.net/api/>
+- **Transport for Manchester, England** — TfGM transport network data · auth:apiKey · https:yes · cors:no · <https://developer.tfgm.com/>
+- **Transport for Norway** — Transport APIs and dataset for Norway · auth:none · https:yes · cors:unknown · <https://developer.entur.org/>
+- **Transport for Ottawa, Canada** — OC Transpo API · auth:apiKey · https:yes · cors:unknown · <https://www.octranspo.com/en/plan-your-trip/travel-tools/developers>
+- **Transport for Paris, France** — RATP Open Data API · auth:none · https:no · cors:unknown · <http://data.ratp.fr/api/v1/console/datasets/1.0/search/>
+- **Transport for Philadelphia, US** — SEPTA APIs · auth:none · https:no · cors:unknown · <http://www3.septa.org/hackathon/>
+- **Transport for Sao Paulo, Brazil** — SPTrans · auth:OAuth · https:no · cors:unknown · <http://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/>
+- **Transport for Spain** — Public trains of Spain · auth:none · https:yes · cors:unknown · <https://data.renfe.com/api/1/util/snippet/api_info.html?resource_id=a2368cff-1562-4dde-8466-9635ea3a572a>
+- **Transport for Sweden** — Public Transport consumer · auth:OAuth · https:yes · cors:unknown · <https://www.trafiklab.se/api>
+- **Transport for Switzerland** — Official Swiss Public Transport Open Data · auth:apiKey · https:yes · cors:unknown · <https://opentransportdata.swiss/en/>
+- **Transport for Switzerland** — Swiss public transport API · auth:none · https:yes · cors:unknown · <https://transport.opendata.ch/>
+- **Transport for The Netherlands** — NS, only trains · auth:apiKey · https:no · cors:unknown · <http://www.ns.nl/reisinformatie/ns-api>
+- **Transport for The Netherlands** — OVAPI, country-wide public transport · auth:none · https:yes · cors:unknown · <https://github.com/skywave/KV78Turbo-OVAPI/wiki>
+- **Transport for Toronto, Canada** — TTC · auth:none · https:yes · cors:unknown · <https://myttc.ca/developers>
+- **Transport for UK** — Transport API and dataset for UK · auth:apiKey · https:yes · cors:unknown · <https://developer.transportapi.com>
+- **Transport for United States** — NextBus API · auth:none · https:no · cors:unknown · <https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf>
+- **Transport for Vancouver, Canada** — TransLink · auth:OAuth · https:yes · cors:unknown · <https://developer.translink.ca/>
+- **Transport for Washington, US** — Washington Metro transport API · auth:OAuth · https:yes · cors:unknown · <https://developer.wmata.com/>
+- **transport.rest** — Community maintained, developer-friendly public transport API · auth:none · https:yes · cors:yes · <https://transport.rest>
+- **Travel Risk Aviation** — Flight status, airports, airlines, airline safety and in-flight Wi-Fi data · auth:apiKey · https:yes · cors:yes · <https://api.travelriskapi.com/ext/reference/>
+- **Tripadvisor** — Rating content for a hotel, restaurant, attraction or destination · auth:apiKey · https:yes · cors:unknown · <https://developer-tripadvisor.com/home/>
+- **Uber** — Uber ride requests and price estimation · auth:OAuth · https:yes · cors:yes · <https://developer.uber.com/products>
+- **Velib metropolis, Paris, France** — Velib Open Data API · auth:none · https:yes · cors:no · <https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole>
+- **Vessel Class Finder** — IACS class society, class status and survey dates for ships by IMO number · auth:apiKey · https:yes · cors:yes · <https://vesselclassfinder.com/blog/vessel-classification-api.html>
+- **Windsock** — Aircraft valuations, FAA registry lookups, cost of ownership and aviation market data · auth:apiKey · https:yes · cors:unknown · <https://windsock.ai/app/docs>
+
+## URL Shorteners
+
+- **1pt** — A simple URL shortener · auth:none · https:yes · cors:yes · <https://github.com/1pt-co/api/blob/main/README.md>
+- **Bitly** — URL shortener and link management · auth:OAuth · https:yes · cors:unknown · <http://dev.bitly.com/get_started.html>
+- **CleanURI** — URL shortener service · auth:none · https:yes · cors:yes · <https://cleanuri.com/docs>
+- **ClickMeter** — Monitor, compare and optimize your marketing links · auth:apiKey · https:yes · cors:unknown · <https://support.clickmeter.com/hc/en-us/categories/201474986>
+- **Clico** — URL shortener service · auth:apiKey · https:yes · cors:unknown · <https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config>
+- **Cutt.ly** — URL shortener service · auth:apiKey · https:yes · cors:unknown · <https://cutt.ly/api-documentation/cuttly-links-api>
+- **Drivet URL Shortener** — Shorten a long URL easily and fast · auth:none · https:yes · cors:unknown · <https://wiki.drivet.xyz/en/url-shortener/add-links>
+- **Free Url Shortener** — Free URL Shortener offers a powerful API to interact with other sites · auth:none · https:yes · cors:unknown · <https://ulvis.net/developer.html>
+- **Git.io** — Git.io URL shortener · auth:none · https:yes · cors:unknown · <https://github.blog/2011-11-10-git-io-github-url-shortener/>
+- **GoTiny** — A lightweight URL shortener, focused on ease-of-use for the developer and end-user · auth:none · https:yes · cors:yes · <https://github.com/robvanbakel/gotiny-api>
+- **Kutt** — Free Modern URL Shortener · auth:apiKey · https:yes · cors:yes · <https://docs.kutt.it/>
+- **Lix.li** — URL shortener with analytics, QR codes, UTM tags and custom domains · auth:apiKey · https:yes · cors:yes · <https://lix.li/api>
+- **Mgnet.me** — Torrent URL shorten API · auth:none · https:yes · cors:no · <http://mgnet.me/api.html>
+- **owo** — A simple link obfuscator/shortener · auth:none · https:yes · cors:unknown · <https://owo.vc/>
+- **Rebrandly** — Custom URL shortener for sharing branded links · auth:apiKey · https:yes · cors:unknown · <https://developers.rebrandly.com/v1/docs>
+- **RedirHub** — URL redirect management with custom domains, HTTPS, analytics, and REST API · auth:apiKey · https:yes · cors:yes · <https://redirhub.com>
+- **Short Link** — Short URLs support so many domains · auth:none · https:yes · cors:unknown · <https://github.com/FayasNoushad/Short-Link-API>
+- **Shrtcode** — URl Shortener with multiple Domains · auth:none · https:yes · cors:yes · <https://shrtco.de/docs>
+- **Shrtlnk** — Simple and efficient short link creation · auth:apiKey · https:yes · cors:yes · <https://shrtlnk.dev/>
+- **TinyURL** — Shorten long URLs · auth:apiKey · https:yes · cors:no · <https://tinyurl.com/app/dev>
+- **UrlBae** — Simple and efficient short link creation · auth:apiKey · https:yes · cors:yes · <https://urlbae.com/developers>
+
+## Vehicle
+
+- **Auto Body Shop Directory** — Find auto body shops by ZIP code, city, location, or profile · auth:none · https:yes · cors:no · <https://autobodyshopnear.com/developers/body-shop-api>
+- **Bike Reliability** — UK motorcycle reliability ranked by first-time MOT pass rates · auth:none · https:yes · cors:yes · <https://bikereliability.co.uk/developers>
+- **Brazilian Vehicles and Prices** — Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe · auth:none · https:yes · cors:no · <https://deividfortuna.github.io/fipe/>
+- **CarSpecs** — Car specs for 70,000+ trims since 1945 (make, model, generation, trim) and a VIN decoder · auth:apiKey · https:yes · cors:no · <https://carspecsapi.com/docs>
+- **CarVector** — Vehicle specs, images, recalls, and DTC codes across 1925-2029 · auth:apiKey · https:yes · cors:yes · <https://carvector.io/docs>
+- **Helipaddy sites** — Helicopter and passenger drone landing site directory, Helipaddy data and much more · auth:apiKey · https:yes · cors:unknown · <https://helipaddy.com/api/>
+- **Kelley Blue Book** — Vehicle info, pricing, configuration, plus much more · auth:apiKey · https:yes · cors:no · <http://developer.kbb.com/#!/data/1-Default>
+- **Mercedes-Benz** — Telematics data, remotely access vehicle functions, car configurator, locate service dealers · auth:apiKey · https:yes · cors:no · <https://developer.mercedes-benz.com/apis>
+- **NHTSA** — NHTSA Product Information Catalog and Vehicle Listing · auth:none · https:yes · cors:unknown · <https://vpic.nhtsa.dot.gov/api/>
+- **NHTSA Vehicle Recalls** — NHTSA safety recalls by model year, make and model with component, consequence and remedy · auth:apiKey · https:yes · cors:unknown · <https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-nhtsa-vehicle-recalls>
+- **ProblemsByVin** — Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year · auth:none · https:yes · cors:yes · <https://problemsbyvin.com/data/>
+- **RevCarData** — 86,000+ global vehicle specifications and EV metrics · auth:apiKey · https:yes · cors:yes · <https://revcardata.com>
+- **Smartcar** — Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars · auth:OAuth · https:yes · cors:yes · <https://smartcar.com/docs/>
+- **TransparentCars** — Fair-price valuation and yearly road tax (IUC) for used cars in Portugal · auth:none · https:yes · cors:yes · <https://transparent.pt/en/api>
+- **Wheelwise** — UK used-car listings with fair-price grade, 36-month resale forecast and monthly cost per advert · auth:none · https:yes · cors:no · <https://cars.limoja.ai/api/search?q=BMW&limit=1>
+- **WhichTrim** — US vehicle recalls, complaints, fuel economy, crash ratings, service bulletins and VIN decoding · auth:apiKey · https:yes · cors:yes · <https://whichtrim.com/developers/>
+
+## Video
+
+- **An API of Ice And Fire** — Game Of Thrones API · auth:none · https:yes · cors:unknown · <https://anapioficeandfire.com/>
+- **Arcmira** — Search indexed YouTube transcripts for timestamped passages and mentions · auth:apiKey · https:yes · cors:yes · <https://arcmira.com/docs>
+- **Bob's Burgers** — Bob's Burgers API · auth:none · https:yes · cors:yes · <https://bobs-burgers-api-ui.herokuapp.com>
+- **Breaking Bad** — Breaking Bad API · auth:none · https:yes · cors:unknown · <https://breakingbadapi.com/documentation>
+- **Breaking Bad Quotes** — Some Breaking Bad quotes · auth:none · https:yes · cors:unknown · <https://github.com/shevabam/breaking-bad-quotes>
+- **BulkTranscripts** — YouTube transcripts for a video, a whole channel or a playlist, plus YouTube search · auth:apiKey · https:yes · cors:yes · <https://bulktranscripts.co/docs>
+- **Catalogopolis** — Doctor Who API · auth:none · https:yes · cors:unknown · <https://api.catalogopolis.xyz/docs/>
+- **Catch The Show** — REST API for next-episode.net · auth:none · https:yes · cors:unknown · <https://catchtheshow.herokuapp.com/api/documentation>
+- **Czech Television** — TV programme of Czech TV · auth:none · https:no · cors:unknown · <http://www.ceskatelevize.cz/xml/tv-program/>
+- **Dailymotion** — Dailymotion Developer API · auth:OAuth · https:yes · cors:unknown · <https://developer.dailymotion.com/>
+- **Dune** — A simple API which provides you with book, character, movie and quotes JSON data · auth:none · https:yes · cors:yes · <https://github.com/ywalia01/dune-api>
+- **Final Space** — Final Space API · auth:none · https:yes · cors:yes · <https://finalspaceapi.com/docs/>
+- **Game of Thrones Quotes** — Some Game of Thrones quotes · auth:none · https:yes · cors:unknown · <https://gameofthronesquotes.xyz/>
+- **Harry Potter Charactes** — Harry Potter Characters Data with with imagery · auth:none · https:yes · cors:unknown · <https://hp-api.herokuapp.com/>
+- **Hyperserve** — Video backend API: upload any format, transcode to MP4, deliver via CDN · auth:apiKey · https:yes · cors:yes · <https://hyperserve.io/>
+- **IMDb-API** — API for receiving movie, serial and cast information · auth:apiKey · https:yes · cors:unknown · <https://imdb-api.com/>
+- **IMDbOT** — Unofficial IMDb Movie / Series Information · auth:none · https:yes · cors:yes · <https://github.com/SpEcHiDe/IMDbOT>
+- **JSON2Video** — Create and edit videos programmatically: watermarks,resizing,slideshows,voice-over,text animations · auth:apiKey · https:yes · cors:no · <https://json2video.com>
+- **KPainter** — Create video, image, and interactive app outputs from prompts or source files · auth:apiKey · https:yes · cors:yes · <https://api.kpainter.ai/openapi/v1/docs>
+- **KinoPipe** — Typed hosted video editing operations for agents and automation · auth:apiKey · https:yes · cors:no · <https://kinopipe.com/docs>
+- **Lucifer Quotes** — Returns Lucifer quotes · auth:none · https:yes · cors:unknown · <https://github.com/shadowoff09/lucifer-quotes>
+- **MCU Countdown** — A Countdown to the next MCU Film · auth:none · https:yes · cors:yes · <https://github.com/DiljotSG/MCU-Countdown>
+- **Motivational Quotes** — Random Motivational Quotes · auth:none · https:yes · cors:unknown · <https://nodejs-quoteapp.herokuapp.com/>
+- **Movie Quote** — Random Movie and Series Quotes · auth:none · https:yes · cors:yes · <https://github.com/F4R4N/movie-quote/>
+- **Open Movie Database** — Movie information · auth:apiKey · https:yes · cors:unknown · <http://www.omdbapi.com/>
+- **OpenSubtitles** — Search and download subtitles for movies and TV shows · auth:apiKey · https:yes · cors:yes · <https://www.opensubtitles.com/>
+- **Owen Wilson Wow** — API for actor Owen Wilson's "wow" exclamations in movies · auth:none · https:yes · cors:yes · <https://owen-wilson-wow-api.herokuapp.com>
+- **RankFabrik Captions** — Extract transcripts and captions from YouTube videos · auth:apiKey · https:yes · cors:unknown · <https://rankfabrik.com/produits/transcription>
+- **Rendobar** — Hosted media processing over REST: transcode, caption, watermark video · auth:apiKey · https:yes · cors:no · <https://rendobar.com>
+- **Ron Swanson Quotes** — Television · auth:none · https:yes · cors:unknown · <https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api>
+- **ScaleReach** — Turn long videos into short vertical clips with AI captions and face-tracking crop · auth:apiKey · https:yes · cors:no · <https://docs.scalereach.ai>
+- **Shotstack** — Cloud video editing API to create and render videos programmatically · auth:apiKey · https:yes · cors:unknown · <https://shotstack.io/>
+- **Simkl** — Movie, TV and Anime data · auth:apiKey · https:yes · cors:unknown · <https://simkl.docs.apiary.io>
+- **STAPI** — Information on all things Star Trek · auth:none · https:no · cors:no · <http://stapi.co>
+- **Stranger Things Quotes** — Returns Stranger Things quotes · auth:none · https:yes · cors:unknown · <https://github.com/shadowoff09/strangerthings-quotes>
+- **Stream** — Czech internet television, films, series and online videos for free · auth:none · https:yes · cors:no · <https://api.stream.cz/graphiql>
+- **Stromberg Quotes** — Returns Stromberg quotes and more · auth:none · https:yes · cors:unknown · <https://www.stromberg-api.de/>
+- **SWAPI** — All the Star Wars data you've ever wanted · auth:none · https:yes · cors:yes · <https://swapi.dev/>
+- **SWAPI** — All things Star Wars · auth:none · https:yes · cors:yes · <https://www.swapi.tech>
+- **SWAPI GraphQL** — Star Wars GraphQL API · auth:none · https:yes · cors:unknown · <https://graphql.org/swapi-graphql>
+- **The Lord of the Rings** — The Lord of the Rings API · auth:apiKey · https:yes · cors:unknown · <https://the-one-api.dev/>
+- **The Vampire Diaries** — TV Show Data · auth:apiKey · https:yes · cors:yes · <https://vampire-diaries-api.netlify.app/>
+- **ThronesApi** — Game Of Thrones Characters Data with imagery · auth:none · https:yes · cors:unknown · <https://thronesapi.com/>
+- **TMDb** — Community-based movie data · auth:apiKey · https:yes · cors:unknown · <https://www.themoviedb.org/documentation/api>
+- **TrailerAddict** — Easily embed trailers from TrailerAddict · auth:apiKey · https:no · cors:unknown · <https://www.traileraddict.com/trailerapi>
+- **Trakt** — Movie and TV Data · auth:apiKey · https:yes · cors:yes · <https://trakt.docs.apiary.io/>
+- **TranscriptYT** — YouTube transcripts as JSON, text, SRT or VTT in 150+ languages, with AI fallback · auth:apiKey · https:yes · cors:yes · <https://transcript-yt.com/docs>
+- **TubeToTranscript** — Extract clean YouTube video transcripts via REST API · auth:apiKey · https:yes · cors:yes · <https://www.tubetotranscript.com/youtube-transcript-api>
+- **TVDB** — Television data · auth:apiKey · https:yes · cors:unknown · <https://thetvdb.com/api-information>
+- **TVMaze** — TV Show Data · auth:none · https:no · cors:unknown · <http://www.tvmaze.com/api>
+- **UGCdrop** — Search real UGC video clips (reactions, hooks, b-roll) by emotion, niche, age and setting · auth:none · https:yes · cors:yes · <https://ugcdrop.com/api>
+- **uNoGS** — Unofficial Netflix Online Global Search, Search all netflix regions in one place · auth:apiKey · https:yes · cors:yes · <https://rapidapi.com/unogs/api/unogsng>
+- **Video to Markdown** — Turn a YouTube URL into a markdown thumbnail image link · auth:none · https:yes · cors:yes · <https://video-to-markdown.com/api>
+- **VidWords** — YouTube transcripts and subtitles as TXT, SRT, VTT or DOCX, plus AI video analysis · auth:apiKey · https:yes · cors:no · <https://vidwords.com/api-docs>
+- **Vimeo** — Vimeo Developer API · auth:OAuth · https:yes · cors:unknown · <https://developer.vimeo.com/>
+- **Watchmode** — API for finding out the streaming availability of movies & shows · auth:apiKey · https:yes · cors:unknown · <https://api.watchmode.com/>
+- **Web Series Quotes Generator** — API generates various Web Series Quote Images · auth:none · https:yes · cors:yes · <https://github.com/yogeshwaran01/web-series-quotes>
+- **YouTube** — Add YouTube functionality to your sites and apps · auth:OAuth · https:yes · cors:unknown · <https://developers.google.com/youtube/>
+
+## Weather
+
+- **7Timer!** — Weather, especially for Astroweather · auth:none · https:no · cors:unknown · <http://www.7timer.info/doc.php?lang=en>
+- **AccuWeather** — Weather and forecast data · auth:apiKey · https:no · cors:unknown · <https://developer.accuweather.com/apis>
+- **Aemet** — Weather and forecast data from Spain · auth:apiKey · https:yes · cors:unknown · <https://opendata.aemet.es/centrodedescargas/inicio>
+- **APIXU** — Weather · auth:apiKey · https:yes · cors:unknown · <https://www.apixu.com/doc/request.aspx>
+- **AQICN** — Air Quality Index Data for over 1000 cities · auth:apiKey · https:yes · cors:unknown · <https://aqicn.org/api/>
+- **AviationWeather** — NOAA aviation weather forecasts and observations · auth:none · https:yes · cors:unknown · <https://www.aviationweather.gov/dataserver>
+- **ColorfulClouds** — Weather · auth:apiKey · https:yes · cors:yes · <https://open.caiyunapp.com/ColorfulClouds_Weather_API>
+- **Euskalmet** — Meteorological data of the Basque Country · auth:apiKey · https:yes · cors:unknown · <https://opendata.euskadi.eus/api-euskalmet/-/api-de-euskalmet/>
+- **FMI Open Data** — Finnish weather, sea, climate and radar observations via open WFS · auth:none · https:yes · cors:yes · <https://en.ilmatieteenlaitos.fi/open-data>
+- **Foreca** — Weather · auth:OAuth · https:yes · cors:unknown · <https://developer.foreca.com>
+- **Hail History** — Radar-detected hail history for any US address from NOAA NEXRAD Level-III hail detections, by year · auth:none · https:yes · cors:yes · <https://hail-history-noaa.netlify.app/api-docs.html>
+- **HG Weather** — Provides weather forecast data for cities in Brazil · auth:apiKey · https:yes · cors:yes · <https://hgbrasil.com/status/weather>
+- **Hong Kong Obervatory** — Provide weather information, earthquake information, and climate data · auth:none · https:yes · cors:unknown · <https://www.hko.gov.hk/en/abouthko/opendata_intro.htm>
+- **IPMA** — Portuguese weather and climate data · auth:none · https:yes · cors:unknown · <https://api.ipma.pt/open-data/>
+- **KNMI** — Dutch weather, radar and climate data · auth:apiKey · https:yes · cors:unknown · <https://developer.dataplatform.knmi.nl/>
+- **Meltema** — Multi-model weather: GFS, ECMWF AIFS/IFS and a 31-member GEFS ensemble, keyless point forecasts · auth:none · https:yes · cors:no · <https://meltema.com/docs>
+- **Met Office DataHub** — UK weather forecasts and climate data · auth:apiKey · https:yes · cors:unknown · <https://datahub.metoffice.gov.uk/docs/>
+- **Météo-France** — French weather forecasts and alerts · auth:apiKey · https:yes · cors:unknown · <https://portail-api.meteofrance.fr/>
+- **Meteorologisk Institutt** — Weather and climate data · auth:User-Agent · https:yes · cors:unknown · <https://api.met.no/weatherapi/documentation>
+- **Micro Weather** — Real time weather forecasts and historic data · auth:apiKey · https:yes · cors:unknown · <https://m3o.com/weather/api>
+- **NASA POWER** — Global solar and weather data for energy and agriculture · auth:none · https:yes · cors:yes · <https://power.larc.nasa.gov/docs/>
+- **NOAA CO-OPS** — US coastal tides, water levels, currents and meteorological observations · auth:none · https:yes · cors:unknown · <https://api.tidesandcurrents.noaa.gov/api/prod/>
+- **ODWeather** — Weather and weather webcams · auth:none · https:no · cors:unknown · <http://api.oceandrivers.com/static/docs.html>
+- **Oikolab** — 70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF · auth:apiKey · https:yes · cors:yes · <https://docs.oikolab.com>
+- **Open-Meteo** — Global weather forecast API for non-commercial use · auth:none · https:yes · cors:yes · <https://open-meteo.com/>
+- **Open-Meteo Ensemble** — Weather ensemble forecasts from multiple models · auth:none · https:yes · cors:yes · <https://open-meteo.com/en/docs/ensemble-api>
+- **openSenseMap** — Data from Personal Weather Stations called senseBoxes · auth:none · https:yes · cors:yes · <https://api.opensensemap.org/>
+- **OpenUV** — Real-time UV Index Forecast · auth:apiKey · https:yes · cors:unknown · <https://www.openuv.io>
+- **OpenWeatherMap** — Weather · auth:apiKey · https:yes · cors:unknown · <https://openweathermap.org/api>
+- **Pirate Weather** — Free weather API with forecast data similar to Dark Sky · auth:none · https:yes · cors:yes · <https://pirateweather.readthedocs.io/en/latest/>
+- **QWeather** — Location-based weather data · auth:apiKey · https:yes · cors:yes · <https://dev.qweather.com/en/>
+- **Rainbow Weather** — Global real-time nowcasting API powered by radar + satellite fusion · auth:apiKey · https:yes · cors:unknown · <https://developer.rainbow.ai/>
+- **RainViewer** — Radar data collected from different websites across the Internet · auth:none · https:yes · cors:unknown · <https://www.rainviewer.com/api.html>
+- **Storm Glass** — Global marine weather from multiple sources · auth:apiKey · https:yes · cors:yes · <https://stormglass.io/>
+- **Terrace Weather** — Terrace open/closed verdict for restaurants, from the weather forecast · auth:none · https:yes · cors:yes · <https://terrace.javiermateo.dev/swagger-ui.html>
+- **Tomorrow** — Weather API Powered by Proprietary Technology · auth:apiKey · https:yes · cors:unknown · <https://docs.tomorrow.io>
+- **US Weather** — US National Weather Service · auth:none · https:yes · cors:yes · <https://www.weather.gov/documentation/services-web-api>
+- **Veabird** — Beach (sargassum, waves, hurricanes) and ski snow forecasts for 1,900+ resorts, no key · auth:none · https:yes · cors:yes · <https://veabird.com/api/v1>
+- **Visual Crossing** — Global historical and weather forecast data · auth:apiKey · https:yes · cors:yes · <https://www.visualcrossing.com/weather-api>
+- **weather-api** — A RESTful free API to check the weather · auth:none · https:yes · cors:no · <https://github.com/robertoduessmann/weather-api>
+- **WeatherAPI** — Weather API with other stuff like Astronomy and Geolocation API · auth:apiKey · https:yes · cors:yes · <https://www.weatherapi.com/>
+- **Weatherbit** — Weather · auth:apiKey · https:yes · cors:unknown · <https://www.weatherbit.io/api>
+- **WeatherTotals** — Measured US snow, rain, hail and aurora totals by state and city · auth:none · https:yes · cors:yes · <https://weathertotals.com/api>
+- **World Time & Weather** — Current weather, local time, UTC offset and DST rules for 400 cities as static JSON · auth:none · https:yes · cors:yes · <https://worldtimeweather.com/api.html>
+- **wttr.in** — Weather in your terminal, supports JSON output · auth:none · https:yes · cors:yes · <https://wttr.in/:help>
+- **Yandex.Weather** — Assesses weather condition in specific locations · auth:apiKey · https:yes · cors:no · <https://yandex.com/dev/weather/>

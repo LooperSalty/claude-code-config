@@ -21,7 +21,7 @@ Configuration, plugins et serveurs MCP personnalisés pour [Claude Code](https:/
 | `mcp-servers.json` | Inventaire complet des serveurs MCP (secrets = placeholders) |
 | `.env.example` | Secrets requis (Figma, fal.ai, Roblox, GitHub) |
 | `SECURITY.md` | Gestion des secrets + rotation |
-| `claude-home/` | Config globale versionnée : `CLAUDE.md`, `rules/`, `agents/`, `hooks/` |
+| `claude-home/` | Config globale versionnée : `CLAUDE.md`, `rules/`, `agents/`, `hooks/`, `skills/` (ex. `public-apis`) |
 | `claude-desktop/skills/` | Skills à uploader sur claude.ai / Claude Desktop (ex. `i-have-adhd`) |
 | `CLAUDE.md` | Template d'instructions projet (conventions de code) |
 | `pytorch-helper/` | Plugin ML/PyTorch |
