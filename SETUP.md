@@ -273,6 +273,32 @@ claude  # puis dans la session :
 Copy-Item -Recurse pytorch-helper,threejs-snippets,jupyter-tools "$env:USERPROFILE\.claude\plugins\" -Force
 ```
 
+### Mods perso (marketplace locale `anakin-mods`)
+
+Les mods sont des plugins à hooks (API « function hooks » de Claude Code), versionnés dans [`claude-mods/`](claude-mods/).
+La marketplace est un **dossier local** : Claude Code lit le mod en place dans `~/claude-mods`. Après une modification,
+`/reload-plugins` suffit, sans réinstaller.
+
+- **`agent-link`** : coordination des agents (outils `roster` et `board`, journal, pane `/agents-chat`) et
+  **relais de session** (`/relais`). À la place du résumé de compaction, l'historique est archivé mot pour mot dans
+  `~/.claude/agent-link/handoffs/`, puis le travail repart d'un contexte neuf : demandes verbatim, fichiers modifiés,
+  derniers échanges et chemin de l'archive. Détails dans [son README](claude-mods/agent-link/README.md).
+
+`bootstrap.ps1` copie les mods dans `~/claude-mods`. Il ne remplace `marketplace.json` que s'il n'existe pas encore.
+Il reste ensuite à les enregistrer :
+
+```powershell
+claude plugin marketplace add "$env:USERPROFILE\claude-mods"
+claude plugin install agent-link@anakin-mods --scope user
+claude plugin test "$env:USERPROFILE\claude-mods\agent-link"   # 13 tests
+```
+
+Pour resynchroniser le repo après une modification locale du mod :
+
+```powershell
+Copy-Item -Recurse -Force "$env:USERPROFILE\claude-mods\agent-link" claude-mods\
+```
+
 ### Skills
 
 ~76 skills installées. Sources (voir `memory/skills-inventory.md`) :

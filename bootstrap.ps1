@@ -99,6 +99,18 @@ foreach ($pl in 'pytorch-helper','threejs-snippets','jupyter-tools') {
 }
 Ok "Plugins custom copies"
 
+# Mods perso : marketplace locale anakin-mods, lue en place depuis ~/claude-mods
+$mods = "$env:USERPROFILE\claude-mods"
+New-Item -ItemType Directory -Force "$mods\.claude-plugin" | Out-Null
+foreach ($mod in 'agent-link') {
+    if (Test-Path "$RepoDir\claude-mods\$mod") { Copy-Item -Recurse -Force "$RepoDir\claude-mods\$mod" $mods }
+}
+# Ne pas ecraser une marketplace locale qui liste deja d'autres mods
+if (-not (Test-Path "$mods\.claude-plugin\marketplace.json")) {
+    Copy-Item "$RepoDir\claude-mods\.claude-plugin\marketplace.json" "$mods\.claude-plugin\" -Force
+}
+Ok "Mods perso copies dans $mods (installer : voir SETUP.md section 7)"
+
 # ---------------------------------------------------------------------------
 # 6. Secrets (env utilisateur)
 # ---------------------------------------------------------------------------

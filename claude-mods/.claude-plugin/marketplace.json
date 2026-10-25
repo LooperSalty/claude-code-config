@@ -1,0 +1,8 @@
+{
+  "name": "anakin-mods",
+  "owner": { "name": "ANAKIN" },
+  "description": "Mods Claude Code perso : coordination des agents et relais de session sans compaction.",
+  "plugins": [
+    { "name": "agent-link", "source": "./agent-link" }
+  ]
+}

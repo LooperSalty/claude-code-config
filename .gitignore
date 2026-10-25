@@ -14,3 +14,8 @@ claude-home/settings.local.json
 node_modules/
 __pycache__/
 *.log
+.ruff_cache/
+
+# Types et caches que le moteur Claude Code écrit à côté d'un mod chargé
+.claude-plugin/types/
+.mcpb-cache/
