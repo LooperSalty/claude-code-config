@@ -106,7 +106,7 @@ if (Test-Path $envFile) {
     Get-Content $envFile | Where-Object { $_ -match '^\s*[A-Z_]+\s*=' -and $_ -notmatch '^\s*#' } | ForEach-Object {
         $k,$v = $_ -split '=',2
         $k = $k.Trim(); $v = $v.Trim()
-        if ($v) { [Environment]::SetEnvironmentVariable($k,$v,'User'); $env:$k = $v; Ok "env: $k" }
+        if ($v) { [Environment]::SetEnvironmentVariable($k,$v,'User'); Set-Item -Path "Env:$k" -Value $v; Ok "env: $k" }
     }
 } else {
     Warn "Pas de .env - copier .env.example en .env et renseigner les tokens (Figma, fal, Roblox, GitHub)"
