@@ -353,11 +353,18 @@ const reglesDecoupage = [
   '- Dernière vague : finitions transverses (jeu de démonstration, tests de bout en bout des parcours clés, documentation d’exploitation).',
   '- « couverture » : pour chaque exigence P0/P1, les tâches qui la réalisent.',
 ].join('\n');
+// Périmètre de la livraison : args.horsPerimetre retire des exigences du plan et de la validation de couverture.
+const exclues = Array.isArray(A.horsPerimetre) ? A.horsPerimetre : [];
+const requises = (etat.exigences || []).filter((exigence) => !exclues.includes(exigence.id));
 const contexte = [
   `Projet : ${etat.nom} (${etat.type} ; ${liste(etat.traits)}). Pile : ${liste(etat.stack)}.`,
-  `Exigences : ${(etat.exigences || []).map((exigence) => `${exigence.id} [${exigence.priorite}] ${exigence.titre}`).join(' ; ')}`,
+  `Exigences à planifier : ${requises.map((exigence) => `${exigence.id} [${exigence.priorite}] ${exigence.titre}`).join(' ; ')}`,
+  exclues.length ? `Hors périmètre de cette livraison (ne rien planifier pour elles) : ${exclues.join(', ')}.` : '',
+  A.contraintes ? `Contraintes de cette livraison : ${A.contraintes}` : '',
   `Skills du projet : ${liste(etat.skills)}.`,
-].join('\n');
+]
+  .filter(Boolean)
+  .join('\n');
 
 phase('Découpage');
 const brouillon = await lancer(
@@ -384,6 +391,7 @@ const critiques = (
         'expert',
         [
           `Tu es critique du plan (angle : ${critique.cle}). Lis ${DOCS}/SPEC.md et ${DOCS}/ARCHITECTURE.md, puis examine le plan ci-dessous.`,
+          contexte,
           `Question : ${critique.consigne}`,
           'Signale des problèmes précis (tâche, fichier, exigence) avec leur correction ; gravité bloquant, majeur ou mineur. Ne modifie aucun fichier.',
           `Plan : ${JSON.stringify(brouillon)}`,
@@ -402,7 +410,7 @@ const reproches = critiques.flatMap((critique) =>
     .map((probleme) => `[${critique.angle}] ${probleme.description} → ${probleme.correction}`),
 );
 let plan = brouillon;
-let erreurs = validerPlan(plan, etat.exigences);
+let erreurs = validerPlan(plan, requises);
 for (let tour = 1; tour <= selon(1, 2, 3) && (erreurs.length || (tour === 1 && reproches.length)); tour += 1) {
   const revise = await lancer(
     'planificateur',
@@ -420,7 +428,7 @@ for (let tour = 1; tour <= selon(1, 2, 3) && (erreurs.length || (tour === 1 && r
   );
   if (!revise) break;
   plan = revise;
-  erreurs = validerPlan(plan, etat.exigences);
+  erreurs = validerPlan(plan, requises);
 }
 if (erreurs.length) log(`Plan : ${erreurs.length} erreur(s) de validation restante(s) — ${erreurs.slice(0, 3).join(' | ')}`);
 

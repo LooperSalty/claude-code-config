@@ -216,6 +216,24 @@ test('plan : un plan invalide est révisé jusqu’à passer la validation', asy
   assert.ok(trace.resultat.etat.phasesFaites.includes('plan'));
 });
 
+test('plan : horsPerimetre retire des exigences de la couverture exigée, contraintes transmises', async () => {
+  const partiel = { vagues: [{ id: 0, objectif: 's', taches: [tache('A', { echafaudage: true })] }], couverture: [] };
+  const jouer = (args) =>
+    executer(chemin('atelier-plan'), {
+      args: { etat: ETAT, profondeur: 'eco', ...args },
+      scenario: scenario([
+        ['découpage', partiel],
+        ['critique:', SANS_PROBLEME],
+        ['révision du plan', partiel],
+      ]),
+    });
+  assert.ok((await jouer({})).resultat.erreurs.some((erreur) => erreur.includes('REQ-002')));
+  const restreint = await jouer({ horsPerimetre: ['REQ-002'], contraintes: 'quatre vagues maximum' });
+  assert.deepEqual(restreint.resultat.erreurs, []);
+  assert.ok(labels(restreint, 'découpage')[0].prompt.includes('quatre vagues maximum'));
+  assert.ok(labels(restreint, 'découpage')[0].prompt.includes('Hors périmètre de cette livraison'));
+});
+
 test('build : livre la prochaine vague, un contrôle rouge déclenche une réparation', async () => {
   const trace = await executer(chemin('atelier-build'), {
     args: { etat: { ...ETAT, vaguesFaites: [0] }, plan: PLAN },
