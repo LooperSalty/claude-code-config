@@ -250,6 +250,8 @@ test('build : livre la prochaine vague, un contrôle rouge déclenche une répar
   assert.ok(trace.resultat.etat.phasesFaites.includes('build'));
   assert.equal(labels(trace, 'réparation').length, 1);
   assert.equal(labels(trace, 'clôture').length, 1);
+  const cloture = labels(trace, 'clôture')[0].prompt;
+  assert.ok(cloture.includes('"vaguesFaites"') && !cloture.includes('"lentilles"'), 'la clôture ne renvoie que les champs modifiés');
   const parTache = Object.fromEntries(trace.appels.filter((appel) => /^T1\./.test(appel.label)).map((appel) => [appel.label.slice(0, 4), appel.model]));
   assert.deepEqual(parTache, { 'T1.1': 'sonnet', 'T1.2': null });
 });

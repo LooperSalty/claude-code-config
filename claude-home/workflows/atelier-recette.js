@@ -195,14 +195,19 @@ async function stabiliser(etat, contexte, titrePhase) {
   return controle || { ok: false, etapes: [], echecs: [{ etape: 'contrôle', resume: 'le contrôleur n’a pas répondu', fichiers: [] }] };
 }
 
-// Clôture d'étape : écrit l'état, passe les contrôles de sécurité d'avant-commit et committe.
-async function cloturer(etat, sujet, titrePhase) {
+// Clôture d'étape : met l'état à jour (seulement les champs listés, s'il y en a), passe les contrôles de sécurité
+// d'avant-commit et committe.
+async function cloturer(etat, sujet, titrePhase, champs) {
+  const partiel = Array.isArray(champs) && champs.length > 0;
+  const contenu = partiel ? Object.fromEntries(champs.map((cle) => [cle, etat[cle]])) : etat;
   const compteRendu = await lancer(
     'ouvrier',
     [
       'Clôture cette étape de l’Atelier :',
-      `1. Écris exactement ce JSON dans ${DOCS}/etat.json (crée le dossier au besoin), sans changer une valeur, puis vérifie qu’il se parse :`,
-      JSON.stringify(etat, null, 2),
+      partiel
+        ? `1. Dans ${DOCS}/etat.json, remplace uniquement les champs ci-dessous par ces valeurs exactes et laisse tous les autres champs intacts (lis le fichier, fusionne, réécris), puis vérifie qu’il se parse :`
+        : `1. Écris exactement ce JSON dans ${DOCS}/etat.json (crée le dossier au besoin), sans changer une valeur, puis vérifie qu’il se parse :`,
+      JSON.stringify(contenu, null, 2),
       '2. Si le dépôt git n’existe pas encore : git init, et assure-toi qu’un .gitignore écarte dépendances, builds, .env et secrets.',
       '3. Avant de committer, applique la liste « Mandatory Security Checks » de rules/security.md au diff : au minimum aucun secret, clé ou mot de passe en dur, et aucun .env suivi.',
       `4. git add -A puis un commit conventionnel dont le sujet, en anglais, reprend : « ${sujet} ». Pas de ligne d’attribution. Ne pousse rien.`,
@@ -354,7 +359,7 @@ await lancer(
   { label: 'documents de livraison', phase: 'Livraison' },
 );
 const suivant = marquer(etat, 'recette');
-const cloture = await cloturer(suivant, 'docs: add acceptance report and README', 'Livraison');
+const cloture = await cloturer(suivant, 'docs: add acceptance report and README', 'Livraison', ['phasesFaites']);
 const criteres = (verifications.find((verification) => verification.cle === 'criteres') || { resultats: [] }).resultats;
 
 return {
