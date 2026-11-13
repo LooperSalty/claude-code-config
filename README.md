@@ -21,7 +21,9 @@ Configuration, plugins et serveurs MCP personnalisés pour [Claude Code](https:/
 | `mcp-servers.json` | Inventaire complet des serveurs MCP (secrets = placeholders) |
 | `.env.example` | Secrets requis (Figma, fal.ai, Roblox, GitHub) |
 | `SECURITY.md` | Gestion des secrets + rotation |
-| `claude-home/` | Config globale versionnée : `CLAUDE.md`, `rules/`, `agents/`, `hooks/`, `skills/` (ex. `public-apis`) |
+| `claude-home/` | Config globale versionnée : `CLAUDE.md`, `rules/`, `agents/`, `hooks/`, `skills/` (ex. `public-apis`), `workflows/`, `commands/` |
+| `claude-home/workflows/` | **Atelier** : 7 workflows d'agents pour créer un projet de A à Z (cadrage → architecture → plan → build → revue → recette) — voir [son README](claude-home/workflows/README.md), commande `/atelier` |
+| `tools/atelier/` | Banc d'essai à blanc des workflows (agents simulés), tests, synchronisation du bloc commun |
 | `claude-mods/` | Mods Claude Code perso (marketplace locale `anakin-mods`) : `agent-link`, coordination des agents et relais de session sans compaction |
 | `claude-desktop/skills/` | Skills à uploader sur claude.ai / Claude Desktop (ex. `i-have-adhd`) |
 | `CLAUDE.md` | Template d'instructions projet (conventions de code) |

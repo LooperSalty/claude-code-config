@@ -81,7 +81,7 @@ if (Get-Command uv -ErrorAction SilentlyContinue) {
 # ---------------------------------------------------------------------------
 Step "Config globale ~/.claude"
 $dst = "$env:USERPROFILE\.claude"
-New-Item -ItemType Directory -Force $dst,"$dst\rules","$dst\agents","$dst\hooks","$dst\skills" | Out-Null
+New-Item -ItemType Directory -Force $dst,"$dst\rules","$dst\agents","$dst\hooks","$dst\skills","$dst\workflows","$dst\commands" | Out-Null
 Copy-Item "$RepoDir\settings.json"          "$dst\settings.json" -Force
 Copy-Item "$RepoDir\claude-home\CLAUDE.md"  "$dst\CLAUDE.md" -Force
 Copy-Item "$RepoDir\claude-home\rules\*.md"  "$dst\rules\"  -Force
@@ -89,6 +89,9 @@ Copy-Item "$RepoDir\claude-home\agents\*.md" "$dst\agents\" -Force
 Copy-Item "$RepoDir\claude-home\hooks\*.ps1" "$dst\hooks\"  -Force
 # Skills perso (un dossier par skill : SKILL.md, references/, scripts/)
 Copy-Item "$RepoDir\claude-home\skills\*" "$dst\skills\" -Recurse -Force
+# Workflows « Atelier » (scripts autonomes, un .js par phase) et commandes perso (/atelier)
+Copy-Item "$RepoDir\claude-home\workflows\*.js" "$dst\workflows\" -Force
+Copy-Item "$RepoDir\claude-home\commands\*.md"  "$dst\commands\"  -Force
 Ok "Config restauree dans $dst"
 
 # Plugins custom du repo
