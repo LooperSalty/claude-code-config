@@ -381,7 +381,7 @@ async function implementer(tache, vague, precedent) {
 }
 
 async function relire(rapport, tache) {
-  if (PROFONDEUR === 'eco' || rapport.statut === 'bloque') return { rapport, problemes: [] };
+  if (PROFONDEUR === 'eco' || A.relecture === false || rapport.statut === 'bloque') return { rapport, problemes: [] };
   const revue = await lancer(
     'relecteur',
     [
